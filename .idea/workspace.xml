@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/DialoguesFrancophones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/DialoguesFrancophones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/imports/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/imports/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/EN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/FR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/RO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/uvtlogo.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DialoguesFrancophones" />
+  </component>
+  <component name="ProjectId" id="1qQkglIfNOVAQFRg1uEHUNunCuN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\pages" />
+      <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="" />
+      <created>1617019314251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617019314251</updated>
+      <workItem from="1617019315304" duration="3060000" />
+      <workItem from="1617129251703" duration="2452000" />
+      <workItem from="1617178153240" duration="628000" />
+      <workItem from="1617179124975" duration="5733000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1" timestamp="1617181372488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617181372488" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617130294783">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617130294783" />
+  </component>
+</project>
