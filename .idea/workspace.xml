@@ -29,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/FR.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/RO.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/uvtlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DialoguesFrancophones" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qQkglIfNOVAQFRg1uEHUNunCuN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/choicezz" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +85,8 @@
       <workItem from="1617019315304" duration="3060000" />
       <workItem from="1617129251703" duration="2452000" />
       <workItem from="1617178153240" duration="628000" />
-      <workItem from="1617179124975" duration="5733000" />
+      <workItem from="1617179124975" duration="7236000" />
+      <workItem from="1617196135569" duration="196000" />
     </task>
     <servers />
   </component>
@@ -104,6 +106,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1617196331449">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617196331449" />
     <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1" timestamp="1617181372488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
