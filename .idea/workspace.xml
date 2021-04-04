@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asociatia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asociatia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cercetare.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cercetare.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/evenimente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evenimente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/parteneri.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parteneri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/choicezz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,12 +62,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\text\RO" />
+      <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +87,9 @@
       <workItem from="1617196135569" duration="196000" />
       <workItem from="1617388956553" duration="1570000" />
       <workItem from="1617442503072" duration="6590000" />
+      <workItem from="1617551076472" duration="527000" />
+      <workItem from="1617551619620" duration="1161000" />
+      <workItem from="1617552800720" duration="130000" />
     </task>
     <servers />
   </component>
@@ -112,10 +109,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1617196331449">
+    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1617552798201">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617196331449" />
+    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617552798201" />
     <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1" timestamp="1617181372488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
