@@ -17,8 +17,13 @@ html,body{
     z-index: 1;
     overflow-x: hidden;
     background: rgb(242,242,242);
+
+    /*general colors*/
     --redcolor: #ec6b76;
     --bluecolor: #4a8bec;
+
+    /*fonts*/
+    --text-size: 1rem;
 }
 body *{
     position: relative;
@@ -172,27 +177,32 @@ button:active{
 /*****************************************/
 .infoBox{
     margin: 10vw;
-    margin-bottom: 6vw;
-    padding-bottom: 8vw;
-
+    margin-bottom: 1vw;
+    padding-bottom: 2.5vw;
     border: 2px solid transparent;
+}
+
+.infoBox:nth-child(1){
+    margin-top: 10vw;
 }
 
 .infoHeader{
     min-width: 40%;
     padding-left: 1vw;
     padding-right: 1vw;
-    height: 8vw;
-    z-index: 1;
-    position: absolute;
     padding-top: 2vw;
-    font-size: 2vw;
+    padding-bottom: 4vw;
+
+    z-index: 1;
+
+    position: absolute;
+    font-size: calc(var(--text-size) + 1.5rem);
     font-weight: bold;
+
     border-radius: 1vw;
     background: var(--redcolor);
     color: white;
     text-align: center;
-    /*opacity: 0;*/
 }
 
 .infoText{
@@ -206,6 +216,8 @@ button:active{
     border: .2vw solid var(--redcolor);
     text-align: center;
     /*opacity: 0;*/
+
+    font-size: calc(var(--text-size));
 }
 
 @keyframes come-from-left{
@@ -222,8 +234,8 @@ button:active{
 .infoText >a, .infoText >p{
     display: block;
     margin: .4vw;
-    font-size: .85vw;
     text-align: left;
+    /*font-size: var(--text-size);*/
 
 }
 .infoText a{
@@ -255,7 +267,7 @@ button:active{
     /*padding-right: 5vw;*/
 }
 .infoText .subtitle{
-    font-size: 1.2vw;
+    font-size: calc(var(--text-size) + 0.2rem);
 }
 
 
@@ -345,6 +357,7 @@ button:active{
 }
 .newspaper h2{
     text-align: center;
+    font-size: calc(var(--text-size) + 0.5rem);
     margin-left: calc(80/100 * var(--spacing));
     margin-right: calc(80/100 * var(--spacing));
 }
@@ -358,6 +371,7 @@ button:active{
     margin-top: var(--spacing);
 }
 .newspaper p{
+    font-size: calc(var(--text-size));
     margin-left: var(--spacing);
     margin-right: var(--spacing);
 }
@@ -419,9 +433,15 @@ button:active{
 .overpage h1,.overpage p{
     text-align: center;
 }
+.overpage h1{
+    font-size: calc(var(--text-size) + 1rem);
+}
+
+.overpage p{
+    font-size: calc(var(--text-size));
+}
 
 .hv{
-    /*border: .5px solid black;*/
     border: none;
     height: 1px;
     background: black;

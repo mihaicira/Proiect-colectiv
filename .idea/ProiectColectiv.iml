@@ -8,8 +8,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="test" />
-    <orderEntry type="module" module-name="DialoguesFrancophones" />
-    <orderEntry type="module" module-name="DialoguesFrancophones" />
   </component>
 </module>

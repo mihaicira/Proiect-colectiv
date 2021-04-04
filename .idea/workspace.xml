@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/DialoguesFrancophones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/DialoguesFrancophones.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/imports/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DialoguesFrancophones/imports/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/EN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/FR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/RO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DialoguesFrancophones/media/uvtlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/asociatia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asociatia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cercetare.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cercetare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/evenimente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evenimente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/parteneri.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parteneri.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,6 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/choicezz" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,6 +91,8 @@
       <workItem from="1617178153240" duration="628000" />
       <workItem from="1617179124975" duration="7236000" />
       <workItem from="1617196135569" duration="196000" />
+      <workItem from="1617388956553" duration="1570000" />
+      <workItem from="1617442503072" duration="6590000" />
     </task>
     <servers />
   </component>

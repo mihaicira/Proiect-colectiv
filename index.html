@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proiect colectiv</title>
+    <title>Despre noi</title>
     <link rel="stylesheet" type="text/css" href="src/global.css">
     <script src="src/jquery-3.6.0.min.js"></script>
+
+    <script src="src/Utils.js"></script>
+
     <script defer src="src/global.js"></script>
+    <script defer src="src/LoadNavbarFooter.js"></script>
+
+    <script defer src="src/TextLoad/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="src/SecondaryCSS/Membri.css">
 </head>
 <body>
 <div id="stNavbar">
-    <div class="stNavbarBtn" id="activePage"><a href="link">Despre noi</a></div>
-    <div class="stNavbarBtn"><a href="pages/evenimente.html">Evenimente</a></div>
-    <div class="stNavbarBtn"><a href="pages/publicatii.html">Publicatii</a></div>
-    <div class="stNavbarBtn"><a href="pages/cercetare.html">Cercetare</a></div>
-    <div class="stNavbarBtn"><a href="pages/parteneri.html">Parteneri</a></div>
-    <div class="stNavbarBtn"><a href="pages/asociatia.html">Asociatia de studii francofone DF</a></div>
-
-
     <div class="stNavbarLogo"></div>
 
     <div class="languages-container">
@@ -27,84 +27,73 @@
 </div>
 
 <div id="ndNavbar">
-    <a href="link">Istoric</a>
-    <a href="link">Descriere si obiective</a>
-    <a href="link">Membri</a>
-    <a href="link">Alte informatii</a>
 </div>
 
-<div class="infoBox left">
-    <div class="infoHeader">Istoric</div>
-    <div class="infoText">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?</p>
-        <p class="spaced">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Accusantium aut doloribus ducimus, ex explicabo fuga, <br> fugit ipsum laborum magni quasi repudiandae sequi temporibus.<br> Amet, illo magni obcaecati odit reprehenderit vero?</p>
-        <p>Lorem ipsum dolor sit amet.<a href="#"> Lorem ipsum dolor sit amet.</a> Lorem ipsum.</p>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-    </div>
-</div>
 
-<div class="infoBox right">
-    <div class="infoHeader">Descriere si obiective</div>
-    <div class="infoText">
-        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!</p>
-    </div>
-</div>
 
-<div class="infoBox left">
-    <div class="infoHeader">Membri</div>
-    <div class="infoText">
-        <p>Membru onorific: MARGARETA GYURCSIK</p>
-        <p>Director centru: Prof. Univ. Dr. GEORGIANA BADEA</p>
-        <p>Echipa de bază (în ordinea gradelor didactice și ordonate alfabetic):
-        <p class="spaced">Prof. Univ. Dr. Habil VASILE POPOVICI<br> Conf. Univ. Dr. RAMONA MALIȚA<br> Conf. Univ. Dr. MARIANA PITAR<br> Lect. Univ. Dr. NELI EIBEN<br> Lect. Univ. Dr. IOANA MARCU<br> Lect. Univ. Dr. EUGENIA TĂNASE<br> Lect. Univ. Dr. ADINA TIHU<br> Asist. Univ. Dr. ANDREEA GHEORGHIU<br> Asist. Univ. Dr. CRISTINA TĂNASE</p>
-        </p>
+<!--<div class="overpage">-->
+<!--    <h1> Membri </h1>-->
+<!--    <hr class="hv">-->
+<!--    <h2 class="group-title">Membru onorific</h2>-->
+<!--    <div class="personLine">-->
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/ERF195Q.png">-->
+<!--            <p>Prof. Univ. Dr. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
+<!--    </div>-->
 
-    </div>
-</div>
+<!--    <hr class="hv">-->
+<!--    <h2 class="group-title">Director centru</h2>-->
+<!--    <div class="personLine">-->
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/ERF195Q.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
+<!--    </div>-->
 
-<div class="infoBox right">
-    <div class="infoHeader">Alte informații</div>
-    <div class="infoText">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?</p>
-        <p class="spaced">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Accusantium aut doloribus ducimus, ex explicabo fuga, <br> fugit ipsum laborum magni quasi repudiandae sequi temporibus.<br> Amet, illo magni obcaecati odit reprehenderit vero?</p>
-        <p>Lorem ipsum dolor sit amet.<a href="#"> Lorem ipsum dolor sit amet.</a> Lorem ipsum.</p>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-        <a href="#" class="btn">Lorem ipsum.</a>
-    </div>
-</div>
+<!--    <hr class="hv">-->
+<!--    <h2 class="group-title">Echipa de baza</h2>-->
+<!--    <div class="personLine">-->
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/SHiIjU0.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
 
-<div class="newspaper-container">
-    <div class="newspaper red">
-        <h2>Some information about us</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minus neque nihil obcaecati omnis placeat reprehenderit sapiente tempora voluptate voluptatem!</p>
-        <img src="https://i.imgur.com/ERF195Q.png" alt="mihai-img">
-        <p>Hello</p>
-        <img src="https://i.imgur.com/gPK8Axi.png" alt="mihai-img">
-    </div>
-    <div class="newspaper blue">
-        <h2>Find & Talk to us</h2>
-        <hr>
-        <p class="spaced">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iste natus nihil nulla pariatur provident quis quo recusandae repellendus? A ab architecto corporis, ducimus fugit libero maiores, minima mollitia nostrum odio officiis praesentium quis, veniam vitae voluptas. Aperiam, atque eligendi error ipsa ipsam iure laudantium, minima odio officiis praesentium quo soluta suscipit velit? Aliquid at beatae consectetur culpa cupiditate deserunt dignissimos dolor dolore doloribus ducimus, eum explicabo facilis in itaque labore maiores maxime minima modi necessitatibus nihil non nulla omnis qui, quia quibusdam sint sit totam veniam voluptas voluptate? Accusantium asperiores at distinctio hic id in iste itaque iusto modi omnis perspiciatis, quis quisquam repellat saepe soluta suscipit vel. Aliquid aut, blanditiis culpa cum debitis dignissimos eaque eligendi est expedita explicabo illo illum ipsum iste iure modi molestiae nostrum, nulla obcaecati officia, officiis optio provident quaerat quia quos recusandae repudiandae sapiente sed sit tempore vero! Animi architecto atque beatae, cupiditate dolores earum et eum harum incidunt inventore ipsam laboriosam laudantium neque, officia quibusdam quod tempore vitae voluptate. Amet blanditiis consequuntur hic maiores neque perspiciatis quibusdam reiciendis sapiente, sequi? Consectetur delectus dicta ducimus eius est facere, facilis id iure minima possimus quas quia tempore voluptas. Commodi eveniet hic id magnam quod!</p>
-    </div>
-</div>
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/gPK8Axi.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a hrBla. Bl. Blabl.ef="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
 
-<div class="overpage">
-    &emsp;
-    <h1> Être ou ne pas être </h1>
-    <p>&#8614; telle est la question &#8612;</p>
-    <hr class="hv">
-    <p>We can put a Google Map here</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.200650649448!2d21.229421151503715!3d45.74712322243802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d84610655bf%3A0xfd169ff24d29f192!2sUniversitatea%20de%20Vest%20din%20Timi%C8%99oara!5e0!3m2!1sro!2sro!4v1617289823246!5m2!1sro!2sro" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/ERF195Q.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
 
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/ERF195Q.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
+
+<!--        <div class="person">-->
+<!--            <img src="https://i.imgur.com/ERF195Q.png">-->
+<!--            <p>Bla. Bl. Blabl. Cîra Mihai</p>-->
+<!--            <a href="#">Curriculum Vittae</a>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <footer id="footer">
     <div>

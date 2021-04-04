@@ -1,0 +1,48 @@
+{
+  "stNavbar": [
+    ["../index.html","Despre noi"],
+    ["evenimente.html","Evenimente"],
+    ["publicatii.html","Publicatii"],
+    ["cercetare.html","Cercetare"],
+    ["parteneri.html","Parteneri"],
+    ["asociatia.html","Asociatia de studii francofone DF"]
+  ],
+  "ndNavbar":
+    {
+      "index": [
+                ["link","Istoric"],
+                ["link","Descriere si obiective"],
+                ["link","Membri"],
+                ["link","Alte informatii"]
+                ],
+      "evenimente": [
+                ["link","CIEFT"],
+                ["link","Galerie"],
+                ["link","Mese rotunde"],
+                ["link","Sustineri de teze doctorale"],
+                ["link","Colocvii studentesti"]
+                ],
+      "publicatii": [
+              ["link","Dialogues francophones"],
+              ["link","Agapes francophones"],
+              ["link","Publicatii ale membrilor"]
+              ],
+      "cercetare": [
+              ["link","Proiecte de cercetare"],
+              ["link","Stagii de cercetare"],
+              ["link","Articole de indexare in baze de date internationale"]
+              ],
+      "parteneri": [
+              ["link","provizoriu - 1"],
+              ["link","provizoriu - 2"],
+              ["link","provizoriu - 3"]
+              ],
+      "asociatia": [
+              ["link","Descriere si obiective"],
+              ["link","Statut"],
+              ["link","Formular de inscriere"]
+              ]
+    },
+  "footer": "none"
+
+}

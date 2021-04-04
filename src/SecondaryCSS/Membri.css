@@ -1,0 +1,68 @@
+.personLine{
+    min-height: 5vw;
+    min-width: 5vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+
+    justify-content: space-evenly;
+
+
+    /*border: 1px solid red;*/
+
+    --personLineSpacing : 8vw;
+    padding-left: var(--personLineSpacing);
+    padding-right: var(--personLineSpacing);
+
+    margin-left: var(--personLineSpacing);
+    margin-right: var(--personLineSpacing);
+}
+
+.person{
+    width: 17.5vw;
+
+
+    flex: 0 0 26%;
+
+    border: .2vw solid gray;
+    border-radius: .5vw .5vw .2vw .2vw;
+
+    text-align: center;
+
+    padding-top: .5vw;
+}
+
+.person >img{
+    width: 95%;
+    height: auto;
+
+    border-radius: .5vw .5vw 1vw 1vw;
+}
+
+.person >p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: italic;
+}
+
+.person >p:nth-of-type(1){
+    font-size: calc(var(--text-size) + .5rem);
+}
+
+.person >a{
+    color: darkblue;
+
+    transition: 300ms;
+    -moz-transition: 300ms;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+
+}
+.person >a:hover{
+    color: #ef4135;
+}
+
+.group-title{
+    text-align: center;
+}
