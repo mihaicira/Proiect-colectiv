@@ -7,6 +7,7 @@
 /***********5. NEWSPAPERS (format)*/
 /***********6. OVERPAGE (format)*/
 /***********7. FOOTER****/
+/***********8. IN-PAGE REDIRECT ANIMATION**/
 
 /*****************************************/
 /***********1. GENERAL****/
@@ -166,6 +167,7 @@ button:active{
     transition: 500ms;
     padding: 1vw;
     z-index: 5;
+    cursor: pointer;
 }
 
 #ndNavbar a:hover {
@@ -235,7 +237,9 @@ button:active{
     display: block;
     margin: .4vw;
     text-align: left;
-    /*font-size: var(--text-size);*/
+    font-size: var(--text-size);
+    padding: .3vw;
+    border-radius: .5vw;
 
 }
 .infoText a{
@@ -256,6 +260,8 @@ button:active{
     display: inline-block;
     border-radius: .5vw;
 
+    cursor: pointer;
+
 }
 .infoText .btn:hover{
     color: black;
@@ -268,6 +274,7 @@ button:active{
 }
 .infoText .subtitle{
     font-size: calc(var(--text-size) + 0.2rem);
+    width: max-content;
 }
 
 
@@ -511,4 +518,26 @@ footer div:nth-of-type(3) img{
 }
 footer div:nth-of-type(3):hover{
     transform: scale(.8);
+}
+
+/*****************************************/
+/***********8. IN-PAGE REDIRECT ANIMATION****/
+/*****************************************/
+
+@keyframes land {
+    0%{
+        box-shadow: 0 0 0 0 black;
+    }
+    25%{
+        box-shadow: 0 0 .7vw .3vw black;
+    }
+    50%{
+        box-shadow: 0 0 .1vw .1vw black;
+    }
+    75%{
+        box-shadow: 0 0 .7vw .3vw black;
+    }
+    100%{
+        box-shadow: 0 0 0 0 black;
+    }
 }

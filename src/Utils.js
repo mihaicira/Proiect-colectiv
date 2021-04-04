@@ -47,7 +47,7 @@ function HTMLify(object){
     switch(object[0]){
         case "infoBox":
             HTML = `<div class="${object[1] === "right" ? "infoBox right" : "infoBox left"}">`
-            HTML = HTML + `<div class="infoHeader">${object[2]}</div>`
+            HTML = HTML + `<div class="infoHeader" id="${object[4]===undefined ? null : object[4]}">${object[2]}</div>`
             HTML = HTML + `<div class="infoText">`
             object[3].forEach((elem)=>{
                 switch(elem[0]){
@@ -58,10 +58,20 @@ function HTMLify(object){
                         HTML = HTML + `<p class="spaced">${textify(elem[1])}</p>`
                         break;
                     case "btn":
-                        HTML = HTML + `<a class="btn" href="${elem[1]}">${textify(elem[2])}</a>`
+                        if(elem[1][0] !== "#")
+                            HTML = HTML + `<a class="btn" href="${elem[1]}">${textify(elem[2])}</a>`
+                        else
+                            HTML = HTML + `<a class="btn" onClick='goToId("${elem[1]}")'>${textify(elem[2])}</a>`
+
+
+
+                        break;
+                    case "br":
+                        HTML = HTML + "<br>"
                         break;
                     case "sub":
-                        HTML = HTML + `<p class="subtitle"><b>${textify(elem[1])}</b></p>`;
+
+                        HTML = HTML + `<p class="subtitle" id="${elem[2] === undefined ? null :elem[2]}"><b>${textify(elem[1])}</b></p>`;
                         break;
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
@@ -97,5 +107,14 @@ function HTMLify(object){
             console.log("HTMLify error - unknown object [main branch]",object[0]);
             break;
     }
+}
+
+function goToId(id){
+    id = id.substring(1)
+    document.getElementById(id).scrollIntoView({block: "center",behavior:"smooth"});
+    document.getElementById(id).style.animation = "2s land forwards";
+    setTimeout(()=>{
+        document.getElementById(id).style.animation = "none";
+    },1100*2)
 }
 

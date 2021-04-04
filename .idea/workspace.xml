@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/evenimente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evenimente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/evenimente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qQkglIfNOVAQFRg1uEHUNunCuN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,14 +67,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
+      <recent name="D:\Others\ProiectColectiv\media" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\Others\ProiectColectiv\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +95,8 @@
       <workItem from="1617442503072" duration="6590000" />
       <workItem from="1617551076472" duration="527000" />
       <workItem from="1617551619620" duration="1161000" />
-      <workItem from="1617552800720" duration="130000" />
+      <workItem from="1617552800720" duration="633000" />
+      <workItem from="1617560331290" duration="3387000" />
     </task>
     <servers />
   </component>

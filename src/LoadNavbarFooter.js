@@ -32,7 +32,7 @@ $.getJSON(`${actualPage==="index" ? "":"."}./text/RO/navbar-footer.json`,functio
 
 
     json.ndNavbar[actualPage].reverse().forEach((elem)=>{
-        $("#ndNavbar").prepend(`<a href="${elem[0]}">${elem[1]}</a>`)
+        $("#ndNavbar").prepend(`<a onClick='goToId("${elem[0]}")'>${elem[1]}</a>`)
     })
 })
 

@@ -16,7 +16,7 @@
                 ["link","Alte informatii"]
                 ],
       "evenimente": [
-                ["link","CIEFT"],
+                ["#CIEFT","CIEFT"],
                 ["link","Galerie"],
                 ["link","Mese rotunde"],
                 ["link","Sustineri de teze doctorale"],
