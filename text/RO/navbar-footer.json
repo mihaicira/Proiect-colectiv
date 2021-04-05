@@ -1,6 +1,6 @@
 {
   "stNavbar": [
-    ["../index.html","Despre noi"],
+    ["../","Despre noi"],
     ["evenimente.html","Evenimente"],
     ["publicatii.html","Publicatii"],
     ["cercetare.html","Cercetare"],
@@ -17,11 +17,11 @@
                 ],
       "evenimente": [
                 ["#CIEFT","CIEFT"],
-                ["link","Galerie"],
                 ["link","Mese rotunde"],
                 ["link","Sustineri de teze doctorale"],
-                ["link","Colocvii studentesti"]
-                ],
+                ["link","Colocvii studentesti"],
+                ["link","Galerie"]
+      ],
       "publicatii": [
               ["link","Dialogues francophones"],
               ["link","Agapes francophones"],

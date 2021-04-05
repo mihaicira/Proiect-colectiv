@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +63,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
-      <recent name="D:\Others\ProiectColectiv\media" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
+      <recent name="D:\Others\ProiectColectiv\media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +93,7 @@
       <workItem from="1617551619620" duration="1161000" />
       <workItem from="1617552800720" duration="633000" />
       <workItem from="1617560331290" duration="3387000" />
-      <workItem from="1617643308695" duration="1016000" />
+      <workItem from="1617643308695" duration="1591000" />
     </task>
     <servers />
   </component>
