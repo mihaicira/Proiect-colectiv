@@ -1,9 +1,5 @@
-$.getJSON("./text/RO/index.json",function(json){
-    var HTML = ""
-    json.forEach((elem)=>{
-        HTML = HTML + HTMLify(elem)
-    })
-
-
-    $("#footer").before(HTML)
+const local_path = "./text/RO/index.json"
+$.getJSON(local_path,(json)=>{
+    const subpages = Object.keys(json)
+    loadSubpage(subpages[0],local_path,subpages)
 })

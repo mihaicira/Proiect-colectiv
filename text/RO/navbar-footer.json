@@ -10,17 +10,17 @@
   "ndNavbar":
     {
       "index": [
-                ["link","Istoric"],
-                ["link","Descriere si obiective"],
-                ["link","Membri"],
-                ["link","Alte informatii"]
+                ["#istoric","Istoric"],
+                ["#descriere si obiective","Descriere si obiective"],
+                ["#membri","Membri"],
+                ["#alte informatii","Alte informatii"]
                 ],
       "evenimente": [
                 ["#CIEFT","CIEFT"],
-                ["link","Mese rotunde"],
-                ["link","Sustineri de teze doctorale"],
-                ["link","Colocvii studentesti"],
-                ["link","Galerie"]
+                ["#mese rotunde","Mese rotunde"],
+                ["#sustineri de teze doctorale","Sustineri de teze doctorale"],
+                ["#colocvii studentesti","Colocvii studentesti"],
+                ["#galerie","Galerie"]
       ],
       "publicatii": [
               ["link","Dialogues francophones"],

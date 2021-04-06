@@ -1,4 +1,6 @@
-[
+{
+  "istoric":[
+
   ["infoBox","left","Istoric",[
     ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"],
     ["pa","Lorem ipsum dolor sit amet, consectetur adipisicing elit.\nAccusantium aut doloribus ducimus, ex explicabo fuga,\nfugit ipsum laborum magni quasi repudiandae sequi temporibus.\nAmet, illo magni obcaecati odit reprehenderit vero?"],
@@ -7,19 +9,31 @@
     ["btn","link","Lorem ipsum"],
     ["btn","link","Lorem ipsum"],
     ["btn","link","Lorem ipsum"]
-  ]],
-  ["infoBox","right","Descriere si obiective",[
-    ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!"]
-  ]],
-  ["infoBox","left","Membri",[
-    ["p","Membru onorific: MARGARETA GYURCSIK"],
-    ["p","Director centru: Prof. Univ. Dr. GEORGIANA BADEA"],
-    ["sub","Echipa de bază:"],
-    ["pa","Prof. Univ. Dr. Habil VASILE POPOVICI<br>Conf. Univ. Dr. RAMONA MALIȚA<br>Conf. Univ. Dr. MARIANA PITAR<br>Lect. Univ. Dr. NELI EIBEN<br>Lect. Univ. Dr. IOANA MARCU<br>Lect. Univ. Dr. EUGENIA TĂNASE<br>Lect. Univ. Dr. ADINA TIHU<br>Asist. Univ. Dr. ANDREEA GHEORGHIU<br>Asist. Univ. Dr. CRISTINA TĂNASE"]
-  ]],
-  ["newspaper",[
-    "Header",
-    "Red",
-    ["p","heloooooooooooooooooooooooooooo"]
   ]]
-]
+  ],
+
+  "descriere si obiective": [
+    ["infoBox","left","Descriere",[
+      ["btn","link","un buton"],
+      ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!"]
+    ]],
+    ["infoBox","right","Obiective",[
+      ["sub","niste obiective"],
+      ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!"]
+    ]]
+  ],
+
+  "membri": [
+    ["infoBox","left","Membri",[
+      ["p","heloooooo"]
+    ]]
+  ],
+
+  "alte informatii": [
+    ["infoBox","left","Alte informatii",[
+      ["sub","informatiiiiiiiiiiiiii"],
+      ["p","ewqefferfreffre"]
+    ]]
+  ]
+
+}

@@ -9,24 +9,14 @@
 * sayHello = normal function
 * square = arrow function (with parameter)
 * divideBy2 = normal function (with parameter)*/
+/*variabile*/
 
-const sayHi = ()=>{
-    console.log("Hi");
-}
-
-function sayHello(){
-    console.log("Hello");
-}
-
-const square = (x)=>{
-    console.log(x*x);
-}
-
-function divideBy2(x){
-    console.log(x/2);
-}
+var currentPath = ""
+var currentSubpages = []
 
 
+
+/***********************/
 function minimizeNavbar(){
 
     document.getElementById("stNavbar").style.height = "3.5vw";
@@ -124,12 +114,57 @@ function HTMLify(object){
     }
 }
 
-function goToId(id){
-    id = id.substring(1)
-    document.getElementById(id).scrollIntoView({block: "center",behavior:"smooth"});
-    document.getElementById(id).style.animation = "2s land forwards";
-    setTimeout(()=>{
-        document.getElementById(id).style.animation = "none";
-    },1100*2)
-}
+function loadSubpage(newPage,json_path=null,subpages=null){
+    //incarca paginile secundare
+    if(json_path === null){
+        //daca se apeleaza prin butoanele de pe pagina, atunci se vor lua valorile din memorie
+        json_path = currentPath;
+        subpages = currentSubpages;
+    }
+    else{
+        //daca se apeleaza prin javascript (prima oara, cand se incarca pagina), atunci se vor popula valorile din memorie pentru urmatoarele incarcari
+        currentPath = json_path;
+        currentSubpages = subpages;
+    }
 
+
+    $.getJSON(json_path,function(json){
+
+        //Se dezactiveaza toate paginile active
+        subpages.forEach((each)=>{
+            if(document.getElementById(each))
+            {
+                document.getElementById(each).style.opacity = "0";
+                setTimeout(()=>{
+                    document.getElementById(each).remove();
+                },500)
+
+            }
+        })
+
+        //Se activeaza doar pagina care ne intereseaza
+        try{
+            var HTML = `<div id="${newPage}" class="subpage">`
+
+            json[newPage].forEach((elem)=>{
+                HTML = HTML + HTMLify(elem)
+            })
+
+            HTML = HTML + "</div>"
+
+            $("#footer").before(HTML)
+
+            setTimeout(()=>{
+                document.getElementById(newPage).style.opacity = "1";
+            },json_path===null ? 50:500)
+
+        }
+        catch(error){
+            console.log("ERROR: JSON ids dont match")
+            console.log("Error: ",error)
+        }
+    })
+        .fail(()=>{
+            console.log(`Json error (loadsubpage .fail()), path: ${json_path}`)
+        })
+}

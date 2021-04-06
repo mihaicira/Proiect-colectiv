@@ -21,10 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/evenimente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,8 @@
       <workItem from="1617643308695" duration="1633000" />
       <workItem from="1617650667058" duration="11000" />
       <workItem from="1617650913100" duration="202000" />
-      <workItem from="1617715669540" duration="2370000" />
+      <workItem from="1617715669540" duration="2449000" />
+      <workItem from="1617723418786" duration="4129000" />
     </task>
     <servers />
   </component>
@@ -122,10 +127,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617552798201" />
-    <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1" timestamp="1617181372488">
+    <state x="35" y="0" width="1515" height="882" key="dock-window-1" timestamp="1617727524347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" width="1432" height="882" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617181372488" />
+    <state x="35" y="0" width="1515" height="882" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617727524347" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617130294783">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

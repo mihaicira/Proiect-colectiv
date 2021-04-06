@@ -1,8 +1,5 @@
-$.getJSON("../text/RO/evenimente.json",function(json){
-    var HTML = ""
-    json.forEach((elem)=>{
-        HTML = HTML + HTMLify(elem)
-    })
-
-    $("#footer").before(HTML)
+const local_path = "../text/RO/evenimente.json"
+$.getJSON(local_path,(json)=>{
+    const subpages = Object.keys(json)
+    loadSubpage(subpages[0],local_path,subpages)
 })
