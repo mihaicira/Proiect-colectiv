@@ -26,6 +26,10 @@
   "membri": [
     ["infoBox","left","Membri",[
       ["p","heloooooo"]
+    ]],
+    ["infoBox","right","Blabla",[
+      ["sub","helooooooooooo"],
+      ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
     ]]
   ],
 
@@ -33,6 +37,10 @@
     ["infoBox","left","Alte informatii",[
       ["sub","informatiiiiiiiiiiiiii"],
       ["p","ewqefferfreffre"]
+    ]],
+    ["infoBox","right","Blabla",[
+      ["sub","helooooooooooo"],
+      ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
     ]]
   ]
 

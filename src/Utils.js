@@ -31,6 +31,13 @@ function maximizeNavbar(){
     document.getElementById("ndNavbar").style.top= "7vw";
 
 }
+
+function triggerLeftInfoBox(object){
+//    copilul lui object care e .infoHeader sa vina din stanga
+//    copilul lui object care e .infoText sa vina din dreapta
+
+}
+
 /*
 * pentru testing, apeleaza functiile in consola din browser!
 * pentru testing, foloseste doar pagine principala index.html (doar acolo e importat Utils.js momentan)
@@ -114,7 +121,24 @@ function HTMLify(object){
     }
 }
 
+function moveSlider(width,dist){
+
+    $("#slider").css({
+        "width":width.toString(),
+        "left": `${dist}px`
+    })
+
+    $("#slider").css("width",width.toString())
+
+}
+
 function loadSubpage(newPage,json_path=null,subpages=null){
+
+
+
+    //$("p").css("background-color", "yellow");
+
+
     //incarca paginile secundare
     if(json_path === null){
         //daca se apeleaza prin butoanele de pe pagina, atunci se vor lua valorile din memorie
@@ -126,6 +150,20 @@ function loadSubpage(newPage,json_path=null,subpages=null){
         currentPath = json_path;
         currentSubpages = subpages;
     }
+
+    // console.log("Subpages: ",subpages,"\n newPage: ",newPage)
+    var index = subpages.indexOf(newPage)
+    index = index + 1
+
+    // $("#ndNavbar >*").css("box-shadow","1px 1px 1px 2px red")
+
+    const objWidth = $(`#ndNavbar >a:nth-child(${index})`).outerWidth();
+    const objDist = $(`#ndNavbar >a:nth-child(${index})`).offset().left;
+
+
+    // console.log("Latime: ",objWidth," | Distanta pana in stanga: ",objDist)
+
+    moveSlider(objWidth,objDist)
 
 
     $.getJSON(json_path,function(json){

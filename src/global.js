@@ -1,5 +1,3 @@
-// console.log("hello")
-
 $(window).scroll(()=>{
     var scroll = $(window).scrollTop();
     if ( scroll > 20) {
@@ -9,4 +7,9 @@ $(window).scroll(()=>{
         maximizeNavbar()
     }
 
+})
+
+
+$(document).ready(()=>{
+    $("#ndNavbar").append(`<div id="slider"></div>`)
 })

@@ -169,6 +169,20 @@ button:active{
 
 #ndNavbar a:hover {
     font-size: 1vw;
+    /*transform: scale(1.2);*/
+}
+
+#slider{
+    height: 1px;
+    background: white;
+    margin-top: 1.5vw;
+    position: absolute;
+    left: 1cm;
+
+    transition: 400ms;
+    -o-transition: 400ms;
+    -moz-transition: 400ms;
+    -webkit-transition: 400ms;
 }
 
 /*****************************************/
