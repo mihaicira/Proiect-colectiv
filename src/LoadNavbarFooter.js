@@ -27,7 +27,9 @@ switch(document.title){
 $.getJSON(`${actualPage==="index" ? "":"."}./text/RO/navbar-footer.json`,function(json){
 
     json.stNavbar.reverse().forEach((elem)=>{
-        $("#stNavbar").prepend(`<div class="stNavbarBtn"  ${document.title.toLowerCase() === elem[1].toLowerCase() ? "id='activePage'":null}><a href="${actualPage === "index" ? "pages/"+elem[0] : elem[0]}">${elem[1]}</a></div>`)
+        $("#stNavbar").prepend(`<a href="${actualPage === "index" ? "pages/"+elem[0] : elem[0]}" class="stNavbarBtn"  
+            ${document.title.toLowerCase() === elem[1].toLowerCase() ? "id='activePage'":""}>
+    ${elem[1]} </a>`)
     })
 
 

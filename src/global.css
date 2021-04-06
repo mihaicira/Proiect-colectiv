@@ -60,19 +60,18 @@ a{
 #stNavbar >*{
     margin-right: 2vw;
     margin-left: 3vw;
-    border: 1px solid transparent;
 }
 
 .stNavbarBtn{
     padding: .5vw;
 }
-.stNavbarBtn a{
+.stNavbarBtn{
     transition: 500ms;
     font-size: 1vw;
     color: #182268;
 }
 
-.stNavbarBtn:hover a{
+.stNavbarBtn:hover{
     color: #ef4135;
 }
 
@@ -83,17 +82,9 @@ a{
     pointer-events: none;
 }
 
-.stNavbarLogo{
-    flex-grow: 1;
-    height: 50%;
-    text-align: center;
-    background: url("../media/logo-csf.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: 500ms;
-    transform: scale(2);
-    cursor: pointer;
+.stNavbarLogo img{
+    height: auto;
+    width: 6vw;
 }
 
 .languages-container{
