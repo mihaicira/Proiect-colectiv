@@ -82,9 +82,8 @@ a{
     pointer-events: none;
 }
 
-.stNavbarLogo img{
-    height: auto;
-    width: 6vw;
+.stNavbarLogo img,.stNavbarLogo{
+    height: 100%;
 }
 
 .languages-container{

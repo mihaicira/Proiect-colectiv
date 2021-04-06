@@ -32,12 +32,6 @@ function maximizeNavbar(){
 
 }
 
-function triggerLeftInfoBox(object){
-//    copilul lui object care e .infoHeader sa vina din stanga
-//    copilul lui object care e .infoText sa vina din dreapta
-
-}
-
 /*
 * pentru testing, apeleaza functiile in consola din browser!
 * pentru testing, foloseste doar pagine principala index.html (doar acolo e importat Utils.js momentan)
