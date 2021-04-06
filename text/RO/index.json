@@ -25,11 +25,11 @@
 
   "membri": [
     ["infoBox","left","Membri",[
-      ["p","heloooooo"]
+      ["pa","Prof. Univ. Dr. Habil VASILE POPOVICI<br> Conf. Univ. Dr. RAMONA MALIȚA<br> Conf. Univ. Dr. MARIANA PITAR<br> Lect. Univ. Dr. NELI EIBEN<br> Lect. Univ. Dr. IOANA MARCU<br> Lect. Univ. Dr. EUGENIA TĂNASE<br> Lect. Univ. Dr. ADINA TIHU<br> Asist. Univ. Dr. ANDREEA GHEORGHIU<br> Asist. Univ. Dr. CRISTINA TĂNASE"]
     ]],
     ["infoBox","right","Blabla",[
       ["sub","helooooooooooo"],
-      ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
+      ["pa","blabla"]
     ]]
   ],
 
