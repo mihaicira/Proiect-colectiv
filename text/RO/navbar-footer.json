@@ -13,7 +13,8 @@
                 ["#istoric","Istoric"],
                 ["#descriere si obiective","Descriere si obiective"],
                 ["#membri","Membri"],
-                ["#alte informatii","Alte informatii"]
+                ["#alte informatii","Alte informatii"],
+                ["#statut","Statut"]
                 ],
       "evenimente": [
                 ["#CIEFT","CIEFT"],

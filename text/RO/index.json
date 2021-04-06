@@ -42,6 +42,13 @@
       ["sub","helooooooooooo"],
       ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
     ]]
-  ]
-
+  ],
+"statut": [
+  ["infoBox","left","Statut",[
+    ["p","helooooooo"]
+  ]],
+  ["infoBox","left","Statut",[
+    ["p","helooooooo"]
+  ]]
+]
 }
