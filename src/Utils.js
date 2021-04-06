@@ -26,6 +26,21 @@ function divideBy2(x){
     console.log(x/2);
 }
 
+
+function minimizeNavbar(){
+
+    document.getElementById("stNavbar").style.height = "3.5vw";
+    document.getElementById("ndNavbar").style.height= "2.5vw";
+    document.getElementById("ndNavbar").style.top= "3.5vw";
+
+}
+function maximizeNavbar(){
+
+    document.getElementById("stNavbar").style.height = "7vw";
+    document.getElementById("ndNavbar").style.height= "3.5vw";
+    document.getElementById("ndNavbar").style.top= "7vw";
+
+}
 /*
 * pentru testing, apeleaza functiile in consola din browser!
 * pentru testing, foloseste doar pagine principala index.html (doar acolo e importat Utils.js momentan)
