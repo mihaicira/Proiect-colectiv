@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="" />
+    <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,15 +70,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media\membri" />
+      <recent name="D:\Others\ProiectColectiv\media" />
+      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,7 +110,10 @@
       <workItem from="1617730371798" duration="5147000" />
       <workItem from="1617736344174" duration="1080000" />
       <workItem from="1617827957244" duration="144000" />
-      <workItem from="1617831542000" duration="1217000" />
+      <workItem from="1617831542000" duration="1273000" />
+      <workItem from="1617897151941" duration="5097000" />
+      <workItem from="1617903708484" duration="597000" />
+      <workItem from="1617912022002" duration="217000" />
     </task>
     <servers />
   </component>

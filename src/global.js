@@ -1,3 +1,4 @@
+
 $(window).scroll(()=>{
     var scroll = $(window).scrollTop();
     if ( scroll > 20) {
@@ -6,10 +7,13 @@ $(window).scroll(()=>{
     else{
         maximizeNavbar()
     }
-
 })
 
 
-$(document).ready(()=>{
-    $("#ndNavbar").append(`<div id="slider"></div>`)
+
+$(window).resize(()=>{
+    setTimeout(()=>{
+        moveSlider(lastVisitedBySlider);
+    },250)
 })
+

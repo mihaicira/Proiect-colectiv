@@ -200,7 +200,7 @@ button:active{
 
 
 .infoHeader{
-    min-width: 40%;
+    max-width: 30vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 2vw;
@@ -208,7 +208,7 @@ button:active{
 
     z-index: 1;
 
-    position: absolute;
+    position: relative;
     font-size: calc(var(--text-size) + 1.5rem);
     font-weight: bold;
 
@@ -223,7 +223,7 @@ button:active{
     z-index: 2;
     padding: 2vw;
     margin: auto;
-    margin-top: 5vw;
+    margin-top: -2vw;
     border-radius: 2vw;
     background: white;
     border: .2vw solid var(--redcolor);
@@ -280,12 +280,12 @@ button:active{
 }
 .right .infoHeader{
     right: 0;
+    margin-left: auto;
     text-align: center;
     /*padding-right: 5vw;*/
 }
 .infoText .subtitle{
     font-size: calc(var(--text-size) + 0.2rem);
-    width: max-content;
 }
 
 

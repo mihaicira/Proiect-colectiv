@@ -1,35 +1,55 @@
 {
   "istoric":[
 
-  ["infoBox","left","Istoric",[
-    ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"],
-    ["pa","Lorem ipsum dolor sit amet, consectetur adipisicing elit.\nAccusantium aut doloribus ducimus, ex explicabo fuga,\nfugit ipsum laborum magni quasi repudiandae sequi temporibus.\nAmet, illo magni obcaecati odit reprehenderit vero?"],
-    ["p","Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum."],
-    ["btn","link","Lorem ipsum"],
-    ["btn","link","Lorem ipsum"],
-    ["btn","link","Lorem ipsum"],
-    ["btn","link","Lorem ipsum"]
-  ]]
+    ["infoBox","left","Istoric",[
+      ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"],
+      ["pa","Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Accusantium aut doloribus ducimus, ex explicabo fuga,<br>fugit ipsum laborum magni quasi repudiandae sequi temporibus.<br>Amet, illo magni obcaecati odit reprehenderit vero?"],
+      ["p","Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum."],
+      ["btn","link","Lorem ipsum"],
+      ["btn","link","Lorem ipsum"],
+      ["btn","link","Lorem ipsum"],
+      ["btn","link","Lorem ipsum"]
+    ]]
   ],
 
   "descriere si obiective": [
     ["infoBox","left","Descriere",[
-      ["btn","link","un buton"],
-      ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!"]
+      ["p","&emsp;&emsp;CENTRUL DE STUDII FRANCOFONE, având drept obiect cercetarea în domeniul francofoniei, îşi propune să deruleze un program complet şi coerent de cercetare în domeniul francofoniei din perspectiva interculturalităţii şi a interdisciplinarităţii, cu referire la marile arii culturale din spaţiul francofon. În programul Centrului, un loc aparte îl ocupă cercetarea vizând contribuţiile româneşti în domeniul francofoniei."],
+      ["p","&emsp;&emsp;Pe lângă cadrele didactice de la Colectivul de Limbi romanice, cu o bogată activitate de cercetare, Centrul atrage la realizarea proiectelor sale și colaboratori tineri, doctoranzi şi studenţi de la studiile post-universitare."],
+      ["p","&emsp;&emsp;Rezultatele cercetării vor fi valorificate printre altele în revista Dialogues francophones publicată de Centrul de studii francofone începând din anul 1995. Se are în vedere de asemenea continuarea publicării unor cărţi despre fenomenul cultural francofon în lumea contemporană şi a unor studii pe teme de francofonie în reviste ştiinţifice din ţară şi din străinătate precum şi organizarea de manifestări ştiinţifice cu participare naţională şi internaţională."]
     ]],
     ["infoBox","right","Obiective",[
-      ["sub","niste obiective"],
-      ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur dolorem eius facilis labore minima, nostrum odit officia placeat quae quisquam sit soluta, vitae! Accusamus beatae necessitatibus tempore. Eligendi id nihil odit! Ad dicta ducimus est illum modi qui sit tempore tenetur! Beatae consequuntur dicta dolorem earum facere fuga illum impedit ipsam itaque, minima neque numquam porro, quam sit tenetur vel voluptatibus. Doloremque exercitationem in magni non provident quia ratione repudiandae totam veritatis voluptate. Facilis modi mollitia obcaecati odit pariatur perspiciatis possimus ratione. Aliquam excepturi nobis nulla reiciendis sit. Exercitationem!"]
+      ["p","<b>a. Scopul fundamental</b> al CENTRULUI DE STUDII FRANCOFONE constă în dezvoltarea studiului culturilor de expresie franceză şi promovarea francofoniei ca formă specifică a dialogului intercultural în lumea contemporană. Cercetarea are drept obiect marile arii culturale ale francofoniei: Belgia, Canada, Maghrebul, Africa subsahariană, lumea creolă. La acestea se adaugă studiul culturii franceze în relaţia sa cu celelalte culturi francofone. Un loc aparte este acordat studierii contribuţiilor româneşti la francofonie: autorii români de expresie franceză, traducerile ca formă de dialog intercultural etc."],
+      ["p","<b>b. Obiectivele specifice</b> ale cercetării vizează:"],
+      ["pa","1.realizarea unor volume de studii referitoare la culturile francofone în epoca modernă/postmodernă;<br>2.realizarea unor volume de studii care să facă cunoscută poziţia României în lumea francofonă şi contribuţia sa la dialogul intercultural francofon;<br>3.publicarea în regim periodic (un număr pe an) a revistei DIALOGUES FRANCOPHONES;<br>4.prezentarea de comunicări la sesiunile ştiinţifice, congresele, colocviile naţionale şi internaţionale;<br>5.organizarea anualã a unor conferinţe, mese rotunde, colocvii cu participare naţionalã şi internaţionalã;<br>6.realizarea unui program de traducere în edituri româneşti a unor cărţi ştiinţifice şi literare francophone;<br>7.realizarea unui program de cercetare şi de predare a francofoniei cu ajutorul noilor tehnologii ale comunicarii;<br>8.asigurarea unui program de predare a limbii, literaturii şi civilizaţiei franceze din perspective studiilor francofone şi interdisciplinare."]
     ]]
   ],
 
   "membri": [
-    ["infoBox","left","Membri",[
-      ["pa","Prof. Univ. Dr. Habil VASILE POPOVICI<br> Conf. Univ. Dr. RAMONA MALIȚA<br> Conf. Univ. Dr. MARIANA PITAR<br> Lect. Univ. Dr. NELI EIBEN<br> Lect. Univ. Dr. IOANA MARCU<br> Lect. Univ. Dr. EUGENIA TĂNASE<br> Lect. Univ. Dr. ADINA TIHU<br> Asist. Univ. Dr. ANDREEA GHEORGHIU<br> Asist. Univ. Dr. CRISTINA TĂNASE"]
-    ]],
-    ["infoBox","right","Blabla",[
-      ["sub","helooooooooooo"],
-      ["pa","blabla"]
+    ["overpage","Membri",[
+      ["line"],
+      ["sub","Membru onorific"],
+      ["persons",[
+        ["media/membri/conference_2015.jpg","Margareta Gyurcsik","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+      ]],
+      ["line"],
+      ["sub","Director centru"],
+      ["persons",[
+        ["media/membri/conference_2015.jpg","Prof. Univ. Dr. Georgiana Badea","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+      ]],
+      ["line"],
+      ["sub","Echipa de bază"],
+      ["persons",[
+        ["media/membri/Vasile-Popovici.jpg","Prof. Univ. Dr. Habil Vasile Popovici","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/Ramona-Malita.jpg","Conf. Univ. Dr. Ramona Malița","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/Mariana-Pitar.jpg","Conf. Univ. Dr. Mariana Pitar","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/Neli-Eiben.jpg","Lect. Univ. Dr. Neli Eiben","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Ioana Marcu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Eugenia Tănase","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/Adina-Tihu.jpg","Lect. Univ. Dr. Adina Tihu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Andreea Gheorghiu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Cristina Tănase","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+      ]]
     ]]
   ],
 
@@ -43,12 +63,46 @@
       ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
     ]]
   ],
-"statut": [
-  ["infoBox","left","Statut",[
-    ["p","helooooooo"]
-  ]],
-  ["infoBox","left","Statut",[
-    ["p","helooooooo"]
-  ]]
-]
+  "statut": [
+    ["infoBox","left","Cap. I. Obiectivele activităţii:",[
+      ["sub","Articol unic:"],
+      ["pa","a.    Centrul are drept scop promovarea cercetǎrii ştiinţifice în domeniul francofoniei dintr-o perspectivǎ interculturalǎ şi interdisciplinarǎ, dorind sǎ participe prin aceasta la schimbul naţional şi internaţional de idei în domeniu.<br>b.     Centrul va acorda o atenţie deosebitǎ evidenţierii prezenţei României în lumea francofonǎ contemporanǎ, precum şi operelor scriitorilor români de expresie francezǎ în contextul dialogului între culturi.<br> c.     Centrul îşi propune sprijinirea şi promovarea membrilor tineri, doctoranzi si studenţi la masterat, în vederea perfecţionǎrii profesionale, prin obţinerea unor burse de cercetare şi documentare.<br>d.     Centrul îşi propune valorificarea cercetǎrii ştiinţifice prin publicaţia proprie DIALOGUES FRANCOPHONES, prin publicarea unor cărţi şi prin colaborǎri la reviste ştiinţifice de prestigiu din ţarǎ şi din strǎinatate.<br>e.      Centrul va promova realizarea unor programe multimedia în sprijinul cercetării impactului francofoniei în condiţiile specifice ale societăţii contemporane.<br>f.     Cu prilejul „Zilelor Francofoniei”, Centrul va organiza anual un colocviu ştiinţific cu participare naţională şi internaţională.<br>"]
+
+    ]],
+    ["infoBox","right","Cap. II. Resurse materiale",[
+      ["sub","Art. 1. Patrimoniul Centrului de Studii Francofone:"],
+      ["pa","a.      subvenţie de la stat.<br>b.      proiecte de cercetare.<br>c.      sponsorizări şi donaţii."],
+      ["sub","Art. 2. Modul de utilizare a resurselor se aprobă la propunerea Consiliului ştiinţific al Centrului de Studii Francofone şi conducerea Universităţii de Vest din Timişoara, cu respectarea dispoziţiilor legale. Utilizarea resurselor, în conformitate cu legea, poate fi::"],
+      ["pa","a.    Centrul are drept scop promovarea cercetǎrii ştiinţifice în domeniul francofoniei dintr-o perspectivǎ interculturalǎ şi interdisciplinarǎ, dorind sǎ participe prin aceasta la schimbul naţional şi internaţional de idei în domeniu.<br>b.     Centrul va acorda o atenţie deosebitǎ evidenţierii prezenţei României în lumea francofonǎ contemporanǎ, precum şi operelor scriitorilor români de expresie francezǎ în contextul dialogului între culturi.<br> c.     Centrul îşi propune sprijinirea şi promovarea membrilor tineri, doctoranzi si studenţi la masterat, în vederea perfecţionǎrii profesionale, prin obţinerea unor burse de cercetare şi documentare.<br>d.     Centrul îşi propune valorificarea cercetǎrii ştiinţifice prin publicaţia proprie DIALOGUES FRANCOPHONES, prin publicarea unor cărţi şi prin colaborǎri la reviste ştiinţifice de prestigiu din ţarǎ şi din strǎinatate.<br>e.      Centrul va promova realizarea unor programe multimedia în sprijinul cercetării impactului francofoniei în condiţiile specifice ale societăţii contemporane.<br>f.     Cu prilejul „Zilelor Francofoniei”, Centrul va organiza anual un colocviu ştiinţific cu participare naţională şi internaţională.<br>"],
+      ["sub","Art. 3. Participarea prin cota de 0,5 - 20% la veniturile fondului special al Universităţii de Vest dinTimişoara."],
+      ["sub","Art. 4. Centrului de Studii Francofone deţine, în conformitate cu dispoziţiile legale în vigoare, spaţiu pentru studiu şi cercetare, precum şi alte bunuri care înlesnesc activitatea de cercetare şi sunt utilizate de toţi membrii."],
+      ["sub","Art. 5. Veniturile, bunurile imobile si mobile ce vor fi dobândite de Centrului de Studii Francofone, în conformitate cu prevederile legale, se constituie în patrimoniu al Centrului, servind la realizarea scopurilor prevăzute în statut."]
+    ]],
+    ["infoBox","left","Cap. III. Drepturile şi obligaţiile membrilor Centrului de Studii Francofone",[
+      ["sub","A. Drepturi:"],
+      ["pa","1.    pot fi membri ai Centrului de Studii Francofone cadre didactice universitare şi cercetători în domeniul francofoniei, precum şi studenţi ai învăţământului post-universitar.<br> 2.   să participe la manifestări ştiinţifice de profil organizate în țară şi străinătate;<br>3.    să publice cu sprijinul Centrului, lucrări de ţinută ştiinţifică din domeniul francofoniei, în conformitate cu scopurile statutare propuse;<br>4.    să sprijine obţinerea de burse de documentare în ţară şi străinătate pentru perfecţionare profesională;<br>5.    să sprijine colaborarea cu alte instituţii de cercetare de profil din ţară şi străinătate.<br>"],
+      ["sub","B. Obligaţii:"],
+      ["pa","1.     să participe activ şi concret la realizarea obiectivelor Centrului de Studii Francofone;<br>2.     să contribuie prin conduita proprie, etică şi morală, la sporirea prestigiului Centrului de Studii Francofone;<br>3.     să păstreze bunurile patrimoniului Centrului în condiţii optime de funcţionare;<br>4.     să respecte deciziile forurilor de conducere ale Centrului şi ale Facultăţii;<br>5.     să nu activeze împotriva interesului Centrului şi să respecte deontologia profesională şi legile ţării<br>"]
+    ]],
+    ["infoBox","right","Cap. IV. Organele de conducere",[
+      ["sub","Articol unic:"],
+      ["pa","1.      Centrul de Excelenţă este condus de un cadru didactic cu titlul de profesor, având calitatea de <b>director</b>. Directorul este ales pe 4 ani.<br>2.      Activitatea de cercetare este coordonată de un <b>secretar ştiinţific</b> ales dintre cadrele didactice.<br>3.      Problemele de natură administrativ-economică ale Centrului vor fi coordonate de către un <b>secretar</b> ales din rândul membrilor colectivului.<br>4.      Directorul, secretarul ştiinţific și secretarul formează Consiliul director al Centrului de Studii Francofone care este ales de Adunarea generală. El coordonează întreaga activitate ştiinţifică şi economică a Centrului.<br>5.      Colectivul Centrului de Studii Francofone format din cadre didactice, de cercetare, doctoranzi şi studenţi, se întruneşte în Adunarea generală o dată pe an sau de câte ori este nevoie.<br>6.      Strategia activităţii de cercetare, bugetul de cheltuieli şi veniturile se stabilesc de către colectivul de specialişti al Centrului sub coordonarea Consiliului Director.<br>7.      <b>Directorul</b> Centrului de Studii Francofone reprezintă:<br>&emsp;&emsp;a.     instituţia în faţa conducerii Facultăţii, a Rectoratului Universităţii de Vest, în faţa instituţiilor similare din ţară şi străinătate;<br>&emsp;&emsp;b.     îndeplineşte toate sarcinile încredinţate de Consiliul Director;<br>&emsp;&emsp;c.     prezintă lunar, trimestrial sau de câte ori este nevoie, situaţia economico-financiară, ştiinţifică şi profesională a întregii activităţi în faţa Conducerii Universităţii şi a propriului colectiv;<br>&emsp;&emsp;d.     stabileşte cadrul administrativ al Centrului.<br>8.      <b>Secretarul ştiinţific</b><br>&emsp;&emsp;a.      răspunde de strategia activităţii de cercetare;<br>&emsp;&emsp;b.      răspunde de publicaţia ştiinţifică a Centrului de Studii Francofone.<br>9.      <b>Secretarul</b><br>&emsp;&emsp;a.      îndeplineşte toate activităţile de secretariat;<br>&emsp;&emsp;b.      răspunde de evidenţa cheltuielilor Centrului de Studii Francofone.<br>"]
+    ]],
+    ["infoBox","left","Cap. V. Modul de desfăşurare a activităţii",[
+      ["sub","Documentele obligatorii care stau la baza desfăşurării activităţilor în Centrul de Studii Francofone şi care definesc responsabilităţile sunt:"],
+      ["pa","a.       contractul de cercetare care include ca părţi componente:<br>&emsp;&emsp;• tema programului cu subteme şi valori fundamentale conform legii;<br>&emsp;&emsp;• devizul;<br>&emsp;&emsp;• statul de funcţii;<br>&emsp;&emsp;• documente de recepţie;<br>&emsp;&emsp;• alte piese componente (în cazul Granturilor)<br>b.      pontajul cuprinzând orele prestate de către personalul din activitatea respectivă.;"]
+
+    ]],
+    ["infoBox","right","Cap. VI. Activitatea financiară şi de control a gestiunii Centrului",[
+      ["pa","&emsp;&emsp;Centrul de Studii Francofone își va asigura finanţarea din subvenţii de stat, proiecte de cercetare, sponsorizări, donaţii, etc.<br>Gestionarea fondurilor se va face prin Serviciul de contabilitate al Universităţii de Vest din Timişoara, de care este direct dependent. Fondurile se vor gestiona de către Consiliul Director și de către Senatul Universităţii de Vest. Controlul gestiunii va fi asigurat prin formele specific legale în vigoare.<br>"]
+
+    ]],
+    ["infoBox","left","Cap. VII. Lichidare, dizolvare",[
+      ["pa","&emsp;&emsp;Centrul de Studii Francofone se constituie pe termen nelimitat. Dizolvarea asociației poate fi decisă de M.E.N. care va stabili totodată şi destinaţia fondurilor rămase după lichidare. Lichidarea Centrului de Studii Francofone şi a bunurilor sale se face în conformitate cu prevederile legale în vigoare.<br>&emsp;&emsp;Pentru cazurile de încalcare a dispoziţiilor Regulamentului sau a realizării cu superficialitate a lucrărilor, se aplică dispoziţiile Codului Muncii, iar în cazul personalului cu activitate în baza unor convenţii civile (contract cu prestări servicii) se vor aplica clauzele din acele convenţii.<br>"]
+
+    ]],
+    ["infoBox","right","Cap. VIII. Dispoziţii finale",[
+      ["pa","<i>Centrul de Studii Francofone Timisoara</i> are ca semne distinctive o siglă şi o ştampilă, care vor fi aplicate pe toate înscrisurile acestuia: CSF"]
+    ]]
+  ]
 }

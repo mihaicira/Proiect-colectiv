@@ -16,20 +16,22 @@ var currentSubpages = []
 
 
 
+/*technical*/
+var lastVisitedBySlider
+
+
+
 /***********************/
 function minimizeNavbar(){
-
     document.getElementById("stNavbar").style.height = "3.5vw";
     document.getElementById("ndNavbar").style.height= "2.5vw";
     document.getElementById("ndNavbar").style.top= "3.5vw";
-
 }
-function maximizeNavbar(){
 
+function maximizeNavbar(){
     document.getElementById("stNavbar").style.height = "7vw";
     document.getElementById("ndNavbar").style.height= "3.5vw";
     document.getElementById("ndNavbar").style.top= "7vw";
-
 }
 
 /*
@@ -109,14 +111,53 @@ function HTMLify(object){
             })
             HTML = HTML + "</div>"
             return HTML
+        case "overpage":
+            HTML = `<div class="overpage">`
+            HTML = HTML + `<h1>${object[1]}</h1>`
+            object[2].forEach((elem)=>{
+              switch(elem[0]){
+                  case "sub":
+                      HTML = HTML + `<h2 class="group-title">${elem[1]}</h2>`;
+                      break;
+                  case "line":
+                      HTML = HTML + `<hr class="hv">`;
+                      break;
+                  case "persons":
+                      HTML = HTML + `<div class="personLine">`
+                      elem[1].forEach((person)=>{
+                          HTML = HTML + `
+                                  <div class="person">
+                                    <img src="${person[0]}">
+                                    <p>${person[1]}</p>
+                                    <a href="${person[2]}">Curriculum Vittae</a>
+                                    <p>${person[3]}</p>
+                                </div>`
+                      })
+                      HTML = HTML + "</div>"
+                      break
+                  /*
+                  ["https://i.imgur.com/ERF195Q.png","Bla. Bl. Blabl. Cîra Mihai","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
+                  * */
+                  default:
+                      console.log("HTMLify error - unknown object [secondary branch - overpage] (object: ",elem[0],")")
+                      break;
+              }
+            })
+            HTML = HTML + "</div>"
+            return HTML
         default:
             console.log("HTMLify error - unknown object [main branch]",object[0]);
+            return "HTMLify error - unknown object [main branch] (check Console)"
             break;
+
+
     }
 }
 
-function moveSlider(width,dist){
+function moveSlider(object){
 
+    const width = object.outerWidth();
+    const dist = object.offset().left;
     $("#slider").css({
         "width":width.toString(),
         "left": `${dist}px`
@@ -151,13 +192,15 @@ function loadSubpage(newPage,json_path=null,subpages=null){
 
     // $("#ndNavbar >*").css("box-shadow","1px 1px 1px 2px red")
 
-    const objWidth = $(`#ndNavbar >a:nth-child(${index})`).outerWidth();
-    const objDist = $(`#ndNavbar >a:nth-child(${index})`).offset().left;
+    // const objWidth = $(`#ndNavbar >a:nth-child(${index})`).outerWidth();
+    // const objDist = $(`#ndNavbar >a:nth-child(${index})`).offset().left;
 
 
     // console.log("Latime: ",objWidth," | Distanta pana in stanga: ",objDist)
 
-    moveSlider(objWidth,objDist)
+    const sliderGoTo = $(`#ndNavbar >a:nth-child(${index})`)
+    lastVisitedBySlider = sliderGoTo
+    moveSlider(sliderGoTo)
 
 
     $.getJSON(json_path,function(json){
