@@ -70,9 +70,6 @@ function HTMLify(object){
                             HTML = HTML + `<a class="btn" href="${elem[1]}">${textify(elem[2])}</a>`
                         else
                             HTML = HTML + `<a class="btn" onClick='goToId("${elem[1]}")'>${textify(elem[2])}</a>`
-
-
-
                         break;
                     case "br":
                         HTML = HTML + "<br>"
@@ -100,6 +97,9 @@ function HTMLify(object){
                                 case "p":
                                     HTML = HTML + `<p>${textify(elem[1])}</p>`
                                     break;
+                                case "pa":
+                                    HTML = HTML + `<p class="spaced">${textify(elem[1])}</p>`
+                                    break;
                                 default:
                                     console.log("HTMLify error - unknown object [secondary branch - newspaper] (object: ",elem[0],")")
                                     break;
@@ -116,13 +116,13 @@ function HTMLify(object){
             HTML = HTML + `<h1>${object[1]}</h1>`
             object[2].forEach((elem)=>{
               switch(elem[0]){
-                  case "sub":
+                  case "sub": // subtitlu
                       HTML = HTML + `<h2 class="group-title">${elem[1]}</h2>`;
                       break;
-                  case "line":
+                  case "line": //linie verticala
                       HTML = HTML + `<hr class="hv">`;
                       break;
-                  case "persons":
+                  case "persons": //persoane
                       HTML = HTML + `<div class="personLine">`
                       elem[1].forEach((person)=>{
                           HTML = HTML + `
@@ -144,6 +144,10 @@ function HTMLify(object){
               }
             })
             HTML = HTML + "</div>"
+            return HTML
+        case "big-pic":
+            HTML = HTML + `<img src="${object[1]}" class='big-pic'>`
+            console.log("img..")
             return HTML
         default:
             console.log("HTMLify error - unknown object [main branch]",object[0]);

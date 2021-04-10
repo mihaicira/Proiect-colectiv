@@ -1,6 +1,7 @@
 {
   "istoric":[
 
+    ["big-pic","./media/dflogo.png"],
     ["infoBox","left","Istoric",[
       ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"],
       ["pa","Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Accusantium aut doloribus ducimus, ex explicabo fuga,<br>fugit ipsum laborum magni quasi repudiandae sequi temporibus.<br>Amet, illo magni obcaecati odit reprehenderit vero?"],
@@ -53,16 +54,7 @@
     ]]
   ],
 
-  "alte informatii": [
-    ["infoBox","left","Alte informatii",[
-      ["sub","informatiiiiiiiiiiiiii"],
-      ["p","ewqefferfreffre"]
-    ]],
-    ["infoBox","right","Blabla",[
-      ["sub","helooooooooooo"],
-      ["pa","paragraf lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung lung paragraf lung"]
-    ]]
-  ],
+
   "statut": [
     ["infoBox","left","Cap. I. Obiectivele activităţii:",[
       ["sub","Articol unic:"],
@@ -72,9 +64,9 @@
     ["infoBox","right","Cap. II. Resurse materiale",[
       ["sub","Art. 1. Patrimoniul Centrului de Studii Francofone:"],
       ["pa","a.      subvenţie de la stat.<br>b.      proiecte de cercetare.<br>c.      sponsorizări şi donaţii."],
-      ["sub","Art. 2. Modul de utilizare a resurselor se aprobă la propunerea Consiliului ştiinţific al Centrului de Studii Francofone şi conducerea Universităţii de Vest din Timişoara, cu respectarea dispoziţiilor legale. Utilizarea resurselor, în conformitate cu legea, poate fi::"],
+      ["sub","Art. 2. Modul de utilizare a resurselor se aprobă la propunerea Consiliului ştiinţific al Centrului de Studii Francofone şi conducerea Universităţii de Vest din Timişoara, cu respectarea dispoziţiilor legale. Utilizarea resurselor, în conformitate cu legea, poate fi:"],
       ["pa","a.    Centrul are drept scop promovarea cercetǎrii ştiinţifice în domeniul francofoniei dintr-o perspectivǎ interculturalǎ şi interdisciplinarǎ, dorind sǎ participe prin aceasta la schimbul naţional şi internaţional de idei în domeniu.<br>b.     Centrul va acorda o atenţie deosebitǎ evidenţierii prezenţei României în lumea francofonǎ contemporanǎ, precum şi operelor scriitorilor români de expresie francezǎ în contextul dialogului între culturi.<br> c.     Centrul îşi propune sprijinirea şi promovarea membrilor tineri, doctoranzi si studenţi la masterat, în vederea perfecţionǎrii profesionale, prin obţinerea unor burse de cercetare şi documentare.<br>d.     Centrul îşi propune valorificarea cercetǎrii ştiinţifice prin publicaţia proprie DIALOGUES FRANCOPHONES, prin publicarea unor cărţi şi prin colaborǎri la reviste ştiinţifice de prestigiu din ţarǎ şi din strǎinatate.<br>e.      Centrul va promova realizarea unor programe multimedia în sprijinul cercetării impactului francofoniei în condiţiile specifice ale societăţii contemporane.<br>f.     Cu prilejul „Zilelor Francofoniei”, Centrul va organiza anual un colocviu ştiinţific cu participare naţională şi internaţională.<br>"],
-      ["sub","Art. 3. Participarea prin cota de 0,5 - 20% la veniturile fondului special al Universităţii de Vest dinTimişoara."],
+      ["sub","Art. 3. Participarea prin cota de 0,5 - 20% la veniturile fondului special al Universităţii de Vest din Timişoara."],
       ["sub","Art. 4. Centrului de Studii Francofone deţine, în conformitate cu dispoziţiile legale în vigoare, spaţiu pentru studiu şi cercetare, precum şi alte bunuri care înlesnesc activitatea de cercetare şi sunt utilizate de toţi membrii."],
       ["sub","Art. 5. Veniturile, bunurile imobile si mobile ce vor fi dobândite de Centrului de Studii Francofone, în conformitate cu prevederile legale, se constituie în patrimoniu al Centrului, servind la realizarea scopurilor prevăzute în statut."]
     ]],

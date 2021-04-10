@@ -9,6 +9,8 @@
 /***********7. FOOTER         **/
 /***********8. IN-PAGE REDIRECT ANIMATION**/
 /***********9. SUBPAGES**/
+/***********10. BIG-PIC-STYLE**/
+/***********11. Publicatii - 3rd side menu**/
 
 /*****************************************/
 /***********1. GENERAL****/
@@ -21,7 +23,8 @@ html,body{
     background: rgb(242,242,242);
 
     /*general colors*/
-    --redcolor: #ec6b76;
+    /*--redcolor: #ec6b76;*/
+    --redcolor: rgb(166,166,166);
     --bluecolor: #4a8bec;
 
     /*fonts*/
@@ -48,7 +51,7 @@ a{
     background: rgb(166,166,166);
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-evenly;
     position: fixed;
     z-index: 5;
     transition: 300ms;
@@ -64,6 +67,7 @@ a{
 
 .stNavbarBtn{
     padding: .5vw;
+    text-align: center;
 }
 .stNavbarBtn{
     transition: 500ms;
@@ -87,9 +91,11 @@ a{
 }
 
 .languages-container{
-    align-self: flex-end;
-    margin-bottom: 1vw;
+    align-self: center;
+    margin-top: 1vw;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 button,
@@ -173,7 +179,9 @@ button:active{
 
 #slider{
     height: 1px;
-    background: white;
+
+    background: linear-gradient(to right,transparent,white,transparent);
+
     margin-top: 1.5vw;
     position: absolute;
     left: 1cm;
@@ -194,8 +202,8 @@ button:active{
     border: 2px solid transparent;
 }
 
-.infoBox:nth-of-type(1){
-    margin-top: 15vw;
+body >*:nth-child(3){
+    margin-top: 14vw;
 }
 
 
@@ -564,3 +572,24 @@ footer div:nth-of-type(3):hover{
     -webkit-transition: 500ms;
     opacity: 0;
 }
+
+
+/*****************************************/
+/***********10. BIG-PIC-STYLE**/
+/*****************************************/
+
+.big-pic{
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*****************************************/
+/***********11. Publicatii - 3rd side menu**/
+/*****************************************/
+
+.thirdMenu{
+/*    Cristiana*/
+}
+

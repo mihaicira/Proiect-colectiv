@@ -22,13 +22,13 @@
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TextLoad" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,16 +70,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\text\RO" />
+      <recent name="D:\Others\ProiectColectiv\media\membri" />
+      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
+      <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media\membri" />
-      <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,6 +115,11 @@
       <workItem from="1617897151941" duration="5097000" />
       <workItem from="1617903708484" duration="597000" />
       <workItem from="1617912022002" duration="217000" />
+      <workItem from="1617960522657" duration="1683000" />
+      <workItem from="1617974356530" duration="2444000" />
+      <workItem from="1617988803639" duration="2985000" />
+      <workItem from="1618081023585" duration="2037000" />
+      <workItem from="1618084809682" duration="1252000" />
     </task>
     <servers />
   </component>

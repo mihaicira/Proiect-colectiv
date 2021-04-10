@@ -8,42 +8,41 @@
     ["asociatia.html","Asociatia de studii francofone DF"]
   ],
   "ndNavbar":
-    {
-      "index": [
-                ["#istoric","Istoric"],
-                ["#descriere si obiective","Descriere si obiective"],
-                ["#membri","Membri"],
-                ["#alte informatii","Alte informatii"],
-                ["#statut","Statut"]
-                ],
-      "evenimente": [
-                ["#CIEFT","CIEFT"],
-                ["#mese rotunde","Mese rotunde"],
-                ["#sustineri de teze doctorale","Sustineri de teze doctorale"],
-                ["#colocvii studentesti","Colocvii studentesti"],
-                ["#galerie","Galerie"]
-      ],
-      "publicatii": [
-              ["link","Dialogues francophones"],
-              ["link","Agapes francophones"],
-              ["link","Publicatii ale membrilor"]
-              ],
-      "cercetare": [
-              ["link","Proiecte de cercetare"],
-              ["link","Stagii de cercetare"],
-              ["link","Articole de indexare in baze de date internationale"]
-              ],
-      "parteneri": [
-              ["link","provizoriu - 1"],
-              ["link","provizoriu - 2"],
-              ["link","provizoriu - 3"]
-              ],
-      "asociatia": [
-              ["link","Descriere si obiective"],
-              ["link","Statut"],
-              ["link","Formular de inscriere"]
-              ]
-    },
+  {
+    "index": [
+      ["#istoric","Istoric"],
+      ["#descriere si obiective","Descriere si obiective"],
+      ["#membri","Membri"],
+      ["#statut","Statut"]
+    ],
+    "evenimente": [
+      ["#CIEFT","CIEFT"],
+      ["#mese rotunde","Mese rotunde"],
+      ["#sustineri de teze doctorale","Sustineri de teze doctorale"],
+      ["#colocvii studentesti","Colocvii studentesti"],
+      ["#galerie","Galerie"]
+    ],
+    "publicatii": [
+      ["#dialogues francophones","Dialogues francophones"],
+      ["#agapes francophones","Agapes francophones"],
+      ["#publicatii ale membrilor","Publicatii ale membrilor"]
+    ],
+    "cercetare": [
+      ["link","Proiecte de cercetare"],
+      ["link","Stagii de cercetare"],
+      ["link","Articole de indexare in baze de date internationale"]
+    ],
+    "parteneri": [
+      ["link","provizoriu - 1"],
+      ["link","provizoriu - 2"],
+      ["link","provizoriu - 3"]
+    ],
+    "asociatia": [
+      ["link","Descriere si obiective"],
+      ["link","Statut"],
+      ["link","Formular de inscriere"]
+    ]
+  },
   "footer": "none"
 
 }
