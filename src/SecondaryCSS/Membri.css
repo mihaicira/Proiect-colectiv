@@ -22,8 +22,7 @@
 .person{
     width: 17.5vw;
 
-
-    flex: 0 0 21%;
+    flex: 0 0 19%;
 
     border: .2vw solid gray;
     border-radius: .5vw .5vw .2vw .2vw;
@@ -31,10 +30,11 @@
     text-align: center;
 
     padding-top: .5vw;
+    padding-bottom: 2vw;
 }
 
 .person >img{
-    width: 95%;
+    width: 80%;
     height: auto;
 
     border-radius: .5vw .5vw 1vw 1vw;

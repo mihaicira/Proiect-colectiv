@@ -19,13 +19,15 @@ $(window).resize(()=>{
 
 
 //Cristiana
-$(document).ready(()=>{
-    setTimeout(()=>{
-        $(".infoBox:nth-of-type(1)").prepend(`
-        <div class="thirdMenu">
-<!--        scrie aici-->
-        </div>
-        `)
-    },100)
-
-})
+// $(document).ready(()=>{
+//     setTimeout(()=>{
+//         $(".infoBox:nth-of-type(1)").prepend(`
+//         <div class="thirdMenu">
+//         <a href="#"> Dialogues francophones </a>
+//         <a href="#"> Agapes francophones </a>
+//         <a href="#"> Publicatii ale membrilor </a>
+//         </div>
+//         `)
+//     },100)
+//
+// })

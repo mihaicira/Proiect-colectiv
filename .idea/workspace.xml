@@ -21,14 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Adina-Tihu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Badea-Georgiana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Mariana-Pitar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Neli-Eiben.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Ramona-Malita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/Vasile-Popovici.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/membri/conference_2015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TextLoad" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/mihai/src/Components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,21 +72,23 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\text\RO" />
-      <recent name="D:\Others\ProiectColectiv\media\membri" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\mihai\src\Components" />
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media" />
+      <recent name="D:\Others\ProiectColectiv\media\membri" />
+      <recent name="D:\Others\ProiectColectiv\text\RO" />
+      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -119,7 +127,21 @@
       <workItem from="1617974356530" duration="2444000" />
       <workItem from="1617988803639" duration="2985000" />
       <workItem from="1618081023585" duration="2037000" />
-      <workItem from="1618084809682" duration="1252000" />
+      <workItem from="1618084809682" duration="1387000" />
+      <workItem from="1618134057759" duration="9148000" />
+      <workItem from="1618147175523" duration="691000" />
+      <workItem from="1618153031353" duration="5149000" />
+      <workItem from="1618212958820" duration="8000" />
+      <workItem from="1618220703967" duration="18000" />
+      <workItem from="1618249849935" duration="408000" />
+      <workItem from="1618254705891" duration="4416000" />
+      <workItem from="1618297551228" duration="9000" />
+      <workItem from="1618318086379" duration="1665000" />
+      <workItem from="1618324340775" duration="539000" />
+      <workItem from="1618326794403" duration="132000" />
+      <workItem from="1618348792458" duration="731000" />
+      <workItem from="1618382776810" duration="12000" />
+      <workItem from="1618502272443" duration="517000" />
     </task>
     <servers />
   </component>
@@ -139,10 +161,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1617552798201">
+    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1618135060966">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617552798201" />
+    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618135060966" />
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618134107139" />
     <state x="2380" y="164" key="SettingsEditor" timestamp="1617730493411">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -151,6 +174,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="35" y="0" width="1515" height="882" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617727524347" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1618139390971">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618139390971" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617130294783">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

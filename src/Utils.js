@@ -14,7 +14,8 @@
 var currentPath = ""
 var currentSubpages = []
 
-
+var thirdMenuOptions = []
+var is3rdMenuActive = false
 
 /*technical*/
 var lastVisitedBySlider
@@ -55,7 +56,9 @@ function HTMLify(object){
     switch(object[0]){
         case "infoBox":
             HTML = `<div class="${object[1] === "right" ? "infoBox right" : "infoBox left"}">`
-            HTML = HTML + `<div class="infoHeader" id="${object[4]===undefined ? null : object[4]}">${object[2]}</div>`
+            const objId = object[2].trim().replaceAll(' ','').toLowerCase()
+            thirdMenuOptions.push(["#"+objId,object[2]])
+            HTML = HTML + `<div class="infoHeader" id="${is3rdMenuActive === true ? objId: ''}">${object[2]}</div>`
             HTML = HTML + `<div class="infoText">`
             object[3].forEach((elem)=>{
                 switch(elem[0]){
@@ -129,15 +132,11 @@ function HTMLify(object){
                                   <div class="person">
                                     <img src="${person[0]}">
                                     <p>${person[1]}</p>
-                                    <a href="${person[2]}">Curriculum Vittae</a>
-                                    <p>${person[3]}</p>
+                                    ${person[2] === undefined ? "": "<a href=\""+person[2]+"\">Curriculum Vittae</a>"}
                                 </div>`
                       })
                       HTML = HTML + "</div>"
                       break
-                  /*
-                  ["https://i.imgur.com/ERF195Q.png","Bla. Bl. Blabl. Cîra Mihai","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-                  * */
                   default:
                       console.log("HTMLify error - unknown object [secondary branch - overpage] (object: ",elem[0],")")
                       break;
@@ -149,6 +148,9 @@ function HTMLify(object){
             HTML = HTML + `<img src="${object[1]}" class='big-pic'>`
             console.log("img..")
             return HTML
+        case "menu":
+            is3rdMenuActive = true
+            break;
         default:
             console.log("HTMLify error - unknown object [main branch]",object[0]);
             return "HTMLify error - unknown object [main branch] (check Console)"
@@ -172,11 +174,6 @@ function moveSlider(object){
 }
 
 function loadSubpage(newPage,json_path=null,subpages=null){
-
-
-
-    //$("p").css("background-color", "yellow");
-
 
     //incarca paginile secundare
     if(json_path === null){
@@ -221,13 +218,26 @@ function loadSubpage(newPage,json_path=null,subpages=null){
             }
         })
 
+        is3rdMenuActive = false
+
         //Se activeaza doar pagina care ne intereseaza
         try{
             var HTML = `<div id="${newPage}" class="subpage">`
 
             json[newPage].forEach((elem)=>{
-                HTML = HTML + HTMLify(elem)
+                const pageContent = HTMLify(elem)
+                if(pageContent !== undefined)
+                    HTML = HTML + pageContent
             })
+
+            if(is3rdMenuActive){
+                var rdMenuStr =  "<div class=\"thirdMenu\">"
+                thirdMenuOptions.forEach((pair)=>{
+                    rdMenuStr = rdMenuStr + `<a href="${pair[0]}"> ${pair[1]} </a>`
+                })
+                rdMenuStr = rdMenuStr + "</div>"
+                $("#footer").before(rdMenuStr);
+            }
 
             HTML = HTML + "</div>"
 

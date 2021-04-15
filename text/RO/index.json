@@ -1,7 +1,7 @@
 {
   "istoric":[
 
-    ["big-pic","./media/dflogo.png"],
+    ["big-pic","./media/logo-00.png"],
     ["infoBox","left","Istoric",[
       ["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"],
       ["pa","Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Accusantium aut doloribus ducimus, ex explicabo fuga,<br>fugit ipsum laborum magni quasi repudiandae sequi temporibus.<br>Amet, illo magni obcaecati odit reprehenderit vero?"],
@@ -10,7 +10,8 @@
       ["btn","link","Lorem ipsum"],
       ["btn","link","Lorem ipsum"],
       ["btn","link","Lorem ipsum"]
-    ]]
+    ]],
+    ["newspaper",["Primele aparitii","red",["p"," obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates? Accusantium architecto consequuntur debitis, deleniti distinctio dolorum earum enim excepturi hic libero nobis officiis pariatur, quaerat repellat sequi similique, voluptatem. A accusamus aliquid assumenda consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil nobis quis quod recusandae rem repellat reprehenderit. Aspernatur deleniti eius error modi! Accusamus accusantium eos ipsam laboriosam libero nulla odit quis sed unde voluptatem! Commodi corporis delectus expedita, id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"]],["Cele mai recente aparitii","blue",["p","Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum molestias quam quod rem veritatis vitae voluptatibus! Dolorem necessitatibus, quo. Animi at cumque dicta dolore earum eius error excepturi fuga, impedit soluta ullam, velit voluptatum. Adipisci aliquid autem blanditiis cupiditate deserunt dolorum eaque eum eveniet, fugiat id ipsum iusto labore laborum minus modi necessitatibus nihil obcaecati officia omnis provident quaerat quibusdam quidem quod rem similique velit voluptas? Accusantium asperiores aut blanditiis consectetur deserunt dicta dolorem doloribus ea eaque eligendi est exercitationem fugiat, impedit iste itaque labore libero maiores minima minus modi nam nesciunt nobis non numquam, perferendis porro quae quas qui quo quod repellat saepe vel velit vitae voluptate, voluptatem voluptates consequatur dolor doloribus earum eos et expedita fugiat illum in inventore iure, laboriosam maiores molestiae molestias natus nesciunt, nihil  id incidunt iusto nisi nobis officiis possimus quas quasi quia totam. Consequatur eligendi labore non quia repellendus temporibus?"]]]
   ],
 
   "descriere si obiective": [
@@ -31,25 +32,33 @@
       ["line"],
       ["sub","Membru onorific"],
       ["persons",[
-        ["media/membri/conference_2015.jpg","Margareta Gyurcsik","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+        ["media/membri/conference_2015.jpg","Margareta Gyurcsik"]
       ]],
       ["line"],
       ["sub","Director centru"],
       ["persons",[
-        ["media/membri/conference_2015.jpg","Prof. Univ. Dr. Georgiana Badea","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+        ["media/membri/Georgiana-Badea.jpg","Prof. Univ. Dr. Georgiana Badea","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Georgiana-BADEA.pdf"]
+      ]],
+      ["line"],
+      ["sub","Secretar științific"],
+      ["persons",[
+        ["media/membri/Neli-Eiben.jpg","Lect. Univ. Dr. Neli Eiben","https://litere.uvt.ro/wp-content/uploads/2014/07/12.CV_NeliEiben.pdf"]
+      ]],
+      ["line"],
+      ["sub","Secretar științific"],
+      ["persons",[
+        ["media/membri/Ioana-Marcu.jpg","Lect. Univ. Dr. Ioana Marcu","https://litere.uvt.ro/wp-content/uploads/2014/07/IMarcu_Curriculum-vitae.pdf"]
       ]],
       ["line"],
       ["sub","Echipa de bază"],
       ["persons",[
-        ["media/membri/Vasile-Popovici.jpg","Prof. Univ. Dr. Habil Vasile Popovici","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/Ramona-Malita.jpg","Conf. Univ. Dr. Ramona Malița","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/Mariana-Pitar.jpg","Conf. Univ. Dr. Mariana Pitar","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/Neli-Eiben.jpg","Lect. Univ. Dr. Neli Eiben","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Ioana Marcu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Eugenia Tănase","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/Adina-Tihu.jpg","Lect. Univ. Dr. Adina Tihu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Andreea Gheorghiu","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."],
-        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Cristina Tănase","link-cv","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero, sit! Accusamus dolore fugiat harum magni natus omnis quo. Quaerat."]
+        ["media/membri/Andreea-Gheorghiu.jpg","Asist. Univ. Dr. Andreea Gheorghiu","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Andreea-Gheorghiu.pdf"],
+        ["media/membri/Ramona-Malita.jpg","Conf. Univ. Dr. Ramona Malița","https://drive.google.com/file/d/1Y29UYGPiJ9oc5cxp5QXBNZUxbkO-I3fz/view?usp=sharing"],
+        ["media/membri/Mariana-Pitar.jpg","Conf. Univ. Dr. Mariana Pitar"],
+        ["media/membri/Vasile-Popovici.jpg","Prof. Univ. Dr. Habil Vasile Popovici"],
+        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Cristina Tănase","https://litere.uvt.ro/wp-content/uploads/2014/07/06.CV_Cristina_Tanase.pdf"],
+        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Eugenia Tănase","https://litere.uvt.ro/wp-content/uploads/2014/07/04.CV_Eugenia_Tanase.pdf"],
+        ["media/membri/Adina-Tihu.jpg","Lect. Univ. Dr. Adina Tihu"]
       ]]
     ]]
   ],

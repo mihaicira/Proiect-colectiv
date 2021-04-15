@@ -22,6 +22,8 @@ html,body{
     overflow-x: hidden;
     background: rgb(242,242,242);
 
+    scroll-behavior: smooth;
+
     /*general colors*/
     /*--redcolor: #ec6b76;*/
     --redcolor: rgb(166,166,166);
@@ -202,7 +204,7 @@ button:active{
     border: 2px solid transparent;
 }
 
-body >*:nth-child(3){
+.subpage{
     margin-top: 14vw;
 }
 
@@ -589,7 +591,41 @@ footer div:nth-of-type(3):hover{
 /***********11. Publicatii - 3rd side menu**/
 /*****************************************/
 
-.thirdMenu{
-/*    Cristiana*/
+.thirdMenu {
+    width: 8vw;
+    position: fixed;
+    z-index: 1;
+
+    right: 1vw;
+    top: 30vh;
+
+    background: #182268;
+    overflow-x: hidden;
+    /*padding: 2vw .5vw 2vw .5vw;*/
+    padding: 2vw;
+    padding-bottom: 1vw;
+    border-radius: 2.5vw;
+    text-align: center;
+    /*border: .2vw solid transparent;*/
+}
+
+.thirdMenu a {
+    font-size: 1vw;
+    color: #a7a7a7;
+    display: inline-block;
+    text-align: center;
+    line-height: 1vw;
+    margin-bottom: 2vw;
+    cursor: pointer;
+
+    transition: 300ms;
+    -o-transition: 300ms;
+    -moz-transition: 300ms;
+    -webkit-transition: 300ms;
+
+}
+
+.thirdMenu a:hover {
+    color: #f1f1f1;
 }
 
