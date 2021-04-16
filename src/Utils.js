@@ -78,9 +78,21 @@ function HTMLify(object){
                         HTML = HTML + "<br>"
                         break;
                     case "sub":
-
                         HTML = HTML + `<p class="subtitle" id="${elem[2] === undefined ? null :elem[2]}"><b>${textify(elem[1])}</b></p>`;
                         break;
+                    case "icon-img":
+                        HTML = HTML + `<img src="../media/icons/image-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
+                        break
+                    case "icon-fb":
+                        HTML = HTML + `<img src="../media/icons/fb-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
+                        break
+                    case "icon-book":
+                        HTML = HTML + `<img src="../media/icons/book-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
+                        break
+                    case "icon-website":
+                        HTML = HTML + `<img src="../media/icons/website-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
+                        break
+                    case "labels":
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
                         break;
@@ -151,25 +163,52 @@ function HTMLify(object){
         case "menu":
             is3rdMenuActive = true
             break;
+        case "slideshow":
+            HTML = HTML + `<div id="slideshow-container">
+                                <img src="${object[1][0]}" id="activeImg">
+                                <img src="${object[1][1]}">
+                                <img src="${object[1][2]}">
+                            </div>`
+            return HTML;
+            console.log("slideshow added")
+            break;
         default:
             console.log("HTMLify error - unknown object [main branch]",object[0]);
             return "HTMLify error - unknown object [main branch] (check Console)"
             break;
-
-
     }
+}
+
+slideshowActual = 1;
+function slideshowNext(){
+    const max = document.getElementById("slideshow-container").childElementCount
+    const nextPic = slideshowActual === max ? 1 : slideshowActual+1
+    document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.zIndex = "3";
+    document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.zIndex = "4";
+    document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.transform="translateX(0)";
+
+    setTimeout(()=>{
+        document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.transform="translateX(250%)";
+        slideshowActual = nextPic
+    },2000)
+
 }
 
 function moveSlider(object){
 
-    const width = object.outerWidth();
-    const dist = object.offset().left;
-    $("#slider").css({
-        "width":width.toString(),
-        "left": `${dist}px`
-    })
+    try{
+        const width = object.outerWidth();
+        const dist = object.offset().left;
+        $("#slider").css({
+            "width":width.toString(),
+            "left": `${dist}px`
+        })
 
-    $("#slider").css("width",width.toString())
+        $("#slider").css("width",width.toString())
+    }catch {
+        return;
+    }
+
 
 }
 
