@@ -6,7 +6,7 @@
 }
 
 #formular-container{
-    width: 80vw;
+    width: 60vw;
 
     border: .25vw solid var(--darkblue);
     border-radius: 5vw;
@@ -14,7 +14,7 @@
     background: rgb(247,248,252);
     color: var(--darkblue);
 
-    margin-top: 20vw;
+    margin-top: 15vw;
     margin-bottom: 10vw;
     padding: 5vw;
     padding-top: 2.5vw;
@@ -58,7 +58,7 @@ form input,select{
 
 form .text{
     height: 2.5ch;
-    width: 20vw;
+    width: 10vw;
 }
 
 #file-input{
