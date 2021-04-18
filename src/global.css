@@ -28,6 +28,8 @@ html,body{
     /*--redcolor: #ec6b76;*/
     --redcolor: rgb(166,166,166);
     --bluecolor: #4a8bec;
+    --lightgrey: rgb(166,166,166);
+    --darkblue:  #182268;
 
     /*fonts*/
     --text-size: 1rem;
@@ -50,7 +52,7 @@ a{
     height: 7vw;
     width: 100%;
     /*background: #1e2a84;*/
-    background: rgb(166,166,166);
+    background: var(--lightgrey);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -148,7 +150,7 @@ button:active{
     height: 3.5vw;
     top:7vw;
     width: 100%;
-    background: #182268;
+    background: var(--darkblue);
 
     margin-bottom: 10cm;
 

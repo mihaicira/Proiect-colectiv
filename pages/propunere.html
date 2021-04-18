@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../src/formular.css">
+    <link rel="stylesheet" type="text/css" href="../src/global.css">
+    <script src="../src/jquery-3.6.0.min.js"></script>
+    <script src="../src/Utils.js"></script>
+    <script defer src="../src/global.js"></script>
+    <script defer src="../src/LoadNavbarFooter.js"></script>
+</head>
+<body>
+<div id="stNavbar">
+
+    <div class="stNavbarLogo">
+        <img src="../media/logo-csf.png" alt="csf-logo">
+    </div>
+
+    <div class="languages-container">
+        <button id="ro"></button>
+        <button id="en" ></button>
+        <button id="fr"></button>
+    </div>
+
+</div>
+
+<div id="ndNavbar">
+</div>
+
+<div id="formular-container">
+    <h2>Formular pentru trimiterea contributiilor</h2>
+    <form>
+        <h3>Propunere contributie</h3>
+        <label>Nume:</label><input class="text">
+        <label>Prenume:</label><input class="text">
+
+        <br><br><hr><br><br>
+
+        <label>Varsta:</label><input class="text">
+
+        <br><br><hr><br><br>
+
+        <label>Gen:</label><input class="text">
+
+        <h3>Incarcare fisier</h3>
+
+        <input type="file" name="filename" id="file-input">
+
+        <h3>Completare metadate</h3>
+
+        <label>Radio example:</label>
+        <br>
+        <br>
+        <input type="radio" id="r1" name="radioexample" value="r1">
+        <label for="r1">Radio1</label><br>
+        <input type="radio" id="r2" name="radioexample" value="r2">
+        <label for="r2">Radio2</label><br>
+        <input type="radio" id="r3" name="radioexample" value="r3">
+        <label for="r3">Radio3</label>
+
+        <br><br><hr><br><br>
+        <label>Check boxes example:</label>
+        <br>
+        <input type="checkbox" id="c1" name="vehicle1" value="c1">
+        <label for="c1"> Check1</label><br>
+        <input type="checkbox" id="c2" name="vehicle2" value="c2">
+        <label for="c2"> Check2</label><br>
+        <input type="checkbox" id="c3" name="vehicle3" value="c3">
+        <label for="c3"> Check3</label>
+
+        <br><br><hr><br><br>
+
+        <label>Dropdown example:</label>
+        <select name="drops" id="drops">
+            <option value="d1">Dropdown 1</option>
+            <option value="d2">Dropdown 2</option>
+            <option value="d3">Dropdown 3</option>
+            <option value="d4">Dropdown 4</option>
+        </select>
+
+    </form>
+</div>
+
+<footer id="footer">
+    <div>
+        <h3>Col 1</h3>
+        <p>text 1</p>
+    </div>
+    <div>
+        <h3>Col 2</h3>
+        <p>text 2</p>
+    </div>
+    <div><img src="../media/uvtlogo2.png" alt="logo"></div>
+    <div>
+        <h3>Col 3</h3>
+        <p>text 3</p>
+    </div>
+    <div>
+        <h3>Col 4</h3>
+        <p>text 4</p>
+    </div>
+    <p>Revue francophone de litterature contemporaine</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+:root{
+    --darkblue:  #182268;
+    --lightgrey: rgb(214, 209, 209);
+
+    --text-size: 1rem;
+}
+
+#formular-container{
+    width: 80vw;
+
+    border: .25vw solid var(--darkblue);
+    border-radius: 5vw;
+
+    background: rgb(247,248,252);
+    color: var(--darkblue);
+
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+    padding: 5vw;
+    padding-top: 2.5vw;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#formular-container h2{
+    text-align: center;
+    font-size: calc(var(--text-size) * 2);
+    margin-bottom: 2.5vw;
+}
+
+form h3{
+    text-align: left;
+    font-size: calc(var(--text-size) * 1.7);
+    margin-left: 3vw;
+}
+
+form label{
+    font-size: calc(var(--text-size) * 1.5);
+    margin-right: 5vw;
+    position: relative;
+}
+
+form input,select{
+    margin-right: 5vw;
+    position: relative;
+    border: .1vw solid var(--lightgrey);
+    border-radius: 1vw;
+
+
+    text-align: center;
+
+    transition: 300ms;
+    -o-transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+}
+
+form .text{
+    height: 2.5ch;
+    width: 20vw;
+}
+
+#file-input{
+    height: 3ch;
+    font-size: calc(var(--text-size) * 1.1);
+}
+
+#file-input>*{
+    background: red;
+}
+
+form input:focus,
+form input:active,
+form input:hover,
+form select:hover,
+form select:active,
+form select:focus{
+    outline: none;
+    box-shadow: 0 0 .15vw .15vw var(--darkblue);
+}
+
+
+form hr{
+    width: 10vw;
+    height: .1vw;
+
+    position: relative;
+
+    border: none;
+
+    float: left;
+
+
+    background: var(--darkblue);
+
+}
