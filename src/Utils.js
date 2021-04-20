@@ -92,7 +92,6 @@ function HTMLify(object){
                     case "icon-website":
                         HTML = HTML + `<img src="../media/icons/website-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
                         break
-                    case "labels":
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
                         break;

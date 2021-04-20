@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="../src/formular.css">
+    <title>Formular propunere contributii</title>
+    <link rel="stylesheet" type="text/css" href="../src/Forms/formular.css">
     <link rel="stylesheet" type="text/css" href="../src/global.css">
     <script src="../src/jquery-3.6.0.min.js"></script>
     <script src="../src/Utils.js"></script>
     <script defer src="../src/global.js"></script>
     <script defer src="../src/LoadNavbarFooter.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
 </head>
 <body>
 <div id="stNavbar">
@@ -29,19 +32,21 @@
 </div>
 
 <div id="formular-container">
+    <h1>Formularul a fost trimis.</h1>
     <h2>Formular pentru trimiterea contributiilor</h2>
     <form>
         <h3>Propunere contributie</h3>
-        <label>Nume:</label><input class="text">
-        <label>Prenume:</label><input class="text">
+
+        <label>Nume:</label><input class="text" id="formular-propunere-nume">
+        <label>Prenume:</label><input class="text" id="formular-propunere-prenume">
 
         <br><br><hr><br><br>
 
-        <label>Varsta:</label><input class="text">
+        <label>Varsta:</label><input class="text" id="formular-propunere-varsta">
 
         <br><br><hr><br><br>
 
-        <label>Gen:</label><input class="text">
+        <label>Gen:</label><input class="text" id="formular-propunere-gen">
 
         <h3>Incarcare fisier</h3>
 
@@ -62,22 +67,25 @@
         <br><br><hr><br><br>
         <label>Check boxes example:</label>
         <br>
-        <input type="checkbox" id="c1" name="vehicle1" value="c1">
-        <label for="c1"> Check1</label><br>
-        <input type="checkbox" id="c2" name="vehicle2" value="c2">
-        <label for="c2"> Check2</label><br>
-        <input type="checkbox" id="c3" name="vehicle3" value="c3">
-        <label for="c3"> Check3</label>
+        <input type="checkbox" id="c1" name="vehicle" value="Check 1">
+        <label for="c1"> Check 1</label><br>
+        <input type="checkbox" id="c2" name="vehicle" value="Check 2">
+        <label for="c2"> Check 2</label><br>
+        <input type="checkbox" id="c3" name="vehicle" value="Check 3">
+        <label for="c3"> Check 3</label>
 
         <br><br><hr><br><br>
 
         <label>Dropdown example:</label>
-        <select name="drops" id="drops">
-            <option value="d1">Dropdown 1</option>
-            <option value="d2">Dropdown 2</option>
-            <option value="d3">Dropdown 3</option>
-            <option value="d4">Dropdown 4</option>
+        <select id="drops">
+            <option>Dropdown 1</option>
+            <option>Dropdown 2</option>
+            <option>Dropdown 3</option>
+            <option>Dropdown 4</option>
         </select>
+
+        <br><br>
+        <input id="submit" type="submit" lang="en"/>
 
     </form>
 </div>
@@ -102,6 +110,8 @@
     </div>
     <p>Revue francophone de litterature contemporaine</p>
 </footer>
+
+<script defer src="../src/Forms/propunere.js"></script>
 
 </body>
 </html>

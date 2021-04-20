@@ -18,6 +18,9 @@ switch(document.title){
     case "Publicatii":
         actualPage = "publicatii";
         break;
+    case "Formular propunere contributii":
+        actualPage = "propunere"
+        break;
     default:
         actualPage = "what-page-is-this?"
         console.log("document.title switch got on default branch")
@@ -32,12 +35,22 @@ $.getJSON(`${actualPage==="index" ? "":"."}./text/RO/navbar-footer.json`,functio
     ${elem[1]} </a>`)
     })
 
+    if(json.ndNavbar[actualPage][0] === "prev"){
+        $("#ndNavbar").prepend(`<a onClick="window.history.go(-1);">${json.ndNavbar[actualPage][1]}</a>`);
+        console.log("hello")
+    }
 
-    json.ndNavbar[actualPage].reverse().forEach((elem)=>{
-        $("#ndNavbar").prepend(`<a onClick='loadSubpage("${elem[0].substring(1)}")'>${elem[1]}</a>`)
-    })
+    else{
+        json.ndNavbar[actualPage].reverse().forEach((elem)=>{
+            $("#ndNavbar").prepend(`<a onClick='loadSubpage("${elem[0].substring(1)}")'>${elem[1]}</a>`)
+        })
+        $("#ndNavbar").append(`<div id="slider"></div>`)
+    }
 
-    $("#ndNavbar").append(`<div id="slider"></div>`)
+
+
+
+
 
 //    footer...
 })

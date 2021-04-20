@@ -27,7 +27,7 @@ html,body{
     /*general colors*/
     /*--redcolor: #ec6b76;*/
     --redcolor: rgb(166,166,166);
-    --bluecolor: #4a8bec;
+    --bluecolor: #182268;/* #4a8bec;*/
     --lightgrey: rgb(166,166,166);
     --darkblue:  #182268;
 
@@ -168,7 +168,7 @@ button:active{
 }
 
 #ndNavbar a{
-    font-size: 0.8vw;
+    font-size: calc(var(--text-size) * 1.15);
     transition: 500ms;
     padding: 1vw;
     z-index: 5;
@@ -178,7 +178,6 @@ button:active{
 
 #ndNavbar a:hover {
     font-size: 1vw;
-    /*transform: scale(1.2);*/
 }
 
 #slider{

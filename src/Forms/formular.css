@@ -1,3 +1,5 @@
+
+
 :root{
     --darkblue:  #182268;
     --lightgrey: rgb(214, 209, 209);
@@ -21,6 +23,41 @@
 
     margin-left: 50%;
     transform: translateX(-50%);
+
+    transform-origin: center;
+    transform-style: preserve-3d;
+}
+
+@keyframes rotate-form{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(-50%) rotateX(-180deg);
+        height: 15vw;
+    }
+}
+
+#formular-container h1{
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotateX(180deg);
+
+    z-index: -1;
+    width: 100%;
+
+    height: 20vw;
+
+    /*border: .25vw solid var(--darkblue);*/
+    /*border-radius: 3vw;*/
+
+    /*background: rgb(247,248,252);*/
 }
 
 #formular-container h2{
@@ -41,12 +78,11 @@ form label{
     position: relative;
 }
 
-form input,select{
+form input,select,button{
     margin-right: 5vw;
     position: relative;
     border: .1vw solid var(--lightgrey);
-    border-radius: 1vw;
-
+    border-radius: .7vw;
 
     text-align: center;
 
@@ -75,7 +111,10 @@ form input:active,
 form input:hover,
 form select:hover,
 form select:active,
-form select:focus{
+form select:focus,
+form button:focus,
+form button:hover,
+form button:active{
     outline: none;
     box-shadow: 0 0 .15vw .15vw var(--darkblue);
 }
@@ -93,5 +132,26 @@ form hr{
 
 
     background: var(--darkblue);
-
 }
+
+select{
+    padding-left: .5vw;
+    padding-right: .5vw;
+}
+
+#submit{
+    display: inline-block;
+    margin-top: 3vw;
+    margin-left: 50%;
+
+    padding: .25vw;
+
+    transform: translateX(-50%);
+
+    border: .15vw solid var(--darkblue);
+
+    color: var(--darkblue);
+
+    font-size: calc(var(--text-size) * 1.2);
+}
+

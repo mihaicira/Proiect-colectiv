@@ -21,7 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/formular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -72,11 +80,11 @@
       <recent name="D:\Others\ProiectColectiv\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\src\Forms" />
       <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media\membri" />
       <recent name="D:\Others\ProiectColectiv\text\RO" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\colloque" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -133,7 +141,11 @@
       <workItem from="1618599506638" duration="5926000" />
       <workItem from="1618606118596" duration="5000" />
       <workItem from="1618763666114" duration="1465000" />
-      <workItem from="1618767970195" duration="2049000" />
+      <workItem from="1618767970195" duration="2654000" />
+      <workItem from="1618855357432" duration="4953000" />
+      <workItem from="1618861546740" duration="2021000" />
+      <workItem from="1618867918177" duration="91000" />
+      <workItem from="1618906936399" duration="6482000" />
     </task>
     <servers />
   </component>

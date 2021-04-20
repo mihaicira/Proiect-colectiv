@@ -42,7 +42,8 @@
       ["link","Descriere si obiective"],
       ["link","Statut"],
       ["link","Formular de inscriere"]
-    ]
+    ],
+    "propunere": ["prev","Înapoi"]
   },
   "footer": "none"
 
