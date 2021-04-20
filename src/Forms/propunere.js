@@ -125,27 +125,27 @@ $("#formular-container>form").submit(function(e) {
 
     /**************VERIFIES*****************/
 
-    // nume = isTextCompleted($("#formular-propunere-nume"))
-    // if(!nume) return;
-    //
-    // prenume = isTextCompleted($("#formular-propunere-prenume"))
-    // if(!prenume) return;
-    //
-    // varsta = isTextCompleted($("#formular-propunere-varsta"))
-    // if(!varsta) return;
-    //
-    // gen = isTextCompleted($("#formular-propunere-gen"))
-    // if(!gen) return;
-    //
-    // if(!isFileCompleted("file-input")) return;
-    //
-    // radio = isRadioCompleted("radioexample");
-    // if(!radio) return;
-    //
-    // check = isCheckCompleted("vehicle");
-    // if(!check) return;
-    //
-    // dropdown = getDropdownValue("drops");
+    nume = isTextCompleted($("#formular-propunere-nume"))
+    if(!nume) return;
+
+    prenume = isTextCompleted($("#formular-propunere-prenume"))
+    if(!prenume) return;
+
+    varsta = isTextCompleted($("#formular-propunere-varsta"))
+    if(!varsta) return;
+
+    gen = isTextCompleted($("#formular-propunere-gen"))
+    if(!gen) return;
+
+    if(!isFileCompleted("file-input")) return;
+
+    radio = isRadioCompleted("radioexample");
+    if(!radio) return;
+
+    check = isCheckCompleted("vehicle");
+    if(!check) return;
+
+    dropdown = getDropdownValue("drops");
 
 
     /**************DATABASE UPLOAD*****************/
