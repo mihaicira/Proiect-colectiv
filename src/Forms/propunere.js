@@ -125,43 +125,43 @@ $("#formular-container>form").submit(function(e) {
 
     /**************VERIFIES*****************/
 
-    nume = isTextCompleted($("#formular-propunere-nume"))
-    if(!nume) return;
-
-    prenume = isTextCompleted($("#formular-propunere-prenume"))
-    if(!prenume) return;
-
-    varsta = isTextCompleted($("#formular-propunere-varsta"))
-    if(!varsta) return;
-
-    gen = isTextCompleted($("#formular-propunere-gen"))
-    if(!gen) return;
-
-    if(!isFileCompleted("file-input")) return;
-
-    radio = isRadioCompleted("radioexample");
-    if(!radio) return;
-
-    check = isCheckCompleted("vehicle");
-    if(!check) return;
-
-    dropdown = getDropdownValue("drops");
+    // nume = isTextCompleted($("#formular-propunere-nume"))
+    // if(!nume) return;
+    //
+    // prenume = isTextCompleted($("#formular-propunere-prenume"))
+    // if(!prenume) return;
+    //
+    // varsta = isTextCompleted($("#formular-propunere-varsta"))
+    // if(!varsta) return;
+    //
+    // gen = isTextCompleted($("#formular-propunere-gen"))
+    // if(!gen) return;
+    //
+    // if(!isFileCompleted("file-input")) return;
+    //
+    // radio = isRadioCompleted("radioexample");
+    // if(!radio) return;
+    //
+    // check = isCheckCompleted("vehicle");
+    // if(!check) return;
+    //
+    // dropdown = getDropdownValue("drops");
 
 
     /**************DATABASE UPLOAD*****************/
 
     // uploadFile(FILE_UPLOAD,nume,prenume)
 
-    // var form = {
-    //     nume: nume,
-    //     prenume: prenume,
-    //     varsta: varsta,
-    //     gen: gen,
-    //     filename: FILE_UPLOAD,
-    //     radio: radio,
-    //     check: check,
-    //     dropdown: dropdown
-    // }
+    var form = {
+        nume: nume,
+        prenume: prenume,
+        varsta: varsta,
+        gen: gen,
+        filename: calea_catre_fisierul_pus_in_formularul_asta,
+        radio: radio,
+        check: check,
+        dropdown: dropdown
+    }
 
     // console.log(form)
 
