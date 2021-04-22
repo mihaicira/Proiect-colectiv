@@ -29,38 +29,12 @@
 
   "membri": [
     ["overpage","Membri",[
-      ["line"],
-      ["sub","Membru onorific"],
-      ["persons",[
-        ["media/membri/conference_2015.jpg","Margareta Gyurcsik"]
-      ]],
-      ["line"],
-      ["sub","Director centru"],
-      ["persons",[
-        ["media/membri/Georgiana-Badea.jpg","Prof. Univ. Dr. Georgiana Badea","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Georgiana-BADEA.pdf"]
-      ]],
-      ["line"],
-      ["sub","Secretar științific"],
-      ["persons",[
-        ["media/membri/Neli-Eiben.jpg","Lect. Univ. Dr. Neli Eiben","https://litere.uvt.ro/wp-content/uploads/2014/07/12.CV_NeliEiben.pdf"]
-      ]],
-      ["line"],
-      ["sub","Secretar științific"],
-      ["persons",[
-        ["media/membri/Ioana-Marcu.jpg","Lect. Univ. Dr. Ioana Marcu","https://litere.uvt.ro/wp-content/uploads/2014/07/IMarcu_Curriculum-vitae.pdf"]
-      ]],
-      ["line"],
-      ["sub","Echipa de bază"],
-      ["persons",[
-        ["media/membri/Andreea-Gheorghiu.jpg","Asist. Univ. Dr. Andreea Gheorghiu","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Andreea-Gheorghiu.pdf"],
-        ["media/membri/Ramona-Malita.jpg","Conf. Univ. Dr. Ramona Malița","https://drive.google.com/file/d/1Y29UYGPiJ9oc5cxp5QXBNZUxbkO-I3fz/view?usp=sharing"],
-        ["media/membri/Mariana-Pitar.jpg","Conf. Univ. Dr. Mariana Pitar"],
-        ["media/membri/Vasile-Popovici.jpg","Prof. Univ. Dr. Habil Vasile Popovici"],
-        ["media/membri/conference_2015.jpg","Asist. Univ. Dr. Cristina Tănase","https://litere.uvt.ro/wp-content/uploads/2014/07/06.CV_Cristina_Tanase.pdf"],
-        ["media/membri/conference_2015.jpg","Lect. Univ. Dr. Eugenia Tănase","https://litere.uvt.ro/wp-content/uploads/2014/07/04.CV_Eugenia_Tanase.pdf"],
-        ["media/membri/Adina-Tihu.jpg","Lect. Univ. Dr. Adina Tihu"]
-      ]]
+      ["media/membri/Andreea-Gheorghiu.jpg","google.com","Andreea Gheorghiu","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/Adina-Tihu.jpg","google.com","Adina Tihu","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/Neli-Eiben.jpg","google.com","Neli Eiben","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/Vasile-Popovici.jpg","google.com","Vasile Popovici","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"]
     ]]
+
   ],
 
 

@@ -168,7 +168,7 @@ button:active{
 }
 
 #ndNavbar a{
-    font-size: calc(var(--text-size) * 1.15);
+    font-size: calc(var(--text-size) * 0.9);
     transition: 500ms;
     padding: 1vw;
     z-index: 5;
@@ -177,7 +177,7 @@ button:active{
 }
 
 #ndNavbar a:hover {
-    font-size: 1vw;
+    font-size: calc(var(--text-size) * 1.1);
 }
 
 #slider{
@@ -311,6 +311,11 @@ button:active{
 }
 .icon:hover{
     opacity: .5;
+}
+
+.infoText>.infoPic{
+    width: 10vw;
+    height: auto;
 }
 
 #slideshow-container{

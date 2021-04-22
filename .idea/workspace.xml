@@ -21,7 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formular.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +82,11 @@
       <recent name="D:\Others\ProiectColectiv\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
+      <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\src\Forms" />
       <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media\membri" />
-      <recent name="D:\Others\ProiectColectiv\text\RO" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -141,6 +151,14 @@
       <workItem from="1618919552396" duration="700000" />
       <workItem from="1618942190198" duration="877000" />
       <workItem from="1618990181266" duration="569000" />
+      <workItem from="1618991705409" duration="949000" />
+      <workItem from="1618994379636" duration="8932000" />
+      <workItem from="1619011476670" duration="1187000" />
+      <workItem from="1619015268315" duration="4998000" />
+      <workItem from="1619020682248" duration="2666000" />
+      <workItem from="1619033838427" duration="3577000" />
+      <workItem from="1619037510204" duration="144000" />
+      <workItem from="1619080252494" duration="22000" />
     </task>
     <servers />
   </component>
@@ -177,9 +195,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618139390971" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618768226855">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619031378979">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618768226855" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619031378979" />
   </component>
 </project>

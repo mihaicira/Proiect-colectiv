@@ -37,7 +37,6 @@ $.getJSON(`${actualPage==="index" ? "":"."}./text/RO/navbar-footer.json`,functio
 
     if(json.ndNavbar[actualPage][0] === "prev"){
         $("#ndNavbar").prepend(`<a onClick="window.history.go(-1);">${json.ndNavbar[actualPage][1]}</a>`);
-        console.log("hello")
     }
 
     else{

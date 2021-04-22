@@ -1,69 +1,65 @@
-.personLine{
-    min-height: 5vw;
-    min-width: 5vw;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+.members-container{
 
     display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
 
+    align-items: center;
     justify-content: space-evenly;
 
+    flex-direction: column;
 
-    /*border: 1px solid red;*/
-
-    --personLineSpacing : 8vw;
-    padding-left: var(--personLineSpacing);
-    padding-right: var(--personLineSpacing);
-
-    margin-left: var(--personLineSpacing);
-    margin-right: var(--personLineSpacing);
+    gap: 2vw;
 }
 
 .person{
-    width: 17.5vw;
+    height: 15vw;
+    width: 40vw;
 
-    flex: 0 0 19%;
+    display: flex;
 
-    border: .2vw solid gray;
-    border-radius: .5vw .5vw .2vw .2vw;
+    gap: 1vw;
 
-    text-align: center;
+    justify-content: left;
+    align-items: center;
 
-    padding-top: .5vw;
-    padding-bottom: 2vw;
 }
 
 .person >img{
-    width: 80%;
-    height: auto;
+    height: 100%;
+    width: auto;
 
-    border-radius: .5vw .5vw 1vw 1vw;
+    border-radius: 1vw;
 }
 
-.person >p{
-    margin-left: 5%;
-    margin-right: 5%;
+.person>.person-text{
+    text-align: left;
+}
+
+.person-text>p{
+    text-align: left;
+}
+
+.person-text>p>a{
+    color: var(--darkblue);
+    transition: 400ms;
+    -o-transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+}
+.person-text>p>a:hover{
+    color: #167a8f;
+}
+
+
+.person-text>p:nth-of-type(1){
+    font-weight: 900;
+    color: var(--darkblue);
+}
+
+.person-text>p:nth-of-type(2){
     font-style: italic;
-    font-size: var(--text-size);
 }
 
-.person >p:nth-of-type(1){
-    font-size: calc(var(--text-size) + .5rem);
-}
-
-.person >a{
-    color: darkblue;
-
-    transition: 300ms;
-    -moz-transition: 300ms;
-    -webkit-transition: 300ms;
-    -o-transition: 300ms;
-
-}
-.person >a:hover{
-    color: #ef4135;
-}
-
-.group-title{
-    text-align: center;
+.person-text>p:nth-of-type(3){
+    font-family: 'Merriweather', serif;
 }

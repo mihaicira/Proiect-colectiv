@@ -1,15 +1,5 @@
-/*
-- only functions
-- imported on all pages
-- Diana & Raluca & Mihai
- */
+/*variabile globale & functii*/
 
-/*exemple de functii
-* sayHi = arrow function
-* sayHello = normal function
-* square = arrow function (with parameter)
-* divideBy2 = normal function (with parameter)*/
-/*variabile*/
 
 var currentPath = ""
 var currentSubpages = []
@@ -17,8 +7,18 @@ var currentSubpages = []
 var thirdMenuOptions = []
 var is3rdMenuActive = false
 
+
+
+
 /*technical*/
 var lastVisitedBySlider
+
+
+
+
+/*firebase*/
+
+
 
 
 
@@ -34,11 +34,6 @@ function maximizeNavbar(){
     document.getElementById("ndNavbar").style.height= "3.5vw";
     document.getElementById("ndNavbar").style.top= "7vw";
 }
-
-/*
-* pentru testing, apeleaza functiile in consola din browser!
-* pentru testing, foloseste doar pagine principala index.html (doar acolo e importat Utils.js momentan)
-* */
 
 function textify(text){
     var txt = text.trim();
@@ -92,6 +87,9 @@ function HTMLify(object){
                     case "icon-website":
                         HTML = HTML + `<img src="../media/icons/website-icon.png" class="icon" onclick="window.open('${elem[1]}')">`
                         break
+                    case "img":
+                        HTML = HTML + `<img src="${elem[1]}" class="infoPic">`
+                        break;
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
                         break;
@@ -126,33 +124,22 @@ function HTMLify(object){
             HTML = HTML + "</div>"
             return HTML
         case "overpage":
-            HTML = `<div class="overpage">`
-            HTML = HTML + `<h1>${object[1]}</h1>`
-            object[2].forEach((elem)=>{
-              switch(elem[0]){
-                  case "sub": // subtitlu
-                      HTML = HTML + `<h2 class="group-title">${elem[1]}</h2>`;
-                      break;
-                  case "line": //linie verticala
-                      HTML = HTML + `<hr class="hv">`;
-                      break;
-                  case "persons": //persoane
-                      HTML = HTML + `<div class="personLine">`
-                      elem[1].forEach((person)=>{
-                          HTML = HTML + `
-                                  <div class="person">
-                                    <img src="${person[0]}">
-                                    <p>${person[1]}</p>
-                                    ${person[2] === undefined ? "": "<a href=\""+person[2]+"\">Curriculum Vittae</a>"}
-                                </div>`
-                      })
-                      HTML = HTML + "</div>"
-                      break
-                  default:
-                      console.log("HTMLify error - unknown object [secondary branch - overpage] (object: ",elem[0],")")
-                      break;
-              }
-            })
+            if(object[1] === "Membri"){
+                HTML = `<div class="overpage" style="transform: translateY(-5vw)">`
+                HTML = HTML + "<div class=\"members-container\">"
+                object[2].forEach((obj)=>{
+                    HTML = HTML +  `
+                        <div class="person">
+                            <img src="${obj[0]}">
+                            <div class="person-text">
+                                <p><a href="${obj[1]}">${obj[2]}</a></p>
+                                <p>${obj[3]}</p>
+                                <p>${obj[4]}</p>
+                            </div>
+                        </div>`
+                })
+                HTML = HTML + `</div>`
+            }
             HTML = HTML + "</div>"
             return HTML
         case "big-pic":
@@ -160,7 +147,22 @@ function HTMLify(object){
             console.log("img..")
             return HTML
         case "menu":
+            try{
+                $(".thirdMenu").remove()
+            }
+            catch{
+                //pass
+            }
             is3rdMenuActive = true
+            thirdMenuOptions = []
+            break;
+        case "nomenu":
+            try{
+                $(".thirdMenu").remove()
+            }
+            catch{
+                //pass
+            }
             break;
         case "slideshow":
             HTML = HTML + `<div id="slideshow-container">
@@ -180,16 +182,22 @@ function HTMLify(object){
 
 slideshowActual = 1;
 function slideshowNext(){
-    const max = document.getElementById("slideshow-container").childElementCount
-    const nextPic = slideshowActual === max ? 1 : slideshowActual+1
-    document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.zIndex = "3";
-    document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.zIndex = "4";
-    document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.transform="translateX(0)";
+    try{
+        const max = document.getElementById("slideshow-container").childElementCount
+        const nextPic = slideshowActual === max ? 1 : slideshowActual+1
+        document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.zIndex = "3";
+        document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.zIndex = "4";
+        document.querySelector(`#slideshow-container>*:nth-of-type(${nextPic})`).style.transform="translateX(0)";
 
-    setTimeout(()=>{
-        document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.transform="translateX(250%)";
-        slideshowActual = nextPic
-    },2000)
+        setTimeout(()=>{
+            document.querySelector(`#slideshow-container>*:nth-of-type(${slideshowActual})`).style.transform="translateX(250%)";
+            slideshowActual = nextPic
+        },2000)
+    }
+    catch{
+        return;
+    }
+
 
 }
 
