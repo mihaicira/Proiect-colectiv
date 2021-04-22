@@ -329,7 +329,7 @@ button:active{
     width: 100%;
     height: auto;
     transform: translateX(100%);
-    filter: brightness(60%);
+    filter: brightness(85%);
     transition: 2s;
 }
 #slideshow-container #activeImg{
