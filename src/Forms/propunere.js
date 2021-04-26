@@ -77,7 +77,6 @@ function isCheckCompleted(name){
     });
     if(options.length === 0){
         const jQueryElem = $(`input:checkbox[name="${name}"]`)
-        console.log("i'm here")
         $('html, body').animate({
             scrollTop: (jQueryElem.offset().top-200)
         }, 100);
@@ -123,7 +122,6 @@ $("#formular-container>form").submit(function(e) {
     rubrica = getDropdownValue("rubrica")
 
     verificare_documente_trimise = isCheckCompleted("verificare");
-    console.log("Verificare: ",verificare_documente_trimise)
     if(!verificare_documente_trimise) return;
 
     calitate = isRadioCompleted("calitate")
@@ -232,7 +230,6 @@ $("#addPerson").click(()=>{
         <td>${contact}</td>
         <td>${role}</td>
         <td><input type="checkbox" name="${id}-check1"></td>
-        <td><input type="checkbox" name="${id}-check2"</td>
         <td><button onclick="deleteId('${id}')" type="button"></button></td>
       </tr>
     `)

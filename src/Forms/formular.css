@@ -193,6 +193,7 @@ table{
 th{
     border-bottom: 1px solid var(--darkblue);
 }
+
 th:nth-of-type(1){
     width: 25%;
 }
@@ -212,10 +213,7 @@ th:nth-of-type(4){
 th:nth-of-type(5){
     width: 10%;
 }
-th:nth-of-type(6){
-    width: 5%;
-}
-td:nth-of-type(6)>button{
+td:nth-of-type(5)>button{
     background: url(../../media/icons/trashcan.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -271,7 +269,7 @@ tr{
     border: 2px solid var(--darkblue);
     border-radius: .5vw;
 
-    width: max-content;
+    width: 25vw;
 
     margin-left: 50%;
     transform: translateX(-50%);
@@ -288,9 +286,24 @@ textarea{
     -o-transition: 300ms;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
+    resize: none;
 }
 
 #addPerson{
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
+
+.pair-10>select,
+.pair-10>input{
+position: absolute;
+    left: 10vw;
+}
+
+.pair-15>select,
+.pair-15>input{
+    position: absolute;
+    left: 15vw;
+}
+

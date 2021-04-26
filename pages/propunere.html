@@ -53,7 +53,7 @@
 <!--        2. rubrica-->
             <h4>Rubrica:</h4>
             <select id="rubrica">
-                <option>Articole tematica</option>
+                <option>Articole tematice</option>
                 <option>Articole non tematice</option>
                 <option>Convorbiri (personalități în domeniul francofoniei)</option>
                 <option>Recenzii</option>
@@ -110,24 +110,29 @@
         <br><br><hr><br><br>
 
         <h3>Completare metadate</h3>
-
 <!--        7. article-initial-->
-        <label>Articol initial</label>
-        <select id="Articol initial">
-            <option>Un</option>
-            <option>Une</option>
-            <option>Le</option>
-            <option>La</option>
-        </select>
+        <div class="pair-10">
+            <label>Articol initial</label>
+            <select id="Articol initial">
+                <option>Un</option>
+                <option>Une</option>
+                <option>Le</option>
+                <option>La</option>
+            </select>
+        </div>
         <br><br>
 <!--        8. titre-->
-        <label>Titlu</label>
-        <input id="titlu" class="text">
+        <div class="pair-10">
+            <label>Titlu</label>
+            <input id="titlu" class="text">
+        </div>
 
         <br><br>
 <!--        9. sous-titre-->
-        <label>Sub-titlu</label>
-        <input id="sub-titlu" class="text">
+        <div class="pair-10">
+            <label>Sub-titlu</label>
+            <input id="sub-titlu" class="text">
+        </div>
 
         <br><br>
 
@@ -137,24 +142,31 @@
 
         <br><br><hr><br><br>
 
-        <h4>Adăugare co-autori</h4>
+<!--        co-autori-->
+
+        <h4>Adăugare autori</h4>
 
         <table id="persons-table">
             <tr>
                 <th>Nume</th>
                 <th>Contact</th>
                 <th>Rol</th>
-                <th>Personne-resource principale</th>
-                <th>Dans les listes a parcourir</th>
+                <th>Autor corespondent</th>
                 <th>Sterge</th>
             </tr>
         </table>
         <div id="fillPersons">
-            <label>Nume</label><input id="fill-person-name">
+                <div class="pair-10">
+                    <label>Nume</label><input id="fill-person-name">
+                </div>
             <br>
-            <label>Contact</label><input id="fill-person-contact">
+                <div class="pair-10">
+                    <label>Contact</label><input id="fill-person-contact">
+                </div>
             <br>
-            <label>Rol</label><input id="fill-person-role">
+                <div class="pair-10">
+                    <label>Rol</label><input id="fill-person-role">
+                </div>
             <br>
             <button id="addPerson" type="button"></button>
         </div>
@@ -162,20 +174,28 @@
         <br><br><hr><br><br>
 <!--        11.-->
         <h4>Limba</h4>
-        <input class="text" id="limba-dwn">
+        <select id="limba-dwn">
+            <option>Engleză (UK)</option>
+            <option>Franceză (Franța)</option>
+            <option>Germană (Germania)</option>
+            <option>Italiană (Italia)</option>
+            <option>Spaniolă (Spania)</option>
+        </select>
 
         <br><br><hr><br><br>
 
 <!--        12.-->
         <h4>Cuvinte cheie</h4>
-        <input class="text" id="cuvinte-cheie">
+        <p>Maxim 5 cuvinte cheie, separate prin virgulă</p>
+        <textarea rows="2" id="cuvinte-cheie"></textarea>
 
 
         <br><br><hr><br><br>
 
 <!--        13.-->
         <h4>Referințe bibliografice</h4>
-        <input class="text" id="referinte">
+        <p>Sa cuprinda exact lucrarile citate (nu bibliografie generala)</p>
+        <textarea cols="5" rows="15" id="referinte" ></textarea>
 
         <br><br>
 
