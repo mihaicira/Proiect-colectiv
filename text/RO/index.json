@@ -29,11 +29,17 @@
 
   "membri": [
     ["overpage","Membri",[
-      ["poza","cv","nume","functie","text"],
-      ["media/membri/Andreea-Gheorghiu.jpg","google.com","Andreea Gheorghiu","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
-      ["media/membri/Adina-Tihu.jpg","google.com","Adina Tihu","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
-      ["media/membri/Neli-Eiben.jpg","google.com","Neli Eiben","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
-      ["media/membri/Vasile-Popovici.jpg","google.com","Vasile Popovici","Functie","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"]
+      ["media/membri/default-pic.jpg","cv","Margareta Gyurcsik","Membru onorific","text"],
+      ["media/membri/Georgiana-Badea.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Georgiana-BADEA.pdf"," Prof. Univ. Dr. Georgiana Badea","Director centru","text"],
+      ["media/membri/Neli-Eiben.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/12.CV_NeliEiben.pdf","Lect. Univ. Dr. Neli Eiben","Secretar științific","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/Andreea-Gheorghiu.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Andreea-Gheorghiu.pdf","Asist. Univ. Dr. Andreea Gheorghiu","Membru de bază","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/Ramona-Malita.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Ramona-Malita-european-martie-2020.pdf","Conf. Univ. Dr. Ramona Malița Tanc","Membru de bază","text"],
+      ["media/membri/Ioana-Marcu.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/IMarcu_Curriculum-vitae.pdf","Lect. Univ. Dr. Ioana Marcu","Secretar","text"],
+      ["media/membri/Mariana-Pitar.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Pitar-Mariana-2020.pdf","Conf. Univ. Dr. Mariana Pitar","Membru de bază","text"],
+      ["media/membri/Vasile-Popovici.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Popovici-Vasile.pdf","Prof. Univ. Dr. Vasile Popovici","Membru de bază","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"],
+      ["media/membri/default-pic.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/04.CV_Eugenia_Tanase.pdf","Lect. Univ. Dr. Eugenia Tănase","Membru de bază","text"],
+      ["media/membri/default-pic.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/06.CV_Cristina_Tanase.pdf","Asist. Univ. Dr. Cristina Tănase","Membru de bază","text"],
+      ["media/membri/Adina-Tihu.jpg","https://litere.uvt.ro/wp-content/uploads/2014/07/CV-Adina-TIHU.pdf","Lect. Univ. Dr. Adina Tihu","Membru de bază","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque aut dolorum eaque esse eveniet recusandae repellendus rerum, velit voluptas!"]
     ]]
 
   ],

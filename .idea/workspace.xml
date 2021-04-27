@@ -20,11 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/DialoguesFrancophones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/membri/default-pic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/formularUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formularUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/evenimente.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/evenimente.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/intuitexttest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,19 +73,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
-      <recent name="D:\Others\ProiectColectiv\media\icons" />
-      <recent name="D:\Others\ProiectColectiv\src\Forms" />
-      <recent name="D:\Others\ProiectColectiv\media\membri" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\pages" />
       <recent name="D:\react\mihai\src\Components" />
       <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
       <recent name="D:\Others\ProiectColectiv\text\RO" />
       <recent name="D:\Others\ProiectColectiv\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media\icons" />
+      <recent name="D:\Others\ProiectColectiv\media" />
+      <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
+      <recent name="D:\Others\ProiectColectiv\src\Forms" />
+      <recent name="D:\Others\ProiectColectiv\media\membri" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -160,6 +166,7 @@
       <workItem from="1619120383114" duration="88000" />
       <workItem from="1619263891481" duration="3348000" />
       <workItem from="1619430195965" duration="255000" />
+      <workItem from="1619510884296" duration="12412000" />
     </task>
     <servers />
   </component>
@@ -196,9 +203,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618139390971" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619031378979">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619529066267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619031378979" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619529066267" />
   </component>
 </project>

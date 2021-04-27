@@ -1,7 +1,7 @@
 {
   "dialogues francophones":[
     ["menu"],
-    ["big-pic","../media/dflogo.png"],
+    ["big-pic","../media/DialoguesFrancophones.png"],
     ["infoBox","left","Comitete DF",[
       ["pa","Comitet stiintific"],
       ["pa","Comitet de redactie"],

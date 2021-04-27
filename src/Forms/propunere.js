@@ -4,14 +4,40 @@ var limba_articol,rubrica,verificare_documente_trimise,calitate,originalitate,co
 
 var limba,cuvinte_cheie,referinte;
 
-
-
-function uploadFile(file,nume,prenume){
-    const filename = `propunere-${nume.toLowerCase()}-${prenume.toLowerCase()}`;
-    var storageRef = firebase.storage().ref('word_file_test/'+ filename);
-    storageRef.put(file);
-    console.log("Done")
+function pathify(nume){
+    return 'df/'+new Date().getFullYear()+'/propunere-'+nume.toLowerCase().trim().replace(" ","");
 }
+
+function uploadFile(file,path){
+    var storageRef = firebase.storage().ref('reviste/'+ path);
+    storageRef.put(file)
+        .then((snapshot)=>{
+            console.log("Done")
+        })
+}
+
+function uploadData(object) {
+    //Send to firebase
+    const path = 'reviste/df/'+new Date().getFullYear()
+
+    var ref = firebase.database().ref(path)
+    ref.push({
+        test:"Test!"
+    })
+    // ref.push(object)
+    //     .then((snapshot)=>{
+    //         console.log("Data sent to Firebase! ")
+    //     })
+    //     .catch(()=>{
+    //         console.log("error")
+    //     })
+    //     .finally(()=>{
+    //         console.log("finally")
+    //     })
+
+
+}
+
 
 function blink(elem){
     elem.css("background","red")
@@ -109,7 +135,9 @@ function isFileCompleted(id){
     return true
 }
 
-
+document.getElementById('articol-fisier').addEventListener('change', function (e){
+    FILE_UPLOAD = e.target.files[0];
+});
 
 $("#formular-container>form").submit(function(e) {
     //prevent page from refreshing
@@ -117,67 +145,85 @@ $("#formular-container>form").submit(function(e) {
 
     /**************VERIFIES*****************/
 
-    limba_articol = getDropdownValue("limba-articol")
-
-    rubrica = getDropdownValue("rubrica")
-
-    verificare_documente_trimise = isCheckCompleted("verificare");
-    if(!verificare_documente_trimise) return;
-
-    calitate = isRadioCompleted("calitate")
-    if(!calitate) return;
-
-    originalitate = isCheckCompleted("originalitate")
-    if(!originalitate) return;
-
-    colectare_date = isCheckCompleted("colectare-date")
-    if(!colectare_date) return;
-
-    if(!isFileCompleted("articol-fisier")) return;
-
-    articol_initial = getDropdownValue("Articol initial")
-
-    titlu = isTextCompleted($("#titlu"))
-    if(!titlu) return;
-
-    subtitlu = isTextCompleted($("#sub-titlu"))
-    if(!subtitlu) return;
-
-    rezumat = isTextCompleted($("#rezumat"))
-    if(!rezumat) return;
-
-    limba = isTextCompleted($("#limba-dwn"))
-    if(!limba) return;
-
-    cuvinte_cheie = isTextCompleted($("#cuvinte-cheie"))
-    if(!cuvinte_cheie) return;
-
-    referinte = isTextCompleted($("#referinte"))
-    if(!referinte) return;
+    // limba_articol = getDropdownValue("limba-articol")
+    //
+    // rubrica = getDropdownValue("rubrica")
+    //
+    // verificare_documente_trimise = isCheckCompleted("verificare");
+    // if(!verificare_documente_trimise) return;
+    //
+    // calitate = isRadioCompleted("calitate")
+    // if(!calitate) return;
+    //
+    // originalitate = isCheckCompleted("originalitate")
+    // if(!originalitate) return;
+    //
+    // colectare_date = isCheckCompleted("colectare-date")
+    // if(!colectare_date) return;
+    //
+    // if(!isFileCompleted("articol-fisier")) return;
+    //
+    // articol_initial = getDropdownValue("Articol initial")
+    //
+    // titlu = isTextCompleted($("#titlu"))
+    // if(!titlu) return;
+    //
+    // subtitlu = isTextCompleted($("#sub-titlu"))
+    // if(!subtitlu) return;
+    //
+    // rezumat = isTextCompleted($("#rezumat"))
+    // if(!rezumat) return;
+    //
+    // limba = isTextCompleted($("#limba-dwn"))
+    // if(!limba) return;
+    //
+    // cuvinte_cheie = isTextCompleted($("#cuvinte-cheie"))
+    // if(!cuvinte_cheie) return;
+    //
+    // referinte = isTextCompleted($("#referinte"))
+    // if(!referinte) return;
 
 
     /**************DATABASE PREPARE*****************/
 
+
+    const path = pathify("Mihai Cira")
+    console.log("Path: ",path)
+    //
+    // const realtimeDatabaseForm = {
+    //     limba_articol: limba_articol,
+    //     rubrica: rubrica,
+    //     verificare_documente_trimise: "yes",
+    //     calitate:calitate,
+    //     originalitate: "yes",
+    //     colectare_date: "yes",
+    //     cale_fisier: path,
+    //     titlu:titlu,
+    //     subtitlu:subtitlu,
+    //     rezumat:rezumat,
+    //     limba:limba,
+    //     cuvinte_cheie:cuvinte_cheie,
+    //     referinte:referinte,
+    //     data:new Date().toString()
+    // }
+
     const realtimeDatabaseForm = {
-        limba_articol: limba_articol,
-        rubrica: rubrica,
-        verificare_documente_trimise: "yes",
-        calitate:calitate,
-        originalitate: "yes",
-        colectare_date: "yes",
-        cale_fisier: "test/test",
-        titlu:titlu,
-        subtitlu:subtitlu,
-        rezumat:rezumat,
-        limba:limba,
-        cuvinte_cheie:cuvinte_cheie,
-        referinte:referinte,
-        data:new Date().toString()
+        Test: "testing!"
     }
 
     /**************DATABASE UPLOAD*****************/
 
-    // uploadFile(FILE_UPLOAD,nume,prenume)
+
+    // uploadFile(FILE_UPLOAD,path);
+
+    // uploadData(realtimeDatabaseForm);
+
+    var ref = firebase.database().ref('users')
+    ref.push({
+        test:"Test"
+    });
+
+
 
     // var form = {
     //     nume: nume,
@@ -240,8 +286,6 @@ $("#addPerson").click(()=>{
     $("#fill-person-contact").val("");
     $("#fill-person-role").val("");
 
-
-
-
 })
+
 
