@@ -21,9 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2006_2007_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2006_2007_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2008_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2008_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2009_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2009_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2010_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2010_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2011_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2011_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2012_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2012_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2013_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2013_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2014_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2014_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2016_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2016_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2017_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2017_Sommaire.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2019_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2019_Sommaire.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\pdfs\agapessommaire" />
       <recent name="D:\Others\ProiectColectiv\pdfs\cfrl" />
       <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
-      <recent name="D:\Others\ProiectColectiv\src\Forms" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\pages" />
@@ -161,7 +169,7 @@
       <workItem from="1619263891481" duration="3348000" />
       <workItem from="1619430195965" duration="255000" />
       <workItem from="1619510884296" duration="13602000" />
-      <workItem from="1620119370208" duration="2228000" />
+      <workItem from="1620119370208" duration="2967000" />
     </task>
     <servers />
   </component>
