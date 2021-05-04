@@ -21,18 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2006_2007_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2006_2007_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2008_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2008_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2009_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2009_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2010_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2010_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2011_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2011_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2012_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2012_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2013_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2013_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2014_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2014_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2016_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2016_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2017_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2017_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/agapessommaire/Agapes_2019_Sommaire.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/agapes_francophones/Agapes_2019_Sommaire.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/formularUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formularUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +160,7 @@
       <workItem from="1619430195965" duration="255000" />
       <workItem from="1619510884296" duration="13602000" />
       <workItem from="1620119370208" duration="2967000" />
+      <workItem from="1620125415783" duration="1861000" />
     </task>
     <servers />
   </component>
@@ -217,7 +208,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Utils.js</url>
           <line>65</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

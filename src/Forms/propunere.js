@@ -21,19 +21,21 @@ function uploadData(object) {
     const path = 'reviste/df/'+new Date().getFullYear()
 
     var ref = firebase.database().ref(path)
-    ref.push({
-        test:"Test!"
-    })
-    // ref.push(object)
-    //     .then((snapshot)=>{
-    //         console.log("Data sent to Firebase! ")
-    //     })
-    //     .catch(()=>{
-    //         console.log("error")
-    //     })
-    //     .finally(()=>{
-    //         console.log("finally")
-    //     })
+    ref.push(object)
+        .then((snapshot)=>{
+            $("#formular-container").css("animation","1s rotate-form forwards linear")
+            window.scrollTo(0,0);
+            setTimeout(()=>{
+                $("#formular-container>h2").remove();
+                $("#formular-container>form").remove();
+            },500)
+        })
+        .catch(()=>{
+            console.log("error")
+        })
+        .finally(()=>{
+            console.log("finally")
+        })
 
 
 }
@@ -144,107 +146,81 @@ $("#formular-container>form").submit(function(e) {
     e.preventDefault();
 
     /**************VERIFIES*****************/
+    if(false){
+        limba_articol = getDropdownValue("limba-articol")
 
-    // limba_articol = getDropdownValue("limba-articol")
-    //
-    // rubrica = getDropdownValue("rubrica")
-    //
-    // verificare_documente_trimise = isCheckCompleted("verificare");
-    // if(!verificare_documente_trimise) return;
-    //
-    // calitate = isRadioCompleted("calitate")
-    // if(!calitate) return;
-    //
-    // originalitate = isCheckCompleted("originalitate")
-    // if(!originalitate) return;
-    //
-    // colectare_date = isCheckCompleted("colectare-date")
-    // if(!colectare_date) return;
-    //
-    // if(!isFileCompleted("articol-fisier")) return;
-    //
-    // articol_initial = getDropdownValue("Articol initial")
-    //
-    // titlu = isTextCompleted($("#titlu"))
-    // if(!titlu) return;
-    //
-    // subtitlu = isTextCompleted($("#sub-titlu"))
-    // if(!subtitlu) return;
-    //
-    // rezumat = isTextCompleted($("#rezumat"))
-    // if(!rezumat) return;
-    //
-    // limba = isTextCompleted($("#limba-dwn"))
-    // if(!limba) return;
-    //
-    // cuvinte_cheie = isTextCompleted($("#cuvinte-cheie"))
-    // if(!cuvinte_cheie) return;
-    //
-    // referinte = isTextCompleted($("#referinte"))
-    // if(!referinte) return;
+        rubrica = getDropdownValue("rubrica")
+
+        verificare_documente_trimise = isCheckCompleted("verificare");
+        if(!verificare_documente_trimise) return;
+
+        calitate = isRadioCompleted("calitate")
+        if(!calitate) return;
+
+        originalitate = isCheckCompleted("originalitate")
+        if(!originalitate) return;
+
+        colectare_date = isCheckCompleted("colectare-date")
+        if(!colectare_date) return;
+
+        if(!isFileCompleted("articol-fisier")) return;
+
+        articol_initial = getDropdownValue("Articol initial")
+
+        titlu = isTextCompleted($("#titlu"))
+        if(!titlu) return;
+
+        subtitlu = isTextCompleted($("#sub-titlu"))
+        if(!subtitlu) return;
+
+        rezumat = isTextCompleted($("#rezumat"))
+        if(!rezumat) return;
+
+        limba = isTextCompleted($("#limba-dwn"))
+        if(!limba) return;
+
+        cuvinte_cheie = isTextCompleted($("#cuvinte-cheie"))
+        if(!cuvinte_cheie) return;
+
+        referinte = isTextCompleted($("#referinte"))
+        if(!referinte) return;
+    }
 
 
+    console.log("....")
+
+
+
+    return;
     /**************DATABASE PREPARE*****************/
 
 
     const path = pathify("Mihai Cira")
     console.log("Path: ",path)
     //
-    // const realtimeDatabaseForm = {
-    //     limba_articol: limba_articol,
-    //     rubrica: rubrica,
-    //     verificare_documente_trimise: "yes",
-    //     calitate:calitate,
-    //     originalitate: "yes",
-    //     colectare_date: "yes",
-    //     cale_fisier: path,
-    //     titlu:titlu,
-    //     subtitlu:subtitlu,
-    //     rezumat:rezumat,
-    //     limba:limba,
-    //     cuvinte_cheie:cuvinte_cheie,
-    //     referinte:referinte,
-    //     data:new Date().toString()
-    // }
-
     const realtimeDatabaseForm = {
-        Test: "testing!"
+        limba_articol: limba_articol,
+        rubrica: rubrica,
+        verificare_documente_trimise: "yes",
+        calitate:calitate,
+        originalitate: "yes",
+        colectare_date: "yes",
+        cale_fisier: path,
+        titlu:titlu,
+        subtitlu:subtitlu,
+        rezumat:rezumat,
+        limba:limba,
+        cuvinte_cheie:cuvinte_cheie,
+        referinte:referinte,
+        data:new Date().toString()
     }
 
     /**************DATABASE UPLOAD*****************/
 
 
-    // uploadFile(FILE_UPLOAD,path);
+    uploadFile(FILE_UPLOAD,path);
 
-    // uploadData(realtimeDatabaseForm);
-
-    var ref = firebase.database().ref('users')
-    ref.push({
-        test:"Test"
-    });
-
-
-
-    // var form = {
-    //     nume: nume,
-    //     prenume: prenume,
-    //     varsta: varsta,
-    //     gen: gen,
-    //     filename: FILE_UPLOAD,
-    //     radio: radio,
-    //     check: check,
-    //     dropdown: dropdown
-    // }
-
-    // console.log(form)
-
-    // $("#formular-container").css("animation","1s rotate-form forwards linear")
-    // window.scrollTo(0,0);
-    // setTimeout(()=>{
-    //     $("#formular-container>h2").remove();
-    //     $("#formular-container>form").remove();
-    // },500)
-
+    uploadData(realtimeDatabaseForm);
 });
 
 
