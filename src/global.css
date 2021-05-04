@@ -257,7 +257,7 @@ button:active{
 }
 
 
-.infoText >a, .infoText >p{
+.infoText >a, .infoText >p,.bookpair >a, .bookpair >p{
     display: block;
     margin: .4vw;
     text-align: left;
@@ -266,7 +266,7 @@ button:active{
     border-radius: .5vw;
 
 }
-.infoText a{
+.infoText a,.bookpair a{
     font-style: italic;
     transition: 500ms;
     color:#182268;
@@ -298,7 +298,7 @@ button:active{
     /*padding-right: 5vw;*/
 }
 .infoText .subtitle{
-    font-size: calc(var(--text-size) * 1.5rem);
+    font-size: calc(var(--text-size) * 1.3);
 }
 
 .icon{
@@ -336,6 +336,24 @@ button:active{
     transform: translateX(0);
 }
 
+.bookpair{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 5vw;
+}
+
+.bookpair >p{
+    max-width: 50%;
+
+    text-align: center;
+}
+
+.bookpair>img{
+    width: 15vw;
+}
+
 
 /*COLORS - LEFT*/
 .left .infoHeader{
@@ -346,7 +364,7 @@ button:active{
     background: white;
     border: .2vw solid var(--redcolor);
 }
-.left .infoText a, .left .infoText>p{
+.left .infoText a, .left .infoText>p, .bookpair>p{
     color:#182268;
 }
 .left .infoText .btn{

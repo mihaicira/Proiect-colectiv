@@ -90,6 +90,10 @@ function HTMLify(object){
                     case "img":
                         HTML = HTML + `<img src="${elem[1]}" class="infoPic">`
                         break;
+                    case "bookpair":
+                        HTML = HTML + `<div class="bookpair"><img src="${elem[1]}"><p>${elem[2]}</p></div>`
+                        console.log("hello")
+                        break;
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
                         break;
