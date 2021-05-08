@@ -45,7 +45,8 @@
       ["link","Statut"],
       ["link","Formular de inscriere"]
     ],
-    "propunere": ["prev","Înapoi"]
+    "propunere": ["prev","Înapoi"],
+    "dbobj": "Panel"
   },
   "footer": "none"
 

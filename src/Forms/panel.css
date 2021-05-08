@@ -33,8 +33,6 @@
     width: 90%;
     margin-left: 5%;
 
-    border: 1px solid blue;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;

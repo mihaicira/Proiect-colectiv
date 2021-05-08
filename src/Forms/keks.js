@@ -6,15 +6,14 @@ var autor,autori;
 var limba,cuvinte_cheie,referinte;
 
 function pathify(nume){
-    return 'df/'+new Date().getFullYear()+'/propunere-'+nume.toLowerCase().trim().replaceAll(" ","");
+    return 'df/'+new Date().getFullYear()+'/propunere-'+nume.toLowerCase().trim().replace(" ","");
 }
 
 function uploadFile(file,path){
     var storageRef = firebase.storage().ref('reviste/'+ path);
     storageRef.put(file)
         .then((snapshot)=>{
-            //pass
-            //success
+            console.log("Done")
         })
 }
 
@@ -41,6 +40,7 @@ function uploadData(object) {
 
 
 }
+
 
 function blink(elem){
     elem.css("background","red")
@@ -178,9 +178,7 @@ function autoriCorespondentiCheck(){
         return false;
     }
 
-
     autori = Autori
-    console.log(autori)
     return true;
 }
 
@@ -193,7 +191,7 @@ $("#formular-container>form").submit(function(e) {
     e.preventDefault();
 
     /*****VERIFIES******/
-    if(true){
+    if(false){
         limba_articol = getDropdownValue("limba-articol")
 
         rubrica = getDropdownValue("rubrica")
@@ -223,8 +221,7 @@ $("#formular-container>form").submit(function(e) {
         rezumat = isTextCompleted($("#rezumat"))
         if(!rezumat) return;
 
-        if(!autoriCorespondentiCheck())
-            return;
+
 
         limba = isTextCompleted($("#limba-dwn"))
         if(!limba) return;
@@ -237,13 +234,15 @@ $("#formular-container>form").submit(function(e) {
 
     }
 
+    if(!autoriCorespondentiCheck())
+        return;
 
 
-
+    return;
     /*****DATABASE PREPARE******/
 
-    console.log()
-    const path = pathify(autor)
+
+    const path = pathify("Mihai Cira")
     console.log("Path: ",path)
     //
     const realtimeDatabaseForm = {
@@ -256,7 +255,6 @@ $("#formular-container>form").submit(function(e) {
         originalitate: "yes",
         colectare_date: "yes",
         cale_fisier: path,
-        articol_initial: articol_initial,
         titlu:titlu,
         subtitlu:subtitlu,
         rezumat:rezumat,
