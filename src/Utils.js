@@ -289,7 +289,7 @@ function loadSubpage(newPage,json_path=null,subpages=null){
 
 function getLocalStorageLang(){
     const item = localStorage.getItem("LANG")
-    return item ? item : null
+    return item ? item.toUpperCase() : null
 }
 
 function setLocalStorageItem(value){

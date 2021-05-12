@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asociatia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asociatia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cercetare.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cercetare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/parteneri.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parteneri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/keks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextLoad/evenimente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextLoad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextLoad/publicatii.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/publicatii.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +165,7 @@
       <workItem from="1620586456555" duration="88000" />
       <workItem from="1620758270866" duration="4857000" />
       <workItem from="1620835508493" duration="1980000" />
+      <workItem from="1620840706554" duration="325000" />
     </task>
     <servers />
   </component>
