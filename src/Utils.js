@@ -13,15 +13,6 @@ var is3rdMenuActive = false
 /*technical*/
 var lastVisitedBySlider
 
-
-
-
-/*firebase*/
-
-
-
-
-
 /***********************/
 function minimizeNavbar(){
     document.getElementById("stNavbar").style.height = "3.5vw";
@@ -222,7 +213,6 @@ function moveSlider(object){
 }
 
 function loadSubpage(newPage,json_path=null,subpages=null){
-
     //incarca paginile secundare
     if(json_path === null){
         //daca se apeleaza prin butoanele de pe pagina, atunci se vor lua valorile din memorie
@@ -235,17 +225,9 @@ function loadSubpage(newPage,json_path=null,subpages=null){
         currentSubpages = subpages;
     }
 
-    // console.log("Subpages: ",subpages,"\n newPage: ",newPage)
     var index = subpages.indexOf(newPage)
     index = index + 1
 
-    // $("#ndNavbar >*").css("box-shadow","1px 1px 1px 2px red")
-
-    // const objWidth = $(`#ndNavbar >a:nth-child(${index})`).outerWidth();
-    // const objDist = $(`#ndNavbar >a:nth-child(${index})`).offset().left;
-
-
-    // console.log("Latime: ",objWidth," | Distanta pana in stanga: ",objDist)
 
     const sliderGoTo = $(`#ndNavbar >a:nth-child(${index})`)
     lastVisitedBySlider = sliderGoTo
@@ -253,7 +235,6 @@ function loadSubpage(newPage,json_path=null,subpages=null){
 
 
     $.getJSON(json_path,function(json){
-
         //Se dezactiveaza toate paginile active
         subpages.forEach((each)=>{
             if(document.getElementById(each))
@@ -293,7 +274,7 @@ function loadSubpage(newPage,json_path=null,subpages=null){
 
             setTimeout(()=>{
                 document.getElementById(newPage).style.opacity = "1";
-            },json_path===null ? 50:500)
+            },json_path===null ? 550:500)
 
         }
         catch(error){
@@ -305,3 +286,51 @@ function loadSubpage(newPage,json_path=null,subpages=null){
             console.log(`Json error (loadsubpage .fail()), path: ${json_path}`)
         })
 }
+
+function getLocalStorageLang(){
+    const item = localStorage.getItem("LANG")
+    return item ? item : null
+}
+
+function setLocalStorageItem(value){
+    localStorage.setItem("LANG",value)
+}
+
+function giveShadowToLang(lang){
+    $("#ro").css("border","none");
+    $("#en").css("border","none");
+    $("#fr").css("border","none");
+
+    setTimeout(()=>{
+        $("#"+lang).css("border",".2vw solid white");
+    },200)
+
+}
+
+var LANG = getLocalStorageLang()
+
+if(LANG === null){
+    setLocalStorageItem("en");
+    giveShadowToLang("en")
+}
+else{
+    giveShadowToLang(LANG)
+}
+
+//languages listeners
+$(document).ready(()=>{
+    $("#ro").click(()=>{
+        setLocalStorageItem("ro")
+        location.reload();
+    })
+
+    $("#en").click(()=>{
+        setLocalStorageItem("en")
+        location.reload();
+    })
+
+    $("#fr").click(()=>{
+        setLocalStorageItem("fr")
+        location.reload();
+    })
+})

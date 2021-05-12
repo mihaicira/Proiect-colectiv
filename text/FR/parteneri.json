@@ -1,0 +1,7 @@
+{
+  "test": [
+    ["infoBox","left","test",[
+      ["p","test"]
+    ]]
+  ]
+}

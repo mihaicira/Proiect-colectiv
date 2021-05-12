@@ -19,10 +19,13 @@ switch(document.title){
         actualPage = "publicatii";
         break;
     case "Formular propunere contributii":
-        actualPage = "propunere"
+        actualPage = "propunere";
+        break;
+    case "Contact":
+        actualPage = "contact";
         break;
     case "CSF":
-        actualPage = "dbobj"
+        actualPage = "dbobj";
         break;
     default:
         actualPage = "what-page-is-this?"
@@ -30,7 +33,7 @@ switch(document.title){
         break;
 }
 
-$.getJSON(`${actualPage==="index" ? "":"."}./text/RO/navbar-footer.json`,function(json){
+$.getJSON(`${actualPage==="index" ? "":"."}./text/${getLocalStorageLang().toUpperCase()}/navbar-footer.json`,function(json){
 
     json.stNavbar.reverse().forEach((elem)=>{
         $("#stNavbar").prepend(`<a href="${actualPage === "index" ? "pages/"+elem[0] : elem[0]}" class="stNavbarBtn"  

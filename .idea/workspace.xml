@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProiectColectiv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/asociatia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asociatia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cercetare.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cercetare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/parteneri.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parteneri.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/keks.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/evenimente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/evenimente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextLoad/publicatii.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextLoad/publicatii.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/logoTeach-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/text" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,19 +76,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\pages" />
-      <recent name="D:\react\mihai\src\Components" />
-      <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
-      <recent name="D:\Others\ProiectColectiv\text\RO" />
-      <recent name="D:\Others\ProiectColectiv\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\pdfs\agapessommaire" />
       <recent name="D:\Others\ProiectColectiv\pdfs\cfrl" />
       <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\text" />
+      <recent name="D:\Others\ProiectColectiv\text\RO" />
+      <recent name="D:\Others\ProiectColectiv\src\TextLoad" />
+      <recent name="D:\Others\ProiectColectiv\pages" />
+      <recent name="D:\react\mihai\src\Components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -171,7 +174,10 @@
       <workItem from="1620125415783" duration="9131000" />
       <workItem from="1620232875382" duration="36000" />
       <workItem from="1620424795931" duration="3987000" />
-      <workItem from="1620510655444" duration="2389000" />
+      <workItem from="1620510655444" duration="3148000" />
+      <workItem from="1620586456555" duration="88000" />
+      <workItem from="1620758270866" duration="4857000" />
+      <workItem from="1620835508493" duration="1980000" />
     </task>
     <servers />
   </component>
@@ -191,10 +197,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1620232908655">
+    <state x="2659" y="274" key="FileChooserDialogImpl" timestamp="1620586543278">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620232908655" />
+    <state x="2659" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620586543278" />
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618134107139" />
     <state x="2380" y="164" key="SettingsEditor" timestamp="1617730493411">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -213,16 +219,5 @@
     </state>
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619529066267" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620133043890" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Utils.js</url>
-          <line>65</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

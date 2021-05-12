@@ -1,0 +1,17 @@
+{
+  "proiecte de cercetare": [
+    ["infoBox","left","test",[
+      ["p","1"]
+    ]]
+  ],
+  "stagii de cercetare": [
+    ["infoBox","left","test",[
+      ["p","2"]
+    ]]
+  ],
+  "articole de indexare":[
+    ["infoBox","left","test",[
+      ["p","3"]
+    ]]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "descriere si obiective": [
+    ["infoBox","left","test",[
+      ["p","1"]
+    ]]
+  ],
+  "statut": [
+    ["infoBox","left","test",[
+      ["p","2"]
+    ]]
+  ],
+  "formular de inscriere":[
+    ["infoBox","left","test",[
+      ["p","3"]
+    ]]
+  ]
+}
