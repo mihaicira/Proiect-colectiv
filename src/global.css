@@ -676,6 +676,8 @@ footer div:nth-of-type(3):hover{
     margin-bottom: 2vw;
     cursor: pointer;
 
+    min-width: 60%;
+
     transition: 300ms;
     -o-transition: 300ms;
     -moz-transition: 300ms;

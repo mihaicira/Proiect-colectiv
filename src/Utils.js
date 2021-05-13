@@ -297,6 +297,7 @@ function setLocalStorageItem(value){
 }
 
 function giveShadowToLang(lang){
+    lang = lang.toLowerCase()
     $("#ro").css("border","none");
     $("#en").css("border","none");
     $("#fr").css("border","none");
@@ -314,7 +315,9 @@ if(LANG === null){
     giveShadowToLang("en")
 }
 else{
-    giveShadowToLang(LANG)
+    $(document).ready(()=>{
+        giveShadowToLang(LANG)
+    })
 }
 
 //languages listeners
