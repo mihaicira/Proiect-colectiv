@@ -264,7 +264,6 @@ button:active{
     font-size: calc(var(--text-size) * 1.2);
     padding: .3vw;
     border-radius: .5vw;
-
 }
 .infoText a,.bookpair a{
     font-style: italic;
@@ -347,7 +346,7 @@ button:active{
 .bookpair >p{
     max-width: 50%;
 
-    text-align: center;
+    text-align: justify;
 }
 
 .bookpair>img{
@@ -648,23 +647,32 @@ footer div:nth-of-type(3):hover{
 /*****************************************/
 
 .thirdMenu {
-    width: 8vw;
+    width: 11.5vw;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 
-    right: 1vw;
-    top: 30vh;
+    left: 1vw;
+    top: 25vh;
 
     background: #182268;
     overflow-x: hidden;
-    /*padding: 2vw .5vw 2vw .5vw;*/
-    padding: 2vw;
-    padding-bottom: 1vw;
     border-radius: 2.5vw;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2vw .2vw 1vw .2vw;
     text-align: center;
-    /*border: .2vw solid transparent;*/
+
+    opacity: .15;
+
+    transform: rotateY(60deg) translateX(-50%);
+
+    transition: 500ms;
+    -o-transition: 500ms;
+    -moz-transition: 500ms;
+    -webkit-transition: 500ms;
+}
+
+.thirdMenu:hover{
+    opacity: 1;
+    transform: rotateY(0deg) translateX(0);
 }
 
 .thirdMenu a {
