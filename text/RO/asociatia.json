@@ -1,7 +1,14 @@
 {
   "descriere si obiective": [
-    ["infoBox","left","test",[
-      ["p","1"]
+    ["infoBox","left","Asociaţia de Studii francofone – DF",[
+      ["p","<b>Asociaţia de Studii francofone – DF</b> este o asociaţie ştiinţifică înfiinţată la Timişoara (România), în 2009."],
+      ["p","Principalele obiective ale asociaţiei : promovarea cercetării şi a cercetătorilor francofoni preocupaţi de studierea literaturii francofone contemporane sub toate aspectele; dezvoltarea schimburilor între cercetătorii de la Universitatea de Vest din Timişoara şi alte instituţii similare din ţară şi din străinătate"],
+      ["p","În orice moment al anului, se pot înscrie în Asociaţie persoanele fizice sau juridice care doresc sa sprijine obiectivele acesteia. Pe baza cotizaţiei anuale, membrii Asociaţiei primesc un exemplar al revistei Dialogues francophones."],
+      ["p","<b>Preşedinte:</b><br>&emsp;&emsp;Georgiana I. BADEA<br>&emsp;&emsp;e-mail: <a href='mailto:georgiana.lungu-badea@e-uvt.ro'>georgiana.lungu-badea@e-uvt.ro</a>"],
+      ["p","<b>Adresă:</b><br>&emsp;&emsp;Asociaţia de Studii francofone – DF<br>&emsp;&emsp;Centrul de Studii francofone<br>&emsp;&emsp;Catedra de Limbi romanice<br>&emsp;&emsp;Facultatea de Litere, Istorie şi Teologie<br>&emsp;&emsp;Universitatea de Vest din Timişoara<br>&emsp;&emsp;Bd Vasile Pârvan 4<br>&emsp;&emsp;300223 Timişoara, România"],
+      ["p","<b>Trezorier:</b><br>&emsp;&emsp;Neli Ileana EIBEN<br>&emsp;&emsp;e-mail: <a href='mailto:ileana.eiben@e-uvt.ro'>ileana.eiben@e-uvt.ro</a>"],
+      ["p","<b><a href='../pdfs/asfdf_descriere/DF_ASFDF_Statut_RO.pdf'>Statut (extras)</a></b>"],
+      ["p","<b><a href='../pdfs/asfdf_descriere/ASFDF_AEFDF_Bulletin_adhesion_FR.pdf'>Formular de înscriere</a></b>"]
     ]]
   ],
   "statut": [

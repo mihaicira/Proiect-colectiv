@@ -21,7 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icons/fb-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/fb-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icons/image-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/image-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/logo-csf.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo-csf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondaryCSS/Membri.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/asociatia.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/asociatia.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/cercetare.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/cercetare.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +73,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones" />
-      <recent name="D:\Others\ProiectColectiv\pdfs" />
-      <recent name="D:\Others\ProiectColectiv\media" />
-      <recent name="D:\Others\ProiectColectiv\text" />
-      <recent name="D:\Others\ProiectColectiv\text\RO" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\pdfs\agapessommaire" />
       <recent name="D:\Others\ProiectColectiv\pdfs\cfrl" />
       <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones" />
+      <recent name="D:\Others\ProiectColectiv\pdfs" />
+      <recent name="D:\Others\ProiectColectiv\media" />
+      <recent name="D:\Others\ProiectColectiv\text" />
+      <recent name="D:\Others\ProiectColectiv\text\RO" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -169,6 +178,11 @@
       <workItem from="1620840706554" duration="1620000" />
       <workItem from="1620930071610" duration="5419000" />
       <workItem from="1621082468068" duration="1678000" />
+      <workItem from="1621188329260" duration="2643000" />
+      <workItem from="1621258375759" duration="368000" />
+      <workItem from="1621258916377" duration="608000" />
+      <workItem from="1621268668429" duration="605000" />
+      <workItem from="1621345945574" duration="597000" />
     </task>
     <servers />
   </component>

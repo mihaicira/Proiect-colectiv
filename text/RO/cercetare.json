@@ -10,8 +10,10 @@
     ]]
   ],
   "articole de indexare":[
-    ["infoBox","left","test",[
-      ["p","3"]
+    ["infoBox","left","Articole indexate în baze de date internaţionale",[
+      ["p","<b>Centrul de Studii Francofone</b><br>Universitatea de Vest din Timişoara"],
+      ["p","Publicaţii"],
+      ["p","<a href='../pdfs/articole_indexate_internationale/CSF Cercetare Articole indexate in baze internationale.pdf'>Articole indexate în baze de date internaţionale</a>"]
     ]]
   ]
 }
