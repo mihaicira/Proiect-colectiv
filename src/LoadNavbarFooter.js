@@ -24,7 +24,7 @@ switch(document.title){
     case "Contact":
         actualPage = "contact";
         break;
-    case "CSF":
+    case "csf":
         actualPage = "dbobj";
         break;
     case "Credits":

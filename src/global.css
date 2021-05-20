@@ -663,20 +663,12 @@ footer div:nth-of-type(3):hover{
 
     text-align: center;
 
-    opacity: .15;
-
-    transform: rotateY(60deg) translateX(-50%);
-
     transition: 500ms;
     -o-transition: 500ms;
     -moz-transition: 500ms;
     -webkit-transition: 500ms;
 }
 
-.thirdMenu:hover{
-    opacity: 1;
-    transform: rotateY(0deg) translateX(0);
-}
 
 .thirdMenu a {
     font-size: 1vw;

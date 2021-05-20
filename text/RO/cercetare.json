@@ -1,11 +1,18 @@
 {
   "proiecte de cercetare": [
-    ["infoBox","left","test",[
-      ["p","1"]
+    ["infoBox","left","Proiecte în desfășurare",[
+      ["p","1. Titlul proiectului: <a href='../pdfs/csf/CSF Proiect_1 La Roumanie et la francophonie.pdf'><b>LA ROUMANIE ET LA FRANCOPHONIE</b></a>"],
+      ["pa","Rezultate:<br><b>Cărţi de autor<br>Numere de reviste coordonate<br>Capitole de carte<br>Articole<br>Interviuri<br>Traduceri inedite<br></b>"],
+      ["p","2. Titlul proiectului: <a href='../pdfs/csf/CSF Proiect_2 Literaturi francofone contemporane.pdf'><b>LITERATURI FRANCOFONE CONTEMPORANE</b></a>"],
+      ["pa","Rezultate:<br><b>Cărţi de autor<br>Numere de reviste coordonate<br>Capitole de carte<br>Articole<br>Interviuri<br>Traduceri inedite<br></b>"],
+      ["p","3. Titlul proiectului: <b>TRADUCERI</b> "],
+      ["pa","Rezultate:<br><b>Traduceri în limba română<br>Traduceri în limba franceză<br><a href='../pdfs/csf/CSF Proiect_3 Traduceri colective.docx.pdf'>Traduceri colective</a> <br></b>"],
+      ["p","4. Titlul proiectului: <a href='../pdfs/csf/CSF Proiect_4 Conventii de cofinantare.docx.pdf'><b>CONVENŢII de CO-FINANŢARE</b></a> (publicaţii şi traduceri)"]
+
     ]]
   ],
   "stagii de cercetare": [
-    ["infoBox","left","test",[
+    ["infoBox","left","testarea",[
       ["p","2"]
     ]]
   ],
