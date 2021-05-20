@@ -9,6 +9,7 @@
 
 #formular-container{
     width: 60vw;
+    min-height: 50vh;
 
     border: .25vw solid var(--darkblue);
     border-radius: 5vw;

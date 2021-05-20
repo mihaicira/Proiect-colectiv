@@ -104,9 +104,9 @@ ref.on("value", function(snapshot) {
         <span>Referințe bibliografice</span>
         <span>${dbObj.referinte}</span>
     </div>
-        
-        
     
+        <h2>Eval</h2>
+
     `
 
     // Create a reference to the file we want to download

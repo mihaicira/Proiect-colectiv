@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/evaluareDF.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evaluareDF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/dbobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/dbobj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/evaluareDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/evaluareDF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Forms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/credits" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,19 +68,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Others\ProiectColectiv\src\Forms" />
-      <recent name="D:\Others\ProiectColectiv\pages" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones" />
-      <recent name="D:\Others\ProiectColectiv\pdfs" />
-      <recent name="D:\Others\ProiectColectiv\media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\media" />
       <recent name="D:\Others\ProiectColectiv\pdfs\agapessommaire" />
       <recent name="D:\Others\ProiectColectiv\pdfs\cfrl" />
       <recent name="D:\Others\ProiectColectiv\media\icons" />
       <recent name="D:\Others\ProiectColectiv\media\coperti_carti" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media\credits" />
+      <recent name="D:\Others\ProiectColectiv" />
+      <recent name="D:\Others\ProiectColectiv\pages" />
+      <recent name="D:\Others\ProiectColectiv\src\Forms" />
+      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,7 +178,13 @@
       <workItem from="1621258916377" duration="608000" />
       <workItem from="1621268668429" duration="605000" />
       <workItem from="1621345945574" duration="597000" />
-      <workItem from="1621409935382" duration="1989000" />
+      <workItem from="1621409935382" duration="2647000" />
+      <workItem from="1621440154485" duration="754000" />
+      <workItem from="1621441104325" duration="2744000" />
+      <workItem from="1621448159303" duration="712000" />
+      <workItem from="1621506177168" duration="602000" />
+      <workItem from="1621511664394" duration="3144000" />
+      <workItem from="1621537385662" duration="722000" />
     </task>
     <servers />
   </component>
@@ -215,10 +226,10 @@
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618139390971" />
     <state x="493" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1621409998736" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1620133043890">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1621441745563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619529066267" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620133043890" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621441745563" />
   </component>
 </project>
