@@ -1,4 +1,12 @@
 
+if(window.location.href.includes("?admin")){
+    setLocalPower("admin")
+    setTimeout(()=>{
+        window.location = window.location.href.split("?")[0];
+    },200)
+
+}
+
 var ref = firebase.database().ref('reviste/df/2021');
 ref.on("value", function(snapshot) {
     const dbObj = snapshot.val();
@@ -20,3 +28,11 @@ ref.on("value", function(snapshot) {
 }, function (errorObject) {
     console.log("The read failed: " + errorObject.code);
 });
+
+$(document).ready(()=>{
+    const power = getLocalPower()
+    if(["admin","eval"].includes(power))
+        $("#myfct").append(power)
+    else
+        $("#myfct").append("guest")
+})

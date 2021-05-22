@@ -1,20 +1,23 @@
-const URL = window.location.href.split('?')
-const tail = URL[URL.length-1]
+const actualURL = window.location.href.split('?')
+const tail = actualURL[1]
 const objects = tail.split('&')
 const query = objects.join("/")
 
+var PASS = null;
+
+PASS = actualURL[2] ? verifyIdentity(actualURL[2]) : verifyIdentity(getLocalPower())
 
 
+if(PASS === "admin"){
+    var ref = firebase.database().ref(query);
+    ref.on("value", function(snapshot) {
 
-var ref = firebase.database().ref(query);
-ref.on("value", function(snapshot) {
+        const dbObj = snapshot.val();
 
-    const dbObj = snapshot.val();
-
-    var autoriHTML = ""
-    try{
-        dbObj.autori.forEach((autor)=>{
-            autoriHTML +=`
+        var autoriHTML = ""
+        try{
+            dbObj.autori.forEach((autor)=>{
+                autoriHTML +=`
             <br>
             &emsp;&emsp;
             ${autor[0]}
@@ -23,14 +26,15 @@ ref.on("value", function(snapshot) {
             &emsp;
             (${autor[2]})
             `
-        })
-    }
-    catch{
-        autoriHTML = "N/A"
-    }
+            })
+        }
+        catch{
+            autoriHTML = "N/A"
+        }
 
+        const evalURL = window.location.href.replace("dbobj","evaluareDF") + "?eval"
 
-    const HTML = `
+        const HTML = `
     <p> Propunere contribuție</p>
     
     <div class="dbobj-pair">
@@ -105,47 +109,54 @@ ref.on("value", function(snapshot) {
         <span>${dbObj.referinte}</span>
     </div>
     
-        <h2>Eval</h2>
+     <div class="dbobj-pair">
+        <span>Link evaluare</span>
+        <p style="font-size: .8rem;">${evalURL}</p>
+    </div>
 
     `
 
-    // Create a reference to the file we want to download
-    var starsRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
+        // Create a reference to the file we want to download
+        var starsRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
 
 // Get the download URL
-    starsRef.getDownloadURL()
-        .then((url) => {
-            console.log(url)
-            document.getElementById("articol-link").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank">click</a></span>`)
-        })
-        .catch((error) => {
-            // A full list of error codes is available at
-            // https://firebase.google.com/docs/storage/web/handle-errors
-            switch (error.code) {
-                case 'storage/object-not-found':
-                    // File doesn't exist
-                    alert("File not found. Something is wrong, please contact the developers. If possible, don't close this page.")
-                    break;
-                case 'storage/unauthorized':
-                    // User doesn't have permission to access the object
-                    alert("Permission error. Something is wrong, please contact the developers. If possible, don't close this page.")
-                    break;
-                case 'storage/canceled':
-                    // User canceled the upload
-                    break;
+        starsRef.getDownloadURL()
+            .then((url) => {
+                document.getElementById("articol-link").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank">click</a></span>`)
+            })
+            .catch((error) => {
+                // A full list of error codes is available at
+                // https://firebase.google.com/docs/storage/web/handle-errors
+                switch (error.code) {
+                    case 'storage/object-not-found':
+                        // File doesn't exist
+                        alert("File not found. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                    case 'storage/unauthorized':
+                        // User doesn't have permission to access the object
+                        alert("Permission error. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                    case 'storage/canceled':
+                        // User canceled the upload
+                        break;
 
-                // ...
+                    // ...
 
-                case 'storage/unknown':
-                    // Unknown error occurred, inspect the server response
-                    alert("Unknown error ocurred. Something is wrong, please contact the developers. If possible, don't close this page.")
-                    break;
-            }
-        });
+                    case 'storage/unknown':
+                        // Unknown error occurred, inspect the server response
+                        alert("Unknown error ocurred. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                }
+            });
 
-    $("#dbobj-container").append(HTML);
+        $("#dbobj-container").append(HTML);
 
     }, function (errorObject) {
-    console.log("The read failed: " + errorObject.code);
-});
+        console.log("The read failed: " + errorObject.code);
+    });
+
+}
+else{
+    $("#dbobj-container>h1").text("You are not allowed to see this document.")
+}
 

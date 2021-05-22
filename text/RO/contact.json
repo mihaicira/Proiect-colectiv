@@ -1,7 +1,8 @@
 {
   "contact": [
-    ["infoBox","left","test",[
-      ["p","1"]
+    ["infoBox","left","E-mail",[
+      ["p","<b>Dialogues francophones:</b> <a href=\"mailto:dialogues.francophones@e-uvt.ro\">dialogues.francophones@e-uvt.ro</a>"],
+      ["p","<b>Agapes francophones:</b> <a href=\"mailto:agapes.francophones@e-uvt.ro\">agapes.francophones@e-uvt.ro</a>"]
     ]]
   ]
 }

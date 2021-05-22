@@ -40,9 +40,7 @@
       ["#test","testing !!"]
     ],
     "asociatia": [
-      ["#descriere si obiective","Descriere si obiective"],
-      ["#statut","Statut"],
-      ["#formular de inscriere","Formular de inscriere"]
+      ["#descriere si obiective","Descriere si obiective"]
     ],
     "contact": [
       ["#contact","Contact"]

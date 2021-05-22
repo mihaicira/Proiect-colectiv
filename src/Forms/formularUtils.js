@@ -17,15 +17,40 @@ firebase.analytics();
 
 
 idGenerator = 1
+
 function generateId(){
     const id = "generated-id-"+idGenerator;
     idGenerator = idGenerator + 1
     return id
 }
 
+function setLocalPower(power){
+    localStorage.setItem("power",power.toLowerCase());
+}
+function getLocalPower(){
+    const item = localStorage.getItem("power");
+    if(item)
+        return item.toLowerCase();
+    else
+        return null
+}
 
-
-
+function verifyIdentity(value){
+    switch(value){
+        case "eval":
+            setLocalPower("eval")
+            return "eval";
+            break;
+        case "admin":
+            setLocalPower("admin")
+            return "admin";
+            break;
+        default:
+            console.log("unknown URL power")
+            return false;
+            break;
+    }
+}
 
 
 

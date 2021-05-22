@@ -2,7 +2,6 @@
 #panel-container{
     width: 100%;
     min-height: 100vh;
-    border: 1px solid red;
 
     display: flex;
     justify-content: space-evenly;
@@ -66,4 +65,8 @@
 }
 .panel-list-element>a:hover >img{
     opacity: .3;
+}
+
+#myfct{
+    text-align: center;
 }

@@ -10,15 +10,5 @@
       ["p","<b><a href='../pdfs/asfdf_descriere/DF_ASFDF_Statut_RO.pdf'>Statut (extras)</a></b>"],
       ["p","<b><a href='../pdfs/asfdf_descriere/ASFDF_AEFDF_Bulletin_adhesion_FR.pdf'>Formular de înscriere</a></b>"]
     ]]
-  ],
-  "statut": [
-    ["infoBox","left","test",[
-      ["p","2"]
-    ]]
-  ],
-  "formular de inscriere":[
-    ["infoBox","left","test",[
-      ["p","3"]
-    ]]
   ]
 }
