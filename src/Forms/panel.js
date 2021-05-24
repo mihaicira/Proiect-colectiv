@@ -4,7 +4,6 @@ if(window.location.href.includes("?admin")){
     setTimeout(()=>{
         window.location = window.location.href.split("?")[0];
     },200)
-
 }
 
 var ref = firebase.database().ref('reviste/df/2021');

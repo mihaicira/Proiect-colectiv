@@ -1,12 +1,13 @@
 var FILE_UPLOAD;
+var FILE2_UPLOAD;
 var limba_articol,rubrica,verificare_documente_trimise,calitate,originalitate,colectare_date,articol_initial,titlu,subtitlu,rezumat;
 
 var autor,autori;
 
 var limba,cuvinte_cheie,referinte;
 
-function pathify(nume){
-    return 'df/'+new Date().getFullYear()+'/propunere-'+nume.toLowerCase().trim().replaceAll(" ","");
+function pathify(nume,which){
+    return 'df/'+new Date().getFullYear()+'/'+which+'-'+nume.toLowerCase().trim().replaceAll(" ","")+".docx";
 }
 
 function uploadFile(file,path){
@@ -185,7 +186,26 @@ function autoriCorespondentiCheck(){
 }
 
 document.getElementById('articol-fisier').addEventListener('change', function (e){
-    FILE_UPLOAD = e.target.files[0];
+    const extension = e.target.files[0].name.split(".")[1]
+    if(["docx","doc"].includes(extension))
+        FILE_UPLOAD = e.target.files[0];
+    else{
+        $("#articol-fisier").val('')
+        alert("Files must have .doc / .docx extension")
+    }
+
+
+});
+
+document.getElementById('nota-fisier').addEventListener('change', function (e){
+    const extension = e.target.files[0].name.split(".")[1]
+    if(["docx","doc"].includes(extension))
+        FILE2_UPLOAD = e.target.files[0];
+    else{
+        $("#nota-fisier").val('')
+        alert("Files must have .doc / .docx extension")
+    }
+
 });
 
 $("#formular-container>form").submit(function(e) {
@@ -212,7 +232,9 @@ $("#formular-container>form").submit(function(e) {
 
         if(!isFileCompleted("articol-fisier")) return;
 
-        articol_initial = getDropdownValue("Articol initial")
+        if(!isFileCompleted("nota-fisier")) return;
+
+        articol_initial = getDropdownValue("Articol-initial")
 
         titlu = isTextCompleted($("#titlu"))
         if(!titlu) return;
@@ -237,14 +259,11 @@ $("#formular-container>form").submit(function(e) {
 
     }
 
-
-
-
     /*****DATABASE PREPARE******/
 
-    console.log()
-    const path = pathify(autor)
-    console.log("Path: ",path)
+    const file1 = pathify(autor,"propunere")
+    const file2 = pathify(autor,"notabibliografica")
+
     //
     const realtimeDatabaseForm = {
         autor: autor,
@@ -255,7 +274,8 @@ $("#formular-container>form").submit(function(e) {
         calitate:calitate,
         originalitate: "yes",
         colectare_date: "yes",
-        cale_fisier: path,
+        cale_fisier: file1,
+        cale_nota: file2,
         articol_initial: articol_initial,
         titlu:titlu,
         subtitlu:subtitlu,
@@ -269,7 +289,9 @@ $("#formular-container>form").submit(function(e) {
     /*****DATABASE UPLOAD******/
 
 
-    uploadFile(FILE_UPLOAD,path);
+    uploadFile(FILE_UPLOAD,file1);
+
+    uploadFile(FILE2_UPLOAD,file2);
 
     uploadData(realtimeDatabaseForm);
 });

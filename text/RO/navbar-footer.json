@@ -48,6 +48,15 @@
     "propunere": ["prev","Înapoi"],
     "dbobj": "Panel"
   },
-  "footer": "none"
+  "footer": [
+    ["index.html","Despre noi"],
+    ["evenimente.html","Evenimente"],
+    ["publicatii.html","Publicatii"],
+    ["cercetare.html","Cercetare"],
+    ["parteneri.html","Parteneri"],
+    ["asociatia.html","Asociatia de studii francofone DF"],
+    ["contact.html","Contact"],
+    ["credite.html","Credite"]
+  ]
 
 }

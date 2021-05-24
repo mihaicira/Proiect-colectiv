@@ -7,6 +7,13 @@ var PASS = null;
 
 PASS = actualURL[2] ? verifyIdentity(actualURL[2]) : verifyIdentity(getLocalPower())
 
+if(window.location.href.includes("?admin")){
+    setLocalPower("admin")
+    setTimeout(()=>{
+        window.location = actualURL[0] + "?" + actualURL[1]
+    },200)
+}
+
 
 if(PASS === "admin"){
     var ref = firebase.database().ref(query);
@@ -43,7 +50,7 @@ if(PASS === "admin"){
     </div>
     
     <div class="dbobj-pair">
-        <span>Adresa de email a autorului</span>
+        <span>Toti autorii (nume, email, rol)</span>
         <span>${autoriHTML}</span>
     </div>
     
@@ -67,6 +74,11 @@ if(PASS === "admin"){
         <span>Articolul propus</span>
     </div>
     
+    <div class="dbobj-pair" id="nota-bio">
+        <span>Nota biobibliografica</span>
+    </div>
+    
+  
    <p>Metadate</p>
     
    <div class="dbobj-pair">
@@ -87,11 +99,6 @@ if(PASS === "admin"){
      <div class="dbobj-pair">
         <span>Rezumat</span>
         <span>${dbObj.rezumat}</span>
-    </div>
-    
-    <div class="dbobj-pair">
-        <span>Autori</span>
-        <span>404 NOT FOUND</span>
     </div>
     
     <div class="dbobj-pair">
@@ -119,7 +126,7 @@ if(PASS === "admin"){
         // Create a reference to the file we want to download
         var starsRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
 
-// Get the download URL
+        // Get the download URL
         starsRef.getDownloadURL()
             .then((url) => {
                 document.getElementById("articol-link").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank">click</a></span>`)
@@ -144,6 +151,28 @@ if(PASS === "admin"){
 
                     case 'storage/unknown':
                         // Unknown error occurred, inspect the server response
+                        alert("Unknown error ocurred. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                }
+            });
+
+        // Acelasi lucru, pentru nota biobibliografica
+        var notaRef = firebase.storage().ref("reviste/"+ dbObj.cale_nota);
+        notaRef.getDownloadURL()
+            .then((url) => {
+                document.getElementById("nota-bio").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank">click</a></span>`)
+            })
+            .catch((error) => {
+                switch (error.code) {
+                    case 'storage/object-not-found':
+                        alert("File not found. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                    case 'storage/unauthorized':
+                        alert("Permission error. Something is wrong, please contact the developers. If possible, don't close this page.")
+                        break;
+                    case 'storage/canceled':
+                        break;
+                    case 'storage/unknown':
                         alert("Unknown error ocurred. Something is wrong, please contact the developers. If possible, don't close this page.")
                         break;
                 }

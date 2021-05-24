@@ -1,20 +1,20 @@
 {
   "stNavbar": [
     ["../","About us"],
-    ["evenimente.html","Evenimente"],
-    ["publicatii.html","Publicatii"],
-    ["cercetare.html","Cercetare"],
-    ["parteneri.html","Parteneri"],
-    ["asociatia.html","Asociatia de studii francofone DF"],
+    ["evenimente.html","Events"],
+    ["publicatii.html","Publications"],
+    ["cercetare.html","Research"],
+    ["parteneri.html","Partners"],
+    ["asociatia.html","Association of DF francophone studies"],
     ["contact.html","Contact"]
   ],
   "ndNavbar":
   {
     "index": [
-      ["#istoric","Istoric"],
-      ["#descriere si obiective","Descriere si obiective"],
-      ["#membri","Membri"],
-      ["#statut","Statut"]
+      ["#istoric","History"],
+      ["#descriere si obiective","Outline and objectives"],
+      ["#membri","Members"],
+      ["#statut","Statute"]
     ],
     "evenimente": [
       ["#CIEFT","CIEFT"],
@@ -27,7 +27,8 @@
     "publicatii": [
       ["#dialogues francophones","Dialogues francophones"],
       ["#agapes francophones","Agapes francophones"],
-      ["#colloques de linguistique publications","Colocviile franco-române de lingvistică"],
+      ["#actele colocviilor franco romane","Actele colocviilor franco-române de lingvistică"],
+      ["#traduceri","Traduceri"],
       ["#publicatii ale membrilor","Publicatii ale membrilor"]
     ],
     "cercetare": [
@@ -39,9 +40,7 @@
       ["#test","testing !!"]
     ],
     "asociatia": [
-      ["#descriere si obiective","Descriere si obiective"],
-      ["#statut","Statut"],
-      ["#formular de inscriere","Formular de inscriere"]
+      ["#descriere si obiective","Descriere si obiective"]
     ],
     "contact": [
       ["#contact","Contact"]
@@ -49,6 +48,15 @@
     "propunere": ["prev","Înapoi"],
     "dbobj": "Panel"
   },
-  "footer": "none"
+  "footer": [
+    ["index.html","Despre noi"],
+    ["evenimente.html","Evenimente"],
+    ["publicatii.html","Publicatii"],
+    ["cercetare.html","Cercetare"],
+    ["parteneri.html","Parteneri"],
+    ["asociatia.html","Asociatia de studii francofone DF"],
+    ["contact.html","Contact"],
+    ["credite.html","Credite"]
+  ]
 
 }

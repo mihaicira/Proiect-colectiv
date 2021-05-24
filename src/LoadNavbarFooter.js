@@ -63,12 +63,26 @@ $.getJSON(`${actualPage==="index" ? "":"."}./text/${getLocalStorageLang().toUppe
         }
     }
 
+    const ndNavbar = json.footer
 
+    $(document).ready(()=>{
+        $("#footer").append(`
+        <div>
+            <a href="${actualPage==="index" ? "./":"../" + ndNavbar[0][0]}">${ndNavbar[0][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[1][0]}">${ndNavbar[1][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[2][0]}">${ndNavbar[2][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[3][0]}">${ndNavbar[3][1]}</a>
+        </div>
+        <div><img src="${actualPage==="index" ? "./":"../"}media/uvtlogo2.png" alt="logo"></div>
+        <div>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[4][0]}">${ndNavbar[4][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[5][0]}">${ndNavbar[5][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[6][0]}">${ndNavbar[6][1]}</a>
+            <a href="${actualPage==="index" ? "./pages/":"./"}${ndNavbar[7][0]}">${ndNavbar[7][1]}</a>
+        </div>
+        <p>Revue francophone de litterature contemporaine</p>
+    `)
+})
 
-
-
-
-
-//    footer...
 })
 

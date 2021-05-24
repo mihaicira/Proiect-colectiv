@@ -551,15 +551,23 @@ button:active{
 
 footer{
     height: 15vw;
-    width: 100%;
     background: #182268;
     color: white;
     display: grid;
-    grid-template-columns: repeat(5,calc(100vw /5));
+    grid-template-columns: repeat(3,calc(100vw /3));
     grid-template-rows: 12vw 3vw;
+
+
 }
 footer >div, footer >p{
     text-align: center;
+}
+footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
 }
 footer h3{
     display: block;
@@ -570,7 +578,7 @@ footer div a,footer div p{
     display: block;
     transition: 500ms;
     margin: 0;
-    font-size: .8vw;
+    font-size: 1rem;
 }
 footer div a:hover {
     color: #ef4135;
@@ -584,15 +592,16 @@ footer >p{
     font-size: 1vw;
     cursor: default;
 }
-footer div:nth-of-type(3){
+footer div:nth-of-type(2){
     padding-top: 1.5vw;
     transition: 500ms;
     cursor: pointer;
 }
-footer div:nth-of-type(3) img{
+footer div:nth-of-type(2) img{
     width: 10vw;
+
 }
-footer div:nth-of-type(3):hover{
+footer div:nth-of-type(2):hover{
     transform: scale(.8);
 }
 

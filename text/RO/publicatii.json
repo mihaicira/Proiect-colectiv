@@ -279,8 +279,8 @@
     ["nomenu"],
     ["infoBox","left","Publicatii ale membrilor",[
       ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor Carti.pdf'>Cărţi de autor</a>"],
-      ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor_3_Volume coordonate.pdf'>Volume coordonate</a>"],
-      ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor_4_Numere de reviste coordonate.pdf'>Numere de reviste coordonate</a>"],
+      ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor_Volume coordonate.pdf'>Volume coordonate</a>"],
+      ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor_Numere de reviste coordonate.pdf'>Numere de reviste coordonate</a>"],
       ["pa","<a href='../pdfs/publicatii_membri/CSF Publicatii ale membrilor Capitole de carte.pdf'>Capitole de carte</a>"]
     ]]]
 }

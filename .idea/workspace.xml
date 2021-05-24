@@ -21,16 +21,27 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cercetare.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cercetare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/credits.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/credits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dbobj.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dbobj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/evaluareDF.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evaluareDF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/evenimente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evenimente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF Publicatii ale membrilor Numere de reviste coordonate.docx.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF Publicatii ale membrilor Volume coordonate.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/parteneri.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parteneri.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/publicatii.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publicatii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF_Publicatii_ale_membrilor_3_Volume_coordonate.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF Publicatii ale membrilor_Volume coordonate.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF_Publicatii_ale_membrilor_4_Numere_de_reviste_coordonate.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdfs/publicatii_membri/CSF Publicatii ale membrilor_Numere de reviste coordonate.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/dbobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/dbobj.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/evaluareDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/evaluareDF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/formularUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formularUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/formular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formular.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/asociatia.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/asociatia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/RO/contact.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/contact.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoadNavbarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadNavbarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/EN/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/EN/navbar-footer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/navbar-footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/navbar-footer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
@@ -76,11 +87,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\src\Forms\autoFill" />
       <recent name="D:\Others\ProiectColectiv\pdfs\publicatii_membri" />
       <recent name="D:\Others\ProiectColectiv\pdfs" />
       <recent name="D:\Others\ProiectColectiv\media\traduceri" />
       <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones\DF_24_2020" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\pdfs" />
@@ -195,7 +206,12 @@
       <workItem from="1621546378529" duration="757000" />
       <workItem from="1621634167162" duration="238000" />
       <workItem from="1621686517697" duration="4031000" />
-      <workItem from="1621712513973" duration="1137000" />
+      <workItem from="1621712513973" duration="1650000" />
+      <workItem from="1621787238957" duration="1748000" />
+      <workItem from="1621810567317" duration="2985000" />
+      <workItem from="1621841221861" duration="2972000" />
+      <workItem from="1621844416124" duration="6000" />
+      <workItem from="1621855577250" duration="1386000" />
     </task>
     <servers />
   </component>
