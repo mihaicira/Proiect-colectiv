@@ -9,6 +9,7 @@ if(window.location.href.includes("?admin")){
 var ref = firebase.database().ref('reviste/df/2021');
 ref.on("value", function(snapshot) {
     const dbObj = snapshot.val();
+    $("#df-panel").html("")
     for(var key in dbObj){
         const tail = "?reviste&"+dbObj[key].cale_fisier.replace("/","&");
         const query = tail.split('/')[0]+"&"+key

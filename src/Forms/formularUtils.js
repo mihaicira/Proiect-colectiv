@@ -70,6 +70,16 @@ function sendEvalEmail(template){
         });
 }
 
+function uploadFile(file,path){
+    console.log("path: ",path)
+    var storageRef = firebase.storage().ref('reviste/'+ path);
+    storageRef.put(file)
+        .then((snapshot)=>{
+            //pass
+            //success
+        })
+}
+
 function blink(elem){
     elem.css("background","red")
     setTimeout(()=>{

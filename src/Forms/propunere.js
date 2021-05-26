@@ -10,14 +10,7 @@ function pathify(nume,which){
     return 'df/'+new Date().getFullYear()+'/'+which+'-'+nume.toLowerCase().trim().replaceAll(" ","")+".docx";
 }
 
-function uploadFile(file,path){
-    var storageRef = firebase.storage().ref('reviste/'+ path);
-    storageRef.put(file)
-        .then((snapshot)=>{
-            //pass
-            //success
-        })
-}
+
 
 function uploadData(object) {
     //Send to firebase
@@ -39,8 +32,6 @@ function uploadData(object) {
         .finally(()=>{
             console.log("finally")
         })
-
-
 }
 
 function scrollToAutori(){

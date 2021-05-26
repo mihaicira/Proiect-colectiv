@@ -3,6 +3,9 @@ const tail = URL[1]
 const objects = tail.split('&')
 const query = objects.join("/")
 
+var ADNOT_FILE;
+var ADNOT_FILE_PATH = null;
+
 var PASS = false;
 
 var EVALS;
@@ -32,6 +35,8 @@ if(PASS === "admin" || PASS == "eval"){
         MailDetails["link"] = window.location.href.replace("evaluareDF","dbobj") + "?admin"
         MailDetails["status"] = dbObj.evaluari === "none" ? "1/2" : "2/2"
 
+        const filename_temp = dbObj.cale_fisier.split("propunere");
+        ADNOT_FILE_PATH = filename_temp[0] + "evaluare" + (dbObj.evaluari === "none" ? "-1" : "-2") + filename_temp[1]
         try{
             $("#autocomplete-rezumat").append(dbObj.rezumat);
 
@@ -120,13 +125,15 @@ $("#formular-container>form").submit(function(e) {
         if(!comentarii) return;
         ANSWERS.push(comentarii)
 
+        if(!isFileCompleted("adnot-fisier")) return;
+
         ANSWERS.push(getDropdownValue("recomandari"))
     }
 
+    ANSWERS.push(ADNOT_FILE_PATH)
 
-    const optionalText = MailDetails.status === "2/2" ? "Ambele evaluari au fost efectuate!":"Mai este necesara o evaluare.";
+    const optionalText = MailDetails.status === "2/2" ? "Ambele evaluări au fost efectuate!":"Mai este necesară o evaluare.";
 
-    console.log(MailDetails.status)
     const template = {
         nume_autor: MailDetails.nume,
         data_prop: MailDetails.data_prop,
@@ -136,10 +143,15 @@ $("#formular-container>form").submit(function(e) {
         optional_text:optionalText
     }
 
-    console.log("Template: ",template)
-
+    //Trimitere email de confirmare
     sendEvalEmail(template)
+
+    //Salvare fisier in Firebase
+    uploadFile(ADNOT_FILE,ADNOT_FILE_PATH)
+
+    //Salvare evaluare in Firebase
     sendEvalToDb(ANSWERS,EVALS)
+
 
 
     $("#formular-container").css("animation","1s rotate-form forwards linear")
@@ -163,3 +175,14 @@ function sendEvalToDb(answers,eval){
     updates[dbRef] = DATABASE_FORM;
     firebase.database().ref().update(updates);
 }
+
+document.getElementById('adnot-fisier').addEventListener('change', function (e){
+    const extension = e.target.files[0].name.split(".")[1]
+    if(["docx","doc"].includes(extension))
+        ADNOT_FILE = e.target.files[0];
+    else{
+        $("#adnot-fisier").val('')
+        alert("Files must have .doc / .docx extension")
+    }
+
+});

@@ -126,8 +126,10 @@ if(PASS === "admin"){
 /**********************************************************BREAK EVAL 1**/
     var eval1 = "<div class='dbobj-pair'>In asteptare...</div>";
 
-    if(dbObj.evaluari !== "none")
-        eval1 = `
+    try{
+        console.log(dbObj)
+        if(dbObj.evaluari !== "none")
+            eval1 = `
     <div class="dbobj-pair XS">
         <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
         <span>${dbObj.evaluari[0][0]}</span>
@@ -211,14 +213,19 @@ if(PASS === "admin"){
      <div class="dbobj-pair XS">
         <span>Recomandări </span>
         <span>${dbObj.evaluari[0][16]}</span>
+    </div>
+
+    <div class="dbobj-pair XS">
+        <span>Link fișier (cu adnotări) </span>
+        <span id="adnot-file-autocomplete-1"></span>
     </div>`
         /**********************************************************BREAK EVAL 2**/
 
-    var eval2 = "<p>Evaluarea 2</p><div class='dbobj-pair'>In asteptare...</div>";
+        var eval2 = "<p>Evaluarea 2</p><div class='dbobj-pair'>In asteptare...</div>";
 
-    if(dbObj.evaluari !== "none")
-        if(dbObj.length === 1)
-            eval2 = `
+        if(dbObj.evaluari !== "none")
+            if(dbObj.evaluari.length === 2)
+                eval2 = `
 <p>Evaluarea 2</p>
     <div class="dbobj-pair XS">
         <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
@@ -304,11 +311,19 @@ if(PASS === "admin"){
         <span>Recomandări </span>
         <span>${dbObj.evaluari[1][16]}</span>
     </div>
-   
+    
+<div class="dbobj-pair XS">
+        <span>Link fișier (cu adnotări) </span>
+        <span id="adnot-file-autocomplete-2"></span>
+    </div>
     `
-        console.log("eval1: ",eval1)
-        console.log("eval2: ",eval2)
+
         HTML = HTML + eval1 + eval2;
+    }
+    catch{
+        HTML = HTML  + "<p>Error</p>"
+    }
+
 
         // Create a reference to the file we want to download
         var starsRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
@@ -364,6 +379,24 @@ if(PASS === "admin"){
                         break;
                 }
             });
+        //Acelasi lucru, pentru fisierul cu adnotari aferente evaluarilor
+        if(dbObj.evaluari[0]){
+            var adnotFileEval1Ref = firebase.storage().ref("reviste/"+ dbObj.evaluari[0][17])
+            adnotFileEval1Ref.getDownloadURL()
+                .then((url)=>{
+                    if(document.getElementById("adnot-file-autocomplete-1"))
+                        document.getElementById("adnot-file-autocomplete-1").insertAdjacentHTML('beforeend',`<a href="${url}" target="__blank">${url}</a>`)
+                })
+        }
+
+        if(dbObj.evaluari[1]) {
+            var adnotFileEval2Ref = firebase.storage().ref("reviste/" + dbObj.evaluari[1][17])
+            adnotFileEval2Ref.getDownloadURL()
+                .then((url) => {
+                    if (document.getElementById("adnot-file-autocomplete-2"))
+                        document.getElementById("adnot-file-autocomplete-2").insertAdjacentHTML('beforeend', `<a href="${url}" target="__blank">${url}</a>`)
+                })
+        }
 
         $("#dbobj-container").append(HTML);
 
