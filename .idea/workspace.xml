@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/credits.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/credits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/formularUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formularUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
-    </list>
+    <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,6 +190,7 @@
       <workItem from="1621942569542" duration="3740000" />
       <workItem from="1621956520330" duration="69000" />
       <workItem from="1621968586556" duration="269000" />
+      <workItem from="1622021188262" duration="619000" />
     </task>
     <servers />
   </component>
