@@ -69,7 +69,6 @@ else{
 
 $("#formular-container>form").submit(function(e) {
     e.preventDefault()
-    console.log("sent!")
 
     /*****VERIFIES*****/
     var ANSWERS = []
@@ -126,7 +125,6 @@ $("#formular-container>form").submit(function(e) {
         ANSWERS.push(getDropdownValue("recomandari"))
     }
 
-    console.log("Done")
 
     // sendEvalToDb(ANSWERS,EVALS)
 
@@ -140,8 +138,6 @@ $("#formular-container>form").submit(function(e) {
         status: MailDetails.status,
         optional_text:optionalText
     }
-    console.log(template)
-    return ;
 
     sendEvalEmail(template)
 
