@@ -116,11 +116,191 @@ if(PASS === "admin"){
         <span>${dbObj.referinte}</span>
     </div>
     
+    <p>Date evaluare</p>
+    
      <div class="dbobj-pair">
         <span>Link evaluare</span>
         <p style="font-size: .8rem;">${evalURL}</p>
     </div>
+    
+    <p>Evaluarea 1</p>
+    
+    <div class="dbobj-pair XS">
+        <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
+        <span>${dbObj.evaluari[0][0]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Este titlul articolului clar, informativ și conform propunerii pe care o anunță?</span>
+        <span>${dbObj.evaluari[0][1]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Rezumatul poate fi considerat complet?</span>
+        <span>${dbObj.evaluari[0][2]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Cuvintele cheie sunt adecvate propunerii de articol?</span>
+        <span>${dbObj.evaluari[0][3]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Originalitatea conținutului?</span>
+        <span>${dbObj.evaluari[0][4]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Actualitatea și relevanța cercetării relatate în acest articol?</span>
+        <span>${dbObj.evaluari[0][5]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Coerența și argumentația</span>
+        <span>${dbObj.evaluari[0][6]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Limba și calitatea redactării</span>
+        <span>${dbObj.evaluari[0][7]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Structura, planul și organizarea textului</span>
+        <span>${dbObj.evaluari[0][8]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Claritatea obiectivelor expuse</span>
+        <span>${dbObj.evaluari[0][9]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Fundamentele teoretice</span>
+        <span>${dbObj.evaluari[0][10]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Metoda de cercetare utilizată</span>
+        <span>${dbObj.evaluari[0][11]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Rezultatele cercetării sunt corelate cu obiectivele acesteia</span>
+        <span>${dbObj.evaluari[0][12]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Concluziile reflectă demersul cercetării</span>
+        <span>${dbObj.evaluari[0][13]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Referințele bibliografice sunt structurate în conformitate cu importanța lor în cercetare: surse primare, surse secundare (exegeze), corpus etc.</span>
+        <span>${dbObj.evaluari[0][14]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Comentarii </span>
+        <span>${dbObj.evaluari[0][15]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Recomandări </span>
+        <span>${dbObj.evaluari[0][16]}</span>
+    </div>
+    
+    
+    
+    <p>Evaluarea 2</p>
 
+    <div class="dbobj-pair XS">
+        <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
+        <span>${dbObj.evaluari[1][0]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Este titlul articolului clar, informativ și conform propunerii pe care o anunță?</span>
+        <span>${dbObj.evaluari[1][1]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Rezumatul poate fi considerat complet?</span>
+        <span>${dbObj.evaluari[1][2]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Cuvintele cheie sunt adecvate propunerii de articol?</span>
+        <span>${dbObj.evaluari[1][3]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Originalitatea conținutului?</span>
+        <span>${dbObj.evaluari[1][4]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Actualitatea și relevanța cercetării relatate în acest articol?</span>
+        <span>${dbObj.evaluari[1][5]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Coerența și argumentația</span>
+        <span>${dbObj.evaluari[1][6]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Limba și calitatea redactării</span>
+        <span>${dbObj.evaluari[1][7]}</span>
+    </div>
+    
+    <div class="dbobj-pair XS">
+        <span>Structura, planul și organizarea textului</span>
+        <span>${dbObj.evaluari[1][8]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Claritatea obiectivelor expuse</span>
+        <span>${dbObj.evaluari[1][9]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Fundamentele teoretice</span>
+        <span>${dbObj.evaluari[1][10]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Metoda de cercetare utilizată</span>
+        <span>${dbObj.evaluari[1][11]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Rezultatele cercetării sunt corelate cu obiectivele acesteia</span>
+        <span>${dbObj.evaluari[1][12]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Concluziile reflectă demersul cercetării</span>
+        <span>${dbObj.evaluari[1][13]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Referințele bibliografice sunt structurate în conformitate cu importanța lor în cercetare: surse primare, surse secundare (exegeze), corpus etc.</span>
+        <span>${dbObj.evaluari[1][14]}</span>
+    </div>
+    
+      <div class="dbobj-pair XS">
+        <span>Comentarii</span>
+        <span>${dbObj.evaluari[1][15]}</span>
+    </div>
+    
+     <div class="dbobj-pair XS">
+        <span>Recomandări </span>
+        <span>${dbObj.evaluari[1][16]}</span>
+    </div>
+    
+    
+    
     `
 
         // Create a reference to the file we want to download

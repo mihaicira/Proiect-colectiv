@@ -10,6 +10,14 @@
     <link rel="stylesheet" type="text/css" href="../src/Forms/formular.css">
     <link rel="stylesheet" type="text/css" href="../src/global.css">
     <script src="../src/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_W3vGE9OxOrMZivyXQWxaY");
+        })();
+    </script>
+
     <script src="../src/Utils.js"></script>
     <script src="../src/Forms/formularUtils.js"></script>
     <script defer src="../src/global.js"></script>
@@ -90,10 +98,10 @@
         <h4>Evaluarea:</h4>
 
         <h4>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</h4>
-        <input type="radio" id="Da1"  name="arie_comepetnta" value="Da">
+        <input type="radio" id="Da1"  name="arie_comepetenta" value="Da">
         <label for="Da1">Da</label>
         <br>
-        <input type="radio" id="Nu1" name="arie_comepetnta" value="Nu">
+        <input type="radio" id="Nu1" name="arie_comepetenta" value="Nu">
         <label for="Nu1">Nu</label>
 
         <h4>Este titlul articolului clar, informativ  și conform propunerii pe care o anunță?</h4>

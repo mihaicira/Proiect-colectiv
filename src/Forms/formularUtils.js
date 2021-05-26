@@ -61,8 +61,8 @@ function sendSelfEmail(template){
         });
 }
 
-function sendConfirmationEmail(template){
-    emailjs.send('service_lnibc4o', 'template_ivq0iu7', template)
+function sendEvalEmail(template){
+    emailjs.send('service_lnibc4o', 'template_nid0vpf', template)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
         }, function(error) {
@@ -70,10 +70,101 @@ function sendConfirmationEmail(template){
         });
 }
 
+function blink(elem){
+    elem.css("background","red")
+    setTimeout(()=>{
+        elem.css("background","white")
+        setTimeout(()=>{
+            elem.css("background","red")
+            setTimeout(()=>{
+                elem.css("background","white")
+            },700)
+        },700)
+    },700)
+}
 
+function blinkBox(elem){
+    elem.css("box-shadow","0 0 .2vw .2vw red")
+    setTimeout(()=>{
+        elem.css("box-shadow","0 0 .2vw .2vw transparent")
+        setTimeout(()=>{
+            elem.css("box-shadow","0 0 .2vw .2vw red")
+            setTimeout(()=>{
+                elem.css("box-shadow","0 0 .2vw .2vw transparent")
+            },700)
+        },700)
+    },700)
+}
 
+function isTextCompleted(elem){
+    const value = elem.val()
+    if(value.trim() === ""){
 
+        $('html, body').animate({
+            scrollTop: (elem.offset().top-200)
+        }, 100);
 
+        blink(elem)
+        return false
+    }
+    return value
+}
+
+function isRadioCompleted(name){
+    const radio = $(`input[name="${name}"]:checked`).val();
+    if(!radio){
+        const jQueryElem = $(`input[name="${name}"]`)
+
+        $('html, body').animate({
+            scrollTop: (jQueryElem.offset().top-200)
+        }, 100);
+
+        blinkBox(jQueryElem)
+        return false
+    }
+
+    return radio
+}
+
+function isCheckCompleted(name){
+    const options = []
+
+    $(`input:checkbox[name="${name}"]:checked`).each(function(){
+        options.push($(this).val());
+    });
+    if(options.length === 0){
+        const jQueryElem = $(`input:checkbox[name="${name}"]`)
+        $('html, body').animate({
+            scrollTop: (jQueryElem.offset().top-200)
+        }, 100);
+
+        blinkBox(jQueryElem)
+
+        return false
+    }
+
+    return options
+}
+
+function getDropdownValue(id){
+    return $(`#${id}`).find(":selected").text()
+}
+
+function isFileCompleted(id){
+    const fileName = $(`input[id=${id}]`).val()
+    if(fileName === "")
+    {
+        const jQueryElem = $(`input[id=${id}]`)
+
+        $('html, body').animate({
+            scrollTop: (jQueryElem.offset().top-200)
+        }, 100);
+
+        blink(jQueryElem)
+        return false
+    }
+    return true
+}
 
 
 

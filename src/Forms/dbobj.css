@@ -67,7 +67,6 @@ body{
     content: ":";
 }
 
-/*.dbobj-pair >h2{*/
-/*    width: 100%;*/
-/*    border-bottom: .2vw solid lightgrey;*/
-/*}*/
+.XS{
+    font-size: calc(var(--text-size) * 1);
+}
