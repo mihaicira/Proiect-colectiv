@@ -30,8 +30,7 @@ if(PASS === "admin" || PASS == "eval"){
         MailDetails["nume"] = dbObj.autor;
         MailDetails["data_prop"] = dbObj.data;
         MailDetails["link"] = window.location.href.replace("evaluareDF","dbobj") + "?admin"
-        MailDetails["status"] = EVALS === "none" ? "1/2" : "2/2";
-
+        MailDetails["status"] = dbObj.evaluari === "none" ? "1/2" : "2/2"
 
         try{
             $("#autocomplete-rezumat").append(dbObj.rezumat);
@@ -125,10 +124,9 @@ $("#formular-container>form").submit(function(e) {
     }
 
 
-    sendEvalToDb(ANSWERS,EVALS)
-
-
     const optionalText = MailDetails.status === "2/2" ? "Ambele evaluari au fost efectuate!":"Mai este necesara o evaluare.";
+
+    console.log(MailDetails.status)
     const template = {
         nume_autor: MailDetails.nume,
         data_prop: MailDetails.data_prop,
@@ -138,7 +136,11 @@ $("#formular-container>form").submit(function(e) {
         optional_text:optionalText
     }
 
+    console.log("Template: ",template)
+
     sendEvalEmail(template)
+    sendEvalToDb(ANSWERS,EVALS)
+
 
     $("#formular-container").css("animation","1s rotate-form forwards linear")
     window.scrollTo(0,0);
