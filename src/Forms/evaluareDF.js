@@ -66,7 +66,7 @@ else{
     $("#formular-container").html("<h2>You are not allowed to evaluate.</h2>");
 }
 
-
+console.log("test")
 $("#formular-container>form").submit(function(e) {
     e.preventDefault()
 
@@ -126,7 +126,7 @@ $("#formular-container>form").submit(function(e) {
     }
 
 
-    // sendEvalToDb(ANSWERS,EVALS)
+    sendEvalToDb(ANSWERS,EVALS)
 
 
     const optionalText = MailDetails.status === "2/2" ? "Ambele evaluari au fost efectuate!":"Mai este necesara o evaluare.";
