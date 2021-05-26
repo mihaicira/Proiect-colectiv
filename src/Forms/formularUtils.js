@@ -52,6 +52,23 @@ function verifyIdentity(value){
     }
 }
 
+function sendSelfEmail(template){
+    emailjs.send('service_lnibc4o', 'template_ivq0iu7', template)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
+}
+
+function sendConfirmationEmail(template){
+    emailjs.send('service_lnibc4o', 'template_ivq0iu7', template)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
+}
 
 
 

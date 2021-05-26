@@ -294,7 +294,19 @@ $("#formular-container>form").submit(function(e) {
     uploadFile(FILE2_UPLOAD,file2);
 
     uploadData(realtimeDatabaseForm);
+
+    const selfTemplate = {
+        nume_autor:autor,
+        data_trimitere: new Date().toString()
+    }
+
+    sendSelfEmail(selfTemplate)
 });
+
+const  confirmationTemplate = {
+    to_name: "Mihai Cira",
+    dest: "mihai.cira00@e-uvt.ro"
+}
 
 
 
