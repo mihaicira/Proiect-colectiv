@@ -66,7 +66,6 @@ else{
     $("#formular-container").html("<h2>You are not allowed to evaluate.</h2>");
 }
 
-console.log("test")
 $("#formular-container>form").submit(function(e) {
     e.preventDefault()
 

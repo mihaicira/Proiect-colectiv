@@ -41,7 +41,7 @@ if(PASS === "admin"){
 
         const evalURL = window.location.href.replace("dbobj","evaluareDF") + "?eval"
 
-        const HTML = `
+        var HTML = `
     <p> Propunere contribuție</p>
     
     <div class="dbobj-pair">
@@ -122,9 +122,12 @@ if(PASS === "admin"){
         <span>Link evaluare</span>
         <p style="font-size: .8rem;">${evalURL}</p>
     </div>
-    
-    <p>Evaluarea 1</p>
-    
+    <p>Evaluarea 1</p>`
+/**********************************************************BREAK EVAL 1**/
+    var eval1 = "<div class='dbobj-pair'>In asteptare...</div>";
+
+    if(dbObj.evaluari !== "none")
+        eval1 = `
     <div class="dbobj-pair XS">
         <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
         <span>${dbObj.evaluari[0][0]}</span>
@@ -208,12 +211,15 @@ if(PASS === "admin"){
      <div class="dbobj-pair XS">
         <span>Recomandări </span>
         <span>${dbObj.evaluari[0][16]}</span>
-    </div>
-    
-    
-    
-    <p>Evaluarea 2</p>
+    </div>`
+        /**********************************************************BREAK EVAL 2**/
 
+    var eval2 = "<p>Evaluarea 2</p><div class='dbobj-pair'>In asteptare...</div>";
+
+    if(dbObj.evaluari !== "none")
+        if(dbObj.length === 1)
+            eval2 = `
+<p>Evaluarea 2</p>
     <div class="dbobj-pair XS">
         <span>Articolul supus evaluării corespunde ariei dumneavoastră de competență?</span>
         <span>${dbObj.evaluari[1][0]}</span>
@@ -298,10 +304,11 @@ if(PASS === "admin"){
         <span>Recomandări </span>
         <span>${dbObj.evaluari[1][16]}</span>
     </div>
-    
-    
-    
+   
     `
+        console.log("eval1: ",eval1)
+        console.log("eval2: ",eval2)
+        HTML = HTML + eval1 + eval2;
 
         // Create a reference to the file we want to download
         var starsRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
