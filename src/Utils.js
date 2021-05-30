@@ -84,6 +84,9 @@ function HTMLify(object){
                     case "bookpair":
                         HTML = HTML + `<div class="bookpair"><img src="${elem[1]}"><p>${elem[2]}</p></div>`
                         break;
+                    case "uvtmap":
+                        HTML = HTML + `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.2008373578183!2d21.22942651556692!3d45.74711947910532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d84610655bf%3A0xfd169ff24d29f192!2sUniversitatea%20de%20Vest%20din%20Timi%C8%99oara!5e0!3m2!1sro!2sro!4v1622379103322!5m2!1sro!2sro"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+                        break;
                     default:
                         console.log("HTMLify error - unknown object [secondary branch - infoBox] (object: ",elem[0],")")
                         break;

@@ -11,6 +11,7 @@
 /***********9. SUBPAGES**/
 /***********10. BIG-PIC-STYLE**/
 /***********11. Publicatii - 3rd side menu**/
+/***********12. MOBILE SIZING**/
 
 /*****************************************/
 /***********1. GENERAL****/
@@ -208,6 +209,7 @@ button:active{
 
 .subpage{
     margin-top: 14vw;
+    min-height: 95vh;
 }
 
 .infoHeader{
@@ -227,6 +229,12 @@ button:active{
     background: var(--redcolor);
     color: white;
     text-align: center;
+}
+
+iframe{
+    border-radius: 2vw;
+    width: 60%;
+    height: 40vh;
 }
 
 
@@ -557,6 +565,8 @@ footer{
     grid-template-columns: repeat(3,calc(100vw /3));
     grid-template-rows: 12vw 3vw;
 
+    align-content: center;
+
 
 }
 footer >div, footer >p{
@@ -701,3 +711,32 @@ footer div:nth-of-type(2):hover{
     color: #f1f1f1;
 }
 
+/*****************************************/
+/***********12. MOBILE SIZING**/
+/*****************************************/
+
+@media only screen and (max-width: 800px) {
+    /*BODY*/
+    /*NAVBAR(S)*/
+    .stNavbarBtn{
+        font-size: 1.5vw;
+    }
+    .languages-container{
+        display: none;
+    }
+    #slider {
+        display: none;
+    }
+
+    /*FOOTER*/
+    #footer{
+        height: 45vw;
+    }
+    footer >p{
+        font-size: 3vw;
+    }
+    footer div:nth-of-type(2) img{
+        width: 20vw;
+        transform: translateY(-10%)
+    }
+}

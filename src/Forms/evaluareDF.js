@@ -43,19 +43,10 @@ if(PASS === "admin" || PASS == "eval"){
             var propunereRef = firebase.storage().ref("reviste/"+ dbObj.cale_fisier);
             propunereRef.getDownloadURL()
                 .then((url) => {
-                    document.getElementById("autocomplete-propunere").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank" style="color: black">click</a></span>`)
+                    $("#autocomplete-propunere").html(`<span><a href="${url}" target="__blank" style="color: black">click</a></span>`)
                 })
                 .catch((error) => {
-                    document.getElementById("autocomplete-propunere").insertAdjacentHTML('beforeend',`<span>Error: ${error.code}</span>`)
-                });
-
-            var notaRef = firebase.storage().ref("reviste/"+ dbObj.cale_nota);
-            notaRef.getDownloadURL()
-                .then((url) => {
-                    document.getElementById("autocomplete-nota").insertAdjacentHTML('beforeend',`<span><a href="${url}" target="__blank" style="color: black">click</a></span>`)
-                })
-                .catch((error) => {
-                    document.getElementById("autocomplete-nota").insertAdjacentHTML('beforeend',`<span>Error: ${error.code}</span>`)
+                    $("#autocomplete-propunere").html(`<span>Error: ${error.code}</span>`)
                 });
         }
         catch{

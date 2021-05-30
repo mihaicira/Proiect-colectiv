@@ -3,6 +3,10 @@
     ["infoBox","left","E-mail",[
       ["p","<b>Dialogues francophones:</b> <a href=\"mailto:dialogues.francophones@e-uvt.ro\">dialogues.francophones@e-uvt.ro</a>"],
       ["p","<b>Agapes francophones:</b> <a href=\"mailto:agapes.francophones@e-uvt.ro\">agapes.francophones@e-uvt.ro</a>"]
+    ]],
+    ["infoBox","right","Locatie",[
+      ["uvtmap"],
+      ["sub","Bulevardul Vasile Pârvan nr. 4 <br> Timișoara <br> Timiș <br> România 300223"]
     ]]
   ]
 }

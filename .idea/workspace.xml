@@ -21,13 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="b22fd09f-e6c1-443d-9757-a70c171a16c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/asociatia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asociatia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/credits.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/credits.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/evaluareDF.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/evaluareDF.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/dbobj.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/dbobj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/propunere.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/propunere.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/autoFill/autoFillPropunereDF.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/evaluareDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/evaluareDF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/formularUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/formularUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forms/propunere.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/propunere.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/contact.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/contact.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/RO/publicatii.json" beforeDir="false" afterPath="$PROJECT_DIR$/text/RO/publicatii.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\ProiectColectiv\media\credits" />
+      <recent name="D:\Others\ProiectColectiv\src" />
       <recent name="D:\Others\ProiectColectiv\src\Forms\autoFill" />
       <recent name="D:\Others\ProiectColectiv\pdfs\publicatii_membri" />
       <recent name="D:\Others\ProiectColectiv\pdfs" />
-      <recent name="D:\Others\ProiectColectiv\media\traduceri" />
-      <recent name="D:\Others\ProiectColectiv\pdfs\dialogues_francophones\DF_24_2020" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\ProiectColectiv\media\credits" />
@@ -203,7 +208,13 @@
       <workItem from="1622030864614" duration="12394000" />
       <workItem from="1622048705950" duration="2720000" />
       <workItem from="1622060008323" duration="707000" />
-      <workItem from="1622062456448" duration="106000" />
+      <workItem from="1622062456448" duration="173000" />
+      <workItem from="1622108742552" duration="2534000" />
+      <workItem from="1622189515474" duration="1100000" />
+      <workItem from="1622195385026" duration="1410000" />
+      <workItem from="1622378350338" duration="3183000" />
+      <workItem from="1622392690727" duration="678000" />
+      <workItem from="1622397866018" duration="204000" />
     </task>
     <servers />
   </component>

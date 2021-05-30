@@ -7,7 +7,8 @@ var autor,autori;
 var limba,cuvinte_cheie,referinte;
 
 function pathify(nume,which){
-    return 'df/'+new Date().getFullYear()+'/'+which+'-'+nume.toLowerCase().trim().replaceAll(" ","")+".docx";
+    var nume = nume.toLowerCase().trim().replaceAll(" ","")
+    return 'df/'+new Date().getFullYear()+'/'+which+'-'+$.MD5(nume)+".docx";
 }
 
 
